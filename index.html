@@ -20,14 +20,20 @@
     <!-- Navigation Bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#landing">
-                <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="d-flex flex-grow-1">
+                <a class="navbar-brand" href="#landing">
+                    <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="Invention Corps Logo">
+                </a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            
+            
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
                         <a class="nav-link" href="#art">Art</a>
                     </li>
@@ -127,7 +133,9 @@
 
     <!-- Footer -->
     <footer>
-        <p>Invention Corps 2020</p>
+        <div class="container d-flex justify-content-center align-items-center">
+            <p>Invention Corps 2020</p>
+        </div>
     </footer>
 
     <!-- Bootstrap Scripts -->
