@@ -14,7 +14,15 @@ $gray: #787878;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     // font-family: 'Playfair Display', serif;
-  }
+}
+
+section {
+    height: 100vh;
+}

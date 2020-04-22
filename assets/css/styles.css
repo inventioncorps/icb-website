@@ -5,7 +5,15 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */
