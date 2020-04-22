@@ -6,7 +6,7 @@ $green: #99CC99;
 $blue: #99CCFF;
 $gray: #787878;
 
-// CSS Reset
+// CSS RESET
 
 * {
     margin: 0;
@@ -22,6 +22,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+// **** Temporarily made each section as large as the screen size to demonstrate scrolling functionality ****
 section {
     height: 100vh;
 }
@@ -34,8 +35,9 @@ nav {
     font-weight: 500;
 }
 
-.bg-light {
-    background-color: #FFFFFF;
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
 }
 
 #particles-js {
@@ -53,13 +55,13 @@ nav {
 
 .landing-text > h3 {
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .landing-text > h1 {
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 2rem;
 }
 
 footer {
@@ -71,16 +73,33 @@ footer {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  
+    .landing-text > h3 {
+        font-size: 2rem;
+    }
+    
+    .landing-text > h1 {
+        font-size: 4rem;
+    }
 }
 
 // Large devices (desktops, 992px and up)
-
 @media (min-width: 992px) {
-  
+    .landing-text > h3 {
+        font-size: 2rem;
+    }
+    
+    .landing-text > h1 {
+        font-size: 5rem;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+    .landing-text > h3 {
+        font-size: 2rem;
+    }
+    
+    .landing-text > h1 {
+        font-size: 6rem;
+    }
 }
