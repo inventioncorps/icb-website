@@ -60,6 +60,15 @@ footer {
   background-color: #787878;
 }
 
+.article > a, .article > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.article > h1 {
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .landing-text > h3 {
     font-size: 2rem;
