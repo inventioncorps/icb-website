@@ -6,13 +6,28 @@ $(function () {
     });
   });
 
-// Update nav to show where you are (not working rn)
+
 $(document).ready(function () {
-    var url = window.location;
-    $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
-    $('ul.nav a').filter(function() {
-         return this.href == url;
-    }).parent().addClass('active');
+    // Update nav to show where you are (not working rn)
+
+    // var url = window.location;
+    // $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+    // $('ul.nav a').filter(function() {
+    //      return this.href == url;
+    // }).parent().addClass('active');
+
+    $("#Iris").hover(function(){
+        alert("You entered p1!");
+      },
+      function(){
+        alert("Bye! You now leave p1!");
+      });
+    $("#Courtnie").hover(function(){
+    alert("Courtnie");
+    },
+    function(){
+    alert("Bye Courtnie");
+    });
 });
 
 // $(document).ready(function () {

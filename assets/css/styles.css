@@ -20,6 +20,21 @@ section {
 h2 {
   font-weight: 700;
   font-style: italic;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #787878;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
 }
 
 nav {
@@ -72,13 +87,93 @@ nav {
   text-align: center;
 }
 
-.article > a, .article > a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .article > h1 {
   font-weight: 700;
+}
+
+#contact {
+  position: relative;
+  text-align: center;
+}
+
+#contact > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#red-string {
+  position: absolute;
+  top: 90px;
+  left: 0;
+}
+
+#blue-string {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#green-string {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#yellow-string {
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+
+#contact-text {
+  font-size: 60px;
+}
+
+.line {
+  border: none;
+  background-color: #202020;
+  color: #ccc;
+  height: 2px;
+  width: 80px;
+  margin: 25px 0;
+}
+
+.social-icons {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 330px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-icons > a:nth-child(1):hover {
+  color: #E06B65;
+}
+
+.social-icons > a:nth-child(2):hover {
+  color: #FFFF99;
+}
+
+.social-icons > a:nth-child(3):hover {
+  color: #99CC99;
+}
+
+.social-icons > a:nth-child(4):hover {
+  color: #99CCFF;
 }
 
 footer {

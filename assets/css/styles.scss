@@ -5,6 +5,7 @@ $yellow: #FFFF99;
 $green: #99CC99;
 $blue: #99CCFF;
 $gray: #787878;
+$black: #202020;
 
 // CSS RESET
 
@@ -30,6 +31,19 @@ section {
 h2 {
     font-weight: 700;
     font-style: italic;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    transition: all 0.25s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $gray;
+    transition-timing-function: ease-in;
 }
 
 nav {
@@ -78,12 +92,85 @@ nav {
 
 // PROJECT PAGE
 
-.article > a, .article > a:hover {
-    text-decoration: none;
-    color: black;
-}
+// .article > a, .article > a:hover {
+//     text-decoration: none;
+//     color: $black;
+// }
 .article > h1 {
     font-weight: 700;
+}
+
+// CONTACT PAGE
+#contact {
+    position: relative;
+    text-align: center;
+}
+
+#contact > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#red-string {
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+
+#blue-string {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#green-string {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#yellow-string {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+#contact-text {
+    font-size: 60px;
+}
+
+.line {
+    border: none;
+    background-color: $black;
+    color: #ccc;
+    height: 2px;
+    width: 80px;
+    margin: 25px 0;
+}
+
+.social-icons {
+    font-size: 50px;
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+}
+
+.social-icons>a:nth-child(1):hover {
+    color: $red;
+}
+
+.social-icons>a:nth-child(2):hover {
+    color: $yellow;
+}
+
+.social-icons>a:nth-child(3):hover {
+    color: $green;
+}
+
+.social-icons>a:nth-child(4):hover {
+    color: $blue;
 }
 
 // FOOTER 
