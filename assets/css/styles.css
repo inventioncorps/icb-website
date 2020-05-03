@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 10;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -89,6 +89,28 @@ nav {
 
 .article > h1 {
   font-weight: 700;
+}
+
+#members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#members > .container {
+  position: relative;
+}
+
+.labels {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 #contact {
