@@ -28,7 +28,8 @@ section {
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 nav {
@@ -65,9 +66,14 @@ nav {
     // border-bottom: 10px solid $blue;
 }
 
-footer {
-    height: 10%;
-    background-color: $gray;
+#about, #projects, #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about > h2, #projects {
+    text-align: center;
 }
 
 // PROJECT PAGE
@@ -78,6 +84,12 @@ footer {
 }
 .article > h1 {
     font-weight: 700;
+}
+
+// FOOTER 
+footer {
+    height: 10%;
+    background-color: $gray;
 }
 
 // MEDIA QUERIES
