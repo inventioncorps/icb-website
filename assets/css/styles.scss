@@ -21,6 +21,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: url('assets/img/stringtheorymoodboard-03 2.svg');
 }
 
 // **** Temporarily made each section as large as the screen size to demonstrate scrolling functionality ****
@@ -95,12 +96,14 @@ nav {
 .landing-text > h3 {
     font-weight: 800;
     font-size: 1.5rem;
+    background-color: white;
 }
 
 .landing-text > h1 {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 2rem;
+    background-color: white;
     // border-bottom: 10px solid $blue;
 }
 
@@ -300,4 +303,17 @@ footer {
   
   img:hover {
     opacity: .5;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
   }
