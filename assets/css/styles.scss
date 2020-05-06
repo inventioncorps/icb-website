@@ -150,9 +150,9 @@ h5 {
     // bottom: 0;
 }
 
-svg {
-    height: 50vh;
-}
+// svg {
+//     height: 50vh;
+// }
 
 .art:hover {
     filter: grayscale(100%);
@@ -298,6 +298,51 @@ footer {
     width: 100%;
   }
   
-  img:hover {
-    opacity: .5;
+//   img:hover {
+//     opacity: .5;
+//   }
+
+#art-container {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+    top: 0;
+    left: 0;
+  }
+  
+  #art-container img { /* <= optional, for responsiveness */
+     display: block;
+     max-width: 100%;
+     height: auto;
+     -webkit-transition: all 300ms;
+  }
+  
+  #art-container svg {
+    position: absolute;
+    height: 100%;
+    width: 93%;
+    top: 60px;
+    left: 78px;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  .colored {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+  }
+
+ .grayscale {
+    position: relative;
+    z-index: 0;
+    -webkit-filter: grayscale(100%);
+    top: 0;
+    bottom: 0;
+  }
+
+  .clip {
+    clip-path: url(#myClip);
+    transition: 0.5s ease clip-path;
   }

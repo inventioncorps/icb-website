@@ -47,6 +47,10 @@ nav {
   transition: background-color 200ms linear;
 }
 
+.nav-link.active {
+  font-weight: 700;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -91,6 +95,17 @@ nav {
   font-weight: 700;
 }
 
+h5 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, rgba(255, 255, 255, 0)), color-stop(65%, #FFD0AE));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #FFD0AE 65%);
+  display: inline;
+}
+
+.half-background {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, yellow), color-stop(50%, transparent));
+  background: linear-gradient(to top, yellow 50%, transparent 50%);
+}
+
 #members {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,14 +118,13 @@ nav {
           align-items: center;
 }
 
-#members > .container {
-  position: relative;
+.art:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
-.labels {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+.iris {
+  font-weight: 700;
 }
 
 #contact {
@@ -257,7 +271,55 @@ footer {
   width: 100%;
 }
 
-img:hover {
-  opacity: .5;
+#art-container {
+  position: relative;
+  display: inline-block;
+  /* <= shrinks container to image size */
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+  top: 0;
+  left: 0;
+}
+
+#art-container img {
+  /* <= optional, for responsiveness */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -webkit-transition: all 300ms;
+}
+
+#art-container svg {
+  position: absolute;
+  height: 100%;
+  width: 93%;
+  top: 60px;
+  left: 78px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.colored {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.grayscale {
+  position: relative;
+  z-index: 0;
+  -webkit-filter: grayscale(100%);
+  top: 0;
+  bottom: 0;
+}
+
+.clip {
+  -webkit-clip-path: url(#myClip);
+          clip-path: url(#myClip);
+  -webkit-transition: 0.5s ease clip-path;
+  transition: 0.5s ease clip-path;
 }
 /*# sourceMappingURL=styles.css.map */
