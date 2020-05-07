@@ -64,19 +64,6 @@ nav {
   height: 75%;
 }
 
-.landing {
-  /* The image used */
-  background-image: url("../img/landingimg.svg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .landing-text > h3 {
   font-weight: 800;
   font-size: 1.5rem;
@@ -87,6 +74,12 @@ nav {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 2rem;
+  background-color: white;
+}
+
+.contact-txt > h2 {
+  font-weight: 800;
+  font-size: 10px;
   background-color: white;
 }
 
@@ -347,7 +340,7 @@ img:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-gap: 10px;
   padding: 10px;
 }
@@ -356,5 +349,41 @@ img:hover {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+#overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.overview-container {
+  padding-top: 4vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.overview-container > p {
+  font-size: 14px;
+}
+
+.project-overview-container {
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  border-top-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: gray;
+  font-style: italic;
+}
+
+.project-content-container {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: gray;
+  font-style: italic;
 }
 /*# sourceMappingURL=styles.css.map */
