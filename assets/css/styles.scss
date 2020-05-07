@@ -354,8 +354,10 @@ footer {
   }
 
   .grid-container {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    -ms-grid-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px;
     padding: 10px;
   }
