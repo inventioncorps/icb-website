@@ -308,7 +308,7 @@ footer {
   position: absolute;
   z-index: 1;
   top: 0;
-  bottom: 0;
+  left: 0;
 }
 
 .grayscale {
@@ -316,7 +316,7 @@ footer {
   z-index: 0;
   -webkit-filter: grayscale(100%);
   top: 0;
-  bottom: 0;
+  left: 0;
 }
 
 .clip {
