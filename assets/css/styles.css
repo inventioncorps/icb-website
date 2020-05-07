@@ -256,6 +256,7 @@ footer {
   /* IE10 */
   flex-wrap: wrap;
   padding: 10 10px;
+  padding-bottom: 30px;
 }
 
 /* Create four equal columns that sits next to each other */
