@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("assets/img/stringtheorymoodboard-03 2.svg");
 }
 
 section {
@@ -63,6 +62,19 @@ nav {
 
 #landing-container {
   height: 75%;
+}
+
+.landing {
+  /* The image used */
+  background-image: url("../img/landingimg.svg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landing-text > h3 {
