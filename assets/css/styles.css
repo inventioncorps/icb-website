@@ -64,19 +64,6 @@ nav {
   height: 75%;
 }
 
-.landing {
-  /* The image used */
-  background-image: url("../img/landingimg.svg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .landing-text > h3 {
   font-weight: 800;
   font-size: 1.5rem;
@@ -131,15 +118,52 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
-.art:hover {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+.labels {
+  position: absolute;
+  font-size: 10px;
 }
 
-.iris {
-  font-weight: 700;
+.labels.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  left: 0;
+  bottom: 0;
+  padding-left: 4em;
+}
+
+.labels.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  top: 0;
+  right: 0;
+  padding-right: 4em;
+}
+
+.label-col {
+  padding-left: 2em;
+}
+
+.label {
+  margin-bottom: 0.25rem;
 }
 
 #contact {
@@ -268,7 +292,6 @@ footer {
   /* IE10 */
   flex-wrap: wrap;
   padding: 10 10px;
-  padding-bottom: 30px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -347,7 +370,7 @@ img:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-gap: 10px;
   padding: 10px;
 }

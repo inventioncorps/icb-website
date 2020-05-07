@@ -140,29 +140,47 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#members > .container {
-    // position: relative;
+    position: relative;
 }
 
 .labels {
-    // position: absolute;
-    // left: 0;
-    // bottom: 0;
+    position: absolute;
+    font-size: 10px;
+}
+
+.labels.left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    left: 0;
+    bottom: 0;
+    padding-left: 4em;
+}
+
+.labels.right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 0;
+    right: 0;
+    padding-right: 4em;
+}
+
+.label-col {
+    padding-left: 2em;
+}
+
+.label {
+    margin-bottom: 0.25rem;
 }
 
 // svg {
 //     height: 50vh;
 // }
 
-.art:hover {
-    filter: grayscale(100%);
-}
-
-.iris {
-    font-weight: 700;
-}
+// .art:hover {
+//     filter: grayscale(100%);
+// }
 
 // CONTACT PAGE
 #contact {
