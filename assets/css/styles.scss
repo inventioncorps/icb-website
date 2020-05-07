@@ -95,15 +95,20 @@ nav {
 .landing-text > h3 {
     font-weight: 800;
     font-size: 1.5rem;
-    background-color: white;
+    // background-color: white;
 }
 
 .landing-text > h1 {
     font-weight: 800;
     text-transform: uppercase;
     font-size: 2rem;
-    background-color: white;
+    // background-color: white;
     // border-bottom: 10px solid $blue;
+}
+
+.landing-text-bkd {
+    background: #FFFFFF;
+    padding: 0 0.75rem;
 }
 
 #about, #projects, #contact {
@@ -138,9 +143,10 @@ h5 {
 // MEMBERS PAGE
 #members {
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     position: relative;
+    // height: 100%;
 }
 
 .labels {
