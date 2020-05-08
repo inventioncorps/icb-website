@@ -18,4 +18,9 @@ h3 {
 #groupsource-logo {
   width: 50%;
 }
+
+.team-container p {
+  font-size: 10px;
+  margin-bottom: 0;
+}
 /*# sourceMappingURL=projects.css.map */
