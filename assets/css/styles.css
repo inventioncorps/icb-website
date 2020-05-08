@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("assets/img/stringtheorymoodboard-03 2.svg");
 }
 
 section {
@@ -68,13 +67,22 @@ nav {
 .landing-text > h3 {
   font-weight: 800;
   font-size: 1.5rem;
-  background-color: white;
 }
 
 .landing-text > h1 {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 2rem;
+}
+
+.landing-text-bkd {
+  background: #FFFFFF;
+  padding: 0 0.75rem;
+}
+
+.contact-txt > h2 {
+  font-weight: 800;
+  font-size: 10px;
   background-color: white;
 }
 
@@ -113,21 +121,58 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
-.art:hover {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+.labels {
+  position: absolute;
+  font-size: 10px;
 }
 
-.iris {
-  font-weight: 700;
+.labels.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  left: 0;
+  bottom: 0;
+  padding-left: 4em;
+}
+
+.labels.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  top: 0;
+  right: 0;
+  padding-right: 4em;
+}
+
+.label-col {
+  padding-left: 2em;
+}
+
+.label {
+  margin-bottom: 0.25rem;
 }
 
 #contact {
@@ -327,7 +372,7 @@ footer {
   transition: 0.5s ease clip-path;
 }
 
-img:hover {
+.project-tile:hover {
   opacity: .5;
 }
 
@@ -335,7 +380,7 @@ img:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-gap: 10px;
   padding: 10px;
 }
@@ -344,5 +389,41 @@ img:hover {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+#overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.overview-container {
+  padding-top: 4vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.overview-container > p {
+  font-size: 14px;
+}
+
+.project-overview-container {
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  border-top-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: gray;
+  font-style: italic;
+}
+
+.project-content-container {
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: gray;
+  font-style: italic;
 }
 /*# sourceMappingURL=styles.css.map */

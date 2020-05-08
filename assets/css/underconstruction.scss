@@ -1,9 +1,10 @@
 /* CSS RESET */
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -43,6 +44,7 @@ section {
 }
 
 /* MEDIA QUERIES */
+
 @media (min-width: 768px) {
   .landing-text > h3 {
     font-size: 2rem;
@@ -69,4 +71,3 @@ section {
     font-size: 6rem;
   }
 }
-/*# sourceMappingURL=underconstruction.css.map */
