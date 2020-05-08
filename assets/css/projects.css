@@ -106,18 +106,12 @@ figcaption {
   width: 80vw;
 }
 
-<<<<<<< HEAD
 #netic-logo {
   width: 50%;
 }
 
-.team-container p {
-  font-size: 10px;
-  margin-bottom: 0;
-=======
 .img-group img:not(:last-child) {
   padding-bottom: 0;
->>>>>>> a2ac5462c206c6f3a63848e7fb0c39fe4e5a9b0b
 }
 
 #xls-embed {
