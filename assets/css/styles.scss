@@ -24,8 +24,12 @@ body {
 }
 
 // **** Temporarily made each section as large as the screen size to demonstrate scrolling functionality ****
-section {
+#landing, #contact, #projects {
     height: 100vh;
+}
+
+#about,  #members {
+    height: auto;
 }
 
 h2 {
@@ -120,6 +124,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#about {
+    padding: 6.5em 0;
 }
 
 #about > h2, #projects {
