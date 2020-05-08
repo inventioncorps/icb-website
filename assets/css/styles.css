@@ -529,6 +529,9 @@ footer {
 u {
   text-decoration: none;
 }
+<<<<<<< HEAD
+/*# sourceMappingURL=styles.css.map */
+=======
 
 .project-nav-yellow:hover {
   background-color: #FFFF99;
@@ -542,3 +545,4 @@ u {
   background-color: #99CCFF;
 }
 /*# sourceMappingURL=styles.css.map */
+>>>>>>> refs/remotes/origin/master

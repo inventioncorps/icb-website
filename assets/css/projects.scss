@@ -144,7 +144,7 @@ ol > ul {
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
 }
 
@@ -153,7 +153,7 @@ ol > ul {
     .team-container p {
         font-size: 0.75rem;
     }
-    
+
     .team-container p:nth-of-type(1) {
         font-size: 0.85rem;
     }
@@ -161,7 +161,7 @@ ol > ul {
     .project-overview-container p {
         font-size: 1rem;
     }
-    
+
     .project-overview-container .project {
         font-size: 1rem;
     }
@@ -180,5 +180,5 @@ ol > ul {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    
+
 }
