@@ -330,10 +330,6 @@ footer {
     vertical-align: middle;
     width: 100%;
   }
-  
-//   img:hover {
-//     opacity: .5;
-//   }
 
 #art-container {
     position: relative;
@@ -379,7 +375,8 @@ footer {
     clip-path: url(#myClip);
     transition: 0.5s ease clip-path;
   }
-  img:hover {
+  
+  .project-tile:hover {
     opacity: .5;
   }
 

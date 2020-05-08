@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=projects.css.map */
+h3 {
+  text-align: center;
+}
+
+.project-content-container img {
+  width: 100%;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#groupsource-logo {
+  width: 50%;
+}
+/*# sourceMappingURL=projects.css.map */

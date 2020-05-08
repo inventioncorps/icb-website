@@ -372,7 +372,7 @@ footer {
   transition: 0.5s ease clip-path;
 }
 
-img:hover {
+.project-tile:hover {
   opacity: .5;
 }
 
