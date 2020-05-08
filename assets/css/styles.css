@@ -183,6 +183,10 @@ h5 {
   margin-bottom: 0.25rem;
 }
 
+.label > span {
+  font-style: italic;
+}
+
 #contact {
   position: relative;
   text-align: center;
