@@ -196,6 +196,56 @@ h5 {
 .label > span {
     font-style: italic;
 }
+
+.artpiece {
+    transform: rotate(90deg);
+}
+
+#art-container {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+    top: 0;
+    left: 0;
+  }
+  
+  #art-container img { /* <= optional, for responsiveness */
+     display: block;
+     max-width: 100%;
+     height: auto;
+     -webkit-transition: all 300ms;
+  }
+  
+  #art-container svg {
+    position: absolute;
+    // height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  .colored {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+ .grayscale {
+    position: relative;
+    z-index: 0;
+    -webkit-filter: grayscale(100%);
+    top: 0;
+    left: 0;
+  }
+
+  .clip {
+    clip-path: url(#myClip);
+    transition: 0.5s ease clip-path;
+  }
+
 // svg {
 //     height: 50vh;
 // }
@@ -359,6 +409,10 @@ footer {
         font-size: 5rem;
     }
 
+    .artpiece {
+        transform: none;
+    }
+
     #contact-text {
         font-size: 3.75rem;
     }
@@ -458,51 +512,6 @@ footer {
     margin-top: 20px;
     vertical-align: middle;
     width: 100%;
-  }
-
-#art-container {
-    position: relative;
-    display: inline-block; /* <= shrinks container to image size */
-    transition: transform 150ms ease-in-out;
-    top: 0;
-    left: 0;
-  }
-  
-  #art-container img { /* <= optional, for responsiveness */
-     display: block;
-     max-width: 100%;
-     height: auto;
-     -webkit-transition: all 300ms;
-  }
-  
-  #art-container svg {
-    position: absolute;
-    // height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    // opacity: 0;
-    z-index: 2;
-  }
-
-  .colored {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-  }
-
- .grayscale {
-    position: relative;
-    z-index: 0;
-    -webkit-filter: grayscale(100%);
-    top: 0;
-    left: 0;
-  }
-
-  .clip {
-    clip-path: url(#myClip);
-    transition: 0.5s ease clip-path;
   }
   
   .project-tile:hover {

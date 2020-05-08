@@ -187,6 +187,62 @@ h5 {
   font-style: italic;
 }
 
+.artpiece {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#art-container {
+  position: relative;
+  display: inline-block;
+  /* <= shrinks container to image size */
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+  top: 0;
+  left: 0;
+}
+
+#art-container img {
+  /* <= optional, for responsiveness */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -webkit-transition: all 300ms;
+}
+
+#art-container svg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.colored {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.grayscale {
+  position: relative;
+  z-index: 0;
+  -webkit-filter: grayscale(100%);
+  top: 0;
+  left: 0;
+}
+
+.clip {
+  -webkit-clip-path: url(#myClip);
+          clip-path: url(#myClip);
+  -webkit-transition: 0.5s ease clip-path;
+  transition: 0.5s ease clip-path;
+}
+
 #contact {
   position: relative;
   text-align: center;
@@ -329,6 +385,10 @@ footer {
   .landing-text > h1 {
     font-size: 5rem;
   }
+  .artpiece {
+    -webkit-transform: none;
+            transform: none;
+  }
   #contact-text {
     font-size: 3.75rem;
   }
@@ -404,56 +464,6 @@ footer {
   margin-top: 20px;
   vertical-align: middle;
   width: 100%;
-}
-
-#art-container {
-  position: relative;
-  display: inline-block;
-  /* <= shrinks container to image size */
-  -webkit-transition: -webkit-transform 150ms ease-in-out;
-  transition: -webkit-transform 150ms ease-in-out;
-  transition: transform 150ms ease-in-out;
-  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
-  top: 0;
-  left: 0;
-}
-
-#art-container img {
-  /* <= optional, for responsiveness */
-  display: block;
-  max-width: 100%;
-  height: auto;
-  -webkit-transition: all 300ms;
-}
-
-#art-container svg {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
-.colored {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-}
-
-.grayscale {
-  position: relative;
-  z-index: 0;
-  -webkit-filter: grayscale(100%);
-  top: 0;
-  left: 0;
-}
-
-.clip {
-  -webkit-clip-path: url(#myClip);
-          clip-path: url(#myClip);
-  -webkit-transition: 0.5s ease clip-path;
-  transition: 0.5s ease clip-path;
 }
 
 .project-tile:hover {
