@@ -202,10 +202,18 @@ h5 {
   left: 0;
 }
 
+#red-string img {
+  height: 40vh;
+}
+
 #blue-string {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+#blue-string img {
+  height: 40vh;
 }
 
 #green-string {
@@ -214,31 +222,40 @@ h5 {
   right: 0;
 }
 
+#green-string img {
+  height: 40vh;
+}
+
 #yellow-string {
   position: absolute;
   top: 90px;
   right: 0;
 }
 
+#yellow-string img {
+  height: 30vh;
+}
+
 #contact-text {
-  font-size: 60px;
+  font-size: 2rem;
+  width: 60vw;
 }
 
 .line {
   border: none;
   background-color: #202020;
   color: #ccc;
-  height: 2px;
-  width: 80px;
-  margin: 25px 0;
+  height: 1.75px;
+  width: 50px;
+  margin: 0.75em 0;
 }
 
 .social-icons {
-  font-size: 50px;
+  font-size: 1.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 330px;
+  width: 50vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -272,6 +289,25 @@ footer {
   .landing-text > h1 {
     font-size: 4rem;
   }
+  #red-string img {
+    height: 45vh;
+  }
+  #yellow-string img {
+    height: 40vh;
+  }
+  #contact-text {
+    font-size: 3rem;
+    width: auto;
+  }
+  .line {
+    height: 2px;
+    width: 70px;
+    margin: 1.5em 0;
+  }
+  .social-icons {
+    font-size: 2.75rem;
+    width: 40vw;
+  }
 }
 
 @media (min-width: 992px) {
@@ -281,6 +317,30 @@ footer {
   .landing-text > h1 {
     font-size: 5rem;
   }
+  #contact-text {
+    font-size: 3.75rem;
+  }
+  .line {
+    width: 80px;
+  }
+  .social-icons {
+    font-size: 3rem;
+    width: 25vw;
+  }
+  #red-string img {
+    height: auto;
+    width: 30vh;
+  }
+  #blue-string img {
+    height: 45vh;
+  }
+  #green-string img {
+    height: auto;
+    width: 40vh;
+  }
+  #yellow-string img {
+    height: 40vh;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -289,6 +349,20 @@ footer {
   }
   .landing-text > h1 {
     font-size: 6rem;
+  }
+  #red-string img {
+    height: auto;
+    width: auto;
+  }
+  #blue-string img {
+    height: auto;
+  }
+  #green-string img {
+    height: auto;
+    width: auto;
+  }
+  #yellow-string img {
+    height: auto;
   }
 }
 
@@ -342,10 +416,9 @@ footer {
 
 #art-container svg {
   position: absolute;
-  height: 100%;
-  width: 93%;
-  top: 60px;
-  left: 78px;
+  width: 100%;
+  top: 0;
+  left: 0;
   z-index: 2;
 }
 
