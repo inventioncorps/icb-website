@@ -2,8 +2,95 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-size: 1.25rem;
+}
+
 .project-content-container img {
   width: 100%;
+  padding-bottom: 1.5em;
+}
+
+.team-container > .row {
+  padding-bottom: 1em;
+}
+
+.team-container p {
+  font-size: 0.6rem;
+  margin-bottom: 0;
+}
+
+.team-container p:nth-of-type(1) {
+  font-size: 0.75rem;
+}
+
+.team-container img {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.xs-img {
+  width: 25% !important;
+}
+
+.sm-img {
+  width: 50% !important;
+}
+
+.md-img {
+  width: 75% !important;
+}
+
+ol, ul {
+  padding-left: 1em;
+}
+
+iframe {
+  width: 100%;
+}
+
+.red-ul {
+  position: relative;
+  padding: 0 .5em;
+}
+
+.red-ul:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  background-color: #E06B65;
+  opacity: 0.6;
+  z-index: -10;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+footer {
+  background-color: #ffffff;
+  height: 6vh;
+}
+
+.project-overview-container p {
+  font-size: 0.6rem;
+}
+
+.project-overview-container .project {
+  font-size: 0.75rem;
+}
+
+figcaption {
+  color: #545454;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .logo-container {
@@ -16,9 +103,10 @@ h3 {
 }
 
 #groupsource-logo {
-  width: 50%;
+  width: 80vw;
 }
 
+<<<<<<< HEAD
 #netic-logo {
   width: 50%;
 }
@@ -26,9 +114,45 @@ h3 {
 .team-container p {
   font-size: 10px;
   margin-bottom: 0;
+=======
+.img-group img:not(:last-child) {
+  padding-bottom: 0;
+>>>>>>> a2ac5462c206c6f3a63848e7fb0c39fe4e5a9b0b
 }
 
-.team-container p:nth-of-type(1) {
-  font-size: 12px;
+#xls-embed {
+  height: 30vh;
+}
+
+.bsfc-img {
+  padding-bottom: 2em;
+}
+
+ol > ul {
+  list-style: disc;
+}
+
+@media (min-width: 768px) {
+  .team-container p {
+    font-size: 0.75rem;
+  }
+  .team-container p:nth-of-type(1) {
+    font-size: 0.85rem;
+  }
+  .project-overview-container p {
+    font-size: 1rem;
+  }
+  .project-overview-container .project {
+    font-size: 1rem;
+  }
+  #groupsource-logo {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 992px) {
+  #groupsource-logo {
+    width: 40vw;
+  }
 }
 /*# sourceMappingURL=projects.css.map */
