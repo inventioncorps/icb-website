@@ -18,6 +18,7 @@ h4 {
 
 .project-content-container img {
     width: 100%;
+    padding-bottom: 1.5em;
 }
 
 .team-container > .row {
@@ -36,6 +37,7 @@ h4 {
 
 .team-container img {
     width: 100%;
+    padding-bottom: 0;
 }
 
 .center-img {
@@ -44,12 +46,24 @@ h4 {
     margin-right: auto;
 }
 
-.smaller-img {
+.xs-img {
+    width: 25%!important;
+}
+
+.sm-img {
     width: 50%!important;
+}
+
+.md-img {
+    width: 75%!important;
 }
 
 ol, ul {
     padding-left: 1em;
+}
+
+iframe {
+    width: 100%;
 }
 
 // Base code for title underlines; would have to tweak for each title
@@ -85,6 +99,12 @@ footer {
     font-size: 0.75rem;
 }
 
+figcaption {
+    color: #545454;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 // GROUPSOURCE
 
 .logo-container {
@@ -93,7 +113,15 @@ footer {
 }
 
 #groupsource-logo {
-    width: 50%;
+    width: 80vw;
+}
+
+.img-group img:not(:last-child) {
+    padding-bottom: 0;
+}
+
+#xls-embed {
+    height: 30vh;
 }
 
 // BSFC
@@ -128,11 +156,17 @@ ol > ul {
     .project-overview-container .project {
         font-size: 1rem;
     }
+
+    #groupsource-logo {
+        width: 50vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    
+    #groupsource-logo {
+        width: 40vw;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
