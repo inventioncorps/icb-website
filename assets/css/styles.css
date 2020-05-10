@@ -390,14 +390,14 @@ footer {
             transform: none;
   }
   #contact-text {
-    font-size: 3.75rem;
+    font-size: 3rem;
   }
   .line {
     width: 80px;
   }
   .social-icons {
     font-size: 3rem;
-    width: 25vw;
+    width: 20vw;
   }
   #red-string img {
     height: auto;
