@@ -246,6 +246,11 @@ h5 {
     transition: 0.5s ease clip-path;
   }
 
+.underline {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
+    display: inline;
+}
+
 // svg {
 //     height: 50vh;
 // }
@@ -367,6 +372,10 @@ footer {
         font-size: 4rem;
     }
 
+    .artpiece {
+        transform: none;
+    }
+
     #red-string {
         img {
             height: 45vh;
@@ -407,10 +416,6 @@ footer {
     
     .landing-text > h1 {
         font-size: 5rem;
-    }
-
-    .artpiece {
-        transform: none;
     }
 
     #contact-text {
@@ -590,4 +595,8 @@ footer {
   }
 
   #myClip {
+  }
+
+  #Allan_24 {
+      opacity:100%!important;
   }

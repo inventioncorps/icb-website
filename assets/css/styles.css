@@ -25,7 +25,6 @@ h2 {
   font-weight: 700;
   font-style: italic;
   text-align: center;
-  padding-bottom: 2rem;
 }
 
 a {
@@ -244,6 +243,12 @@ h5 {
   transition: 0.5s ease clip-path;
 }
 
+.underline {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, rgba(255, 255, 255, 0)), color-stop(65%, #FFD0AE));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #FFD0AE 65%);
+  display: inline;
+}
+
 #contact {
   position: relative;
   text-align: center;
@@ -358,6 +363,10 @@ footer {
   .landing-text > h1 {
     font-size: 4rem;
   }
+  .artpiece {
+    -webkit-transform: none;
+            transform: none;
+  }
   #red-string img {
     height: 45vh;
   }
@@ -386,19 +395,15 @@ footer {
   .landing-text > h1 {
     font-size: 5rem;
   }
-  .artpiece {
-    -webkit-transform: none;
-            transform: none;
-  }
   #contact-text {
-    font-size: 3rem;
+    font-size: 3.75rem;
   }
   .line {
     width: 80px;
   }
   .social-icons {
     font-size: 3rem;
-    width: 20vw;
+    width: 25vw;
   }
   #red-string img {
     height: auto;
@@ -530,9 +535,6 @@ footer {
 u {
   text-decoration: none;
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=styles.css.map */
-=======
 
 .project-nav-yellow:hover {
   background-color: #FFFF99;
@@ -545,5 +547,8 @@ u {
 .project-nav-blue:hover {
   background-color: #99CCFF;
 }
+
+#Allan_24 {
+  opacity: 100% !important;
+}
 /*# sourceMappingURL=styles.css.map */
->>>>>>> refs/remotes/origin/master
