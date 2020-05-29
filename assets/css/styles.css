@@ -104,6 +104,12 @@ nav {
 
 #about {
   padding: 6.5em 0;
+  flex-direction: column;
+}
+
+.about-img {
+  border: 1px solid #aaaa;
+  padding: 0;
 }
 
 #about > h2, #projects {
