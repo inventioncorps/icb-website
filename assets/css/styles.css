@@ -104,21 +104,11 @@ nav {
 
 #about {
   padding: 6.5em 0;
-  flex-direction: column;
-}
-
-.about-img {
-  width: 100%;
 }
 
 #about > h2, #projects {
   text-align: center;
 }
-
-.container > p {
-  text-align: justify;
-}
-
 
 .article > h1 {
   font-weight: 700;
@@ -146,6 +136,7 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  height: 100vh;
 }
 
 .labels {
@@ -211,7 +202,6 @@ h5 {
   transition: transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
   top: 0;
-  left: 0;
 }
 
 #art-container img {
