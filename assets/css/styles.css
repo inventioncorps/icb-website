@@ -364,17 +364,6 @@ footer {
   background-color: #787878;
 }
 
-@media (min-width: 576px) {
-  .proj-title {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    font-size: x-small;
-  }
-}
-
 @media (min-width: 768px) {
   .proj-title {
     position: absolute;
@@ -540,6 +529,7 @@ footer {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-size: x-small;
 }
 
 .col-6 col-sm-4 {

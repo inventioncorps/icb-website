@@ -362,13 +362,7 @@ footer {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    .proj-title{
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: x-small;
-    }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -576,6 +570,7 @@ footer {
       top: 80%;
       left: 50%;
       transform: translate(-50%, -50%);
+      font-size: x-small;
   }
 
   .col-6 col-sm-4 {
