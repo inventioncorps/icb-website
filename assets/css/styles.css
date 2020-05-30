@@ -104,11 +104,21 @@ nav {
 
 #about {
   padding: 6.5em 0;
+  flex-direction: column;
+}
+
+.about-img {
+  width: 100%;
 }
 
 #about > h2, #projects {
   text-align: center;
 }
+
+.container > p {
+  text-align: justify;
+}
+
 
 .article > h1 {
   font-weight: 700;
@@ -262,6 +272,12 @@ h5 {
   transition: 0.5s ease clip-path;
 }
 
+.underline {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, rgba(255, 255, 255, 0)), color-stop(65%, #FFD0AE));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #FFD0AE 65%);
+  display: inline;
+}
+
 #contact {
   position: relative;
   text-align: center;
@@ -376,6 +392,10 @@ footer {
   .landing-text > h1 {
     font-size: 4rem;
   }
+  .artpiece {
+    -webkit-transform: none;
+            transform: none;
+  }
   #red-string img {
     height: 45vh;
   }
@@ -403,10 +423,6 @@ footer {
   }
   .landing-text > h1 {
     font-size: 5rem;
-  }
-  .artpiece {
-    -webkit-transform: none;
-            transform: none;
   }
   #contact-text {
     font-size: 3.75rem;
@@ -548,9 +564,6 @@ footer {
 u {
   text-decoration: none;
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=styles.css.map */
-=======
 
 .project-nav-yellow:hover {
   background-color: #FFFF99;
@@ -564,4 +577,3 @@ u {
   background-color: #99CCFF;
 }
 /*# sourceMappingURL=styles.css.map */
->>>>>>> refs/remotes/origin/master
