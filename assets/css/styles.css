@@ -104,11 +104,21 @@ nav {
 
 #about {
   padding: 6.5em 0;
+  flex-direction: column;
+}
+
+.about-img {
+  width: 100%;
 }
 
 #about > h2, #projects {
   text-align: center;
 }
+
+.container > p {
+  text-align: justify;
+}
+
 
 .article > h1 {
   font-weight: 700;
