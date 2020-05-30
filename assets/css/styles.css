@@ -201,6 +201,11 @@ h5 {
           transform: rotate(90deg);
 }
 
+#overlay {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 #art-container {
   position: relative;
   display: inline-block;
@@ -380,6 +385,10 @@ footer {
     font-size: 4rem;
   }
   .artpiece {
+    -webkit-transform: none;
+            transform: none;
+  }
+  #overlay {
     -webkit-transform: none;
             transform: none;
   }
