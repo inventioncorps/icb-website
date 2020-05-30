@@ -208,14 +208,14 @@ h5 {
     top: 0;
     left: 0;
   }
-  
+
   #art-container img { /* <= optional, for responsiveness */
      display: block;
      max-width: 100%;
      height: auto;
      -webkit-transition: all 300ms;
   }
-  
+
   #art-container svg {
     position: absolute;
     // height: 100%;
@@ -344,7 +344,7 @@ h5 {
     color: $blue;
 }
 
-// FOOTER 
+// FOOTER
 footer {
     height: 10%;
     background-color: $gray;
@@ -353,7 +353,7 @@ footer {
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
 }
 
@@ -362,7 +362,7 @@ footer {
     .landing-text > h3 {
         font-size: 2rem;
     }
-    
+
     .landing-text > h1 {
         font-size: 4rem;
     }
@@ -383,20 +383,20 @@ footer {
         font-size: 3rem;
         width: auto;
     }
-    
+
     .line {
         height: 2px;
         width: 70px;
         margin: 1.5em 0;
     }
-    
+
     .social-icons {
         // font-size: 50px;
         font-size: 2.75rem;
         // width: 330px;
         width: 40vw;
     }
-    
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -404,7 +404,7 @@ footer {
     .landing-text > h3 {
         font-size: 2rem;
     }
-    
+
     .landing-text > h1 {
         font-size: 5rem;
     }
@@ -416,11 +416,11 @@ footer {
     #contact-text {
         font-size: 3.75rem;
     }
-    
+
     .line {
         width: 80px;
     }
-    
+
     .social-icons {
         font-size: 3rem;
         width: 25vw;
@@ -432,20 +432,20 @@ footer {
             width: 30vh;
         }
     }
-    
+
     #blue-string {
         img {
             height: 45vh;
         }
     }
-    
+
     #green-string {
         img {
             height: auto;
             width: 40vh;
         }
     }
-    
+
     #yellow-string {
         img {
             height: 40vh;
@@ -458,7 +458,7 @@ footer {
     .landing-text > h3 {
         font-size: 2rem;
     }
-    
+
     .landing-text > h1 {
         font-size: 6rem;
     }
@@ -469,20 +469,20 @@ footer {
             width: auto;
         }
     }
-    
+
     #blue-string {
         img {
             height: auto;
         }
     }
-    
+
     #green-string {
         img {
             height: auto;
             width: auto;
         }
     }
-    
+
     #yellow-string {
         img {
             height: auto;
@@ -497,9 +497,9 @@ footer {
     flex-wrap: wrap;
     padding: 10 10px;
     padding-bottom: 30px;
-    
+
   }
-  
+
   /* Create four equal columns that sits next to each other */
   .column {
     -ms-flex: 25%; /* IE10 */
@@ -507,15 +507,15 @@ footer {
     max-width: 25%;
     padding: 0 10px;
   }
-  
+
   .column img {
     margin-top: 20px;
     vertical-align: middle;
     width: 100%;
   }
-  
+
   .project-tile:hover {
-    opacity: .5;
+    opacity: .1;
   }
 
   .grid-container {
@@ -526,7 +526,7 @@ footer {
     grid-gap: 10px;
     padding: 10px;
   }
-  
+
   .grid-container > div {
     text-align: center;
     padding: 20px 0;
@@ -542,7 +542,7 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  
+
   .overview-container {
     padding-top: 4vh;
     padding-right: 10vw;
