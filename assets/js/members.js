@@ -92,7 +92,7 @@ $(document).ready(function () {
   });
 
   // Carlos
-  $("#Carlos_44-2").hover(function(){
+  $("#Carlos_44").hover(function(){
     $("#carlos").addClass("underline");
   },
   function(){
