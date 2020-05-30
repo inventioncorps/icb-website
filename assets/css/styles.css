@@ -193,6 +193,11 @@ h5 {
           transform: rotate(90deg);
 }
 
+#overlay {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 #art-container {
   position: relative;
   display: inline-block;
@@ -220,21 +225,6 @@ h5 {
   opacity: 0;
   z-index: 2;
 }
-
-.proj-title {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.col-6 col-sm {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-
 
 .colored {
   position: absolute;
@@ -382,6 +372,10 @@ footer {
     -webkit-transform: none;
             transform: none;
   }
+  #overlay {
+    -webkit-transform: none;
+            transform: none;
+  }
   #red-string img {
     height: 45vh;
   }
@@ -488,7 +482,7 @@ footer {
 }
 
 .project-tile:hover {
-  opacity: .5;
+  opacity: .1;
 }
 
 .grid-container {

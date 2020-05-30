@@ -203,6 +203,10 @@ h5 {
     transform: rotate(90deg);
 }
 
+#overlay {
+    transform: rotate(90deg);
+}
+
 #art-container {
     position: relative;
     display: inline-block; /* <= shrinks container to image size */
@@ -374,6 +378,10 @@ footer {
     }
 
     .artpiece {
+        transform: none;
+    }
+
+    #overlay {
         transform: none;
     }
 
