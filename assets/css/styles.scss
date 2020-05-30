@@ -362,11 +362,24 @@ footer {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
+    .proj-title{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-small;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .proj-title{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: small;
+    }
     .landing-text > h3 {
         font-size: 2rem;
     }
@@ -413,6 +426,13 @@ footer {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .proj-title{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: medium;
+    }
     .landing-text > h3 {
         font-size: 2rem;
     }
@@ -463,6 +483,13 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    .proj-title{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: medium;
+    }
     .landing-text > h3 {
         font-size: 2rem;
     }
@@ -543,6 +570,18 @@ footer {
   }
 
   //PROJECTS PAGE
+
+  .proj-title{
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .col-6 col-sm-4 {
+      position: relative;
+      text-align: center;
+  }
   #overview {
     display: -webkit-box;
     display: -ms-flexbox;
