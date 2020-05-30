@@ -104,10 +104,18 @@ nav {
 
 #about {
   padding: 6.5em 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #about > h2, #projects {
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .article > h1 {
@@ -220,21 +228,6 @@ h5 {
   opacity: 0;
   z-index: 2;
 }
-
-.proj-title {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.col-6 col-sm {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-
 
 .colored {
   position: absolute;
@@ -488,7 +481,7 @@ footer {
 }
 
 .project-tile:hover {
-  opacity: .5;
+  opacity: .1;
 }
 
 .grid-container {
