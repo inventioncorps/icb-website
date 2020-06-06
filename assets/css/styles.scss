@@ -375,6 +375,10 @@ footer {
     font-size: x-small;
 }
 
+#members > .container > h2 {
+    padding-bottom: 2em;
+}
+
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
@@ -443,6 +447,17 @@ footer {
         width: 40vw;
     }
 
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+
+    #about> .container > h2 {
+        padding-bottom: 2em;
+    }
+
+    #projects> .container > h2 {
+        padding-bottom: 2em;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -499,6 +514,18 @@ footer {
             height: 40vh;
         }
     }
+
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+
+    #about> .container > h2 {
+        padding-bottom: 2em;
+    }
+
+    #projects> .container > h2 {
+        padding-bottom: 2em;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -542,6 +569,18 @@ footer {
         img {
             height: auto;
         }
+    }
+
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+
+    #about> .container > h2 {
+        padding-bottom: 2em;
+    }
+
+    #projects> .container > h2 {
+        padding-bottom: 2em;
     }
 }
 

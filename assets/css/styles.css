@@ -383,6 +383,10 @@ footer {
   font-size: x-small;
 }
 
+#members > .container > h2 {
+  padding-bottom: 2em;
+}
+
 @media (min-width: 576px) {
   .proj-title {
     position: absolute;
@@ -436,6 +440,15 @@ footer {
     font-size: 2.75rem;
     width: 40vw;
   }
+  #members > .container > h2 {
+    padding-bottom: 0px;
+  }
+  #about > .container > h2 {
+    padding-bottom: 2em;
+  }
+  #projects > .container > h2 {
+    padding-bottom: 2em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -476,6 +489,15 @@ footer {
   #yellow-string img {
     height: 40vh;
   }
+  #members > .container > h2 {
+    padding-bottom: 0px;
+  }
+  #about > .container > h2 {
+    padding-bottom: 2em;
+  }
+  #projects > .container > h2 {
+    padding-bottom: 2em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -506,6 +528,15 @@ footer {
   }
   #yellow-string img {
     height: auto;
+  }
+  #members > .container > h2 {
+    padding-bottom: 0px;
+  }
+  #about > .container > h2 {
+    padding-bottom: 2em;
+  }
+  #projects > .container > h2 {
+    padding-bottom: 2em;
   }
 }
 
