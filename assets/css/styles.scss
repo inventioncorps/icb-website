@@ -31,10 +31,6 @@ body {
     height: 100vh;
 }
 
-#about {
-    height: auto;
-}
-
 #about > .container {
     text-align: justify;
 }
@@ -400,6 +396,11 @@ footer {
     #landing, #contact, #projects, #about, #members{
         height: 100vh;
    }
+   
+   #about, #members{
+    padding-top: 90px;
+    }
+
     .proj-title{
         position: absolute;
         top: 74%;
@@ -458,19 +459,24 @@ footer {
     }
 
     #about> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 
     #projects> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    #landing, #contact, #projects, #about, #members{
+
+    #landing, #contact, #projects, #about, #members {
         height: 100vh;
    }
+
+   #about, #members {
+    padding-top: 90px;
+    }
 
     .proj-title{
         position: absolute;
@@ -530,11 +536,11 @@ footer {
     }
 
     #about> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 
     #projects> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
 
