@@ -465,8 +465,11 @@ footer {
   #landing, #contact, #projects, #about, #members {
     height: 100vh;
   }
-  #about, #members {
-    padding-top: 100px;
+  #about {
+    padding-top: 110px;
+  }
+  #members > .container {
+    width: 120vh;
   }
   .proj-title {
     position: absolute;

@@ -476,10 +476,14 @@ footer {
 
     #landing, #contact, #projects, #about, #members {
         height: 100vh;
-   }
+    }
+    
+    #about {
+    padding-top: 110px;
+    }
 
-   #about, #members {
-    padding-top: 100px;
+    #members > .container {
+        width: 120vh;
     }
 
     .proj-title{
