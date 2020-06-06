@@ -13,11 +13,15 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#landing, #contact, #projects {
-  height: 100vh;
+#projects, #members {
+  height: 50vh;
 }
 
-#about, #members {
+#contact, #landing, #about {
+  height: 92vh;
+}
+
+#about {
   height: auto;
 }
 
@@ -108,7 +112,7 @@ nav {
 }
 
 #about {
-  padding: 6.5em 0;
+  padding: 2em 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -149,7 +153,6 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  height: 100vh;
 }
 
 .labels {
@@ -399,6 +402,9 @@ footer {
 }
 
 @media (min-width: 768px) {
+  #landing, #contact, #projects, #about, #members {
+    height: 100vh;
+  }
   .proj-title {
     position: absolute;
     top: 74%;
@@ -452,6 +458,9 @@ footer {
 }
 
 @media (min-width: 992px) {
+  #landing, #contact, #projects, #about, #members {
+    height: 100vh;
+  }
   .proj-title {
     position: absolute;
     top: 74%;
@@ -501,6 +510,9 @@ footer {
 }
 
 @media (min-width: 1200px) {
+  #landing, #contact, #projects, #about, #members {
+    height: 100vh;
+  }
   .proj-title {
     position: absolute;
     top: 74%;
