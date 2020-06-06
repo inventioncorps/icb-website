@@ -369,10 +369,19 @@ footer {
   background-color: #787878;
 }
 
+.proj-title {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: x-small;
+}
+
 @media (min-width: 576px) {
   .proj-title {
     position: absolute;
-    top: 80%;
+    top: 74%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -383,11 +392,11 @@ footer {
 @media (min-width: 768px) {
   .proj-title {
     position: absolute;
-    top: 80%;
+    top: 74%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    font-size: medium;
+    font-size: 1.3vw;
   }
   .landing-text > h3 {
     font-size: 2rem;
@@ -427,11 +436,10 @@ footer {
 @media (min-width: 992px) {
   .proj-title {
     position: absolute;
-    top: 80%;
+    top: 74%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    font-size: medium;
   }
   .landing-text > h3 {
     font-size: 2rem;
@@ -468,7 +476,7 @@ footer {
 @media (min-width: 1200px) {
   .proj-title {
     position: absolute;
-    top: 80%;
+    top: 74%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -541,14 +549,6 @@ footer {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-}
-
-.proj-title {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
 .col-6 col-sm-4 {
