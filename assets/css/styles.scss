@@ -27,12 +27,16 @@ body {
      height: 70vh;
 }
 
-#contact, #landing, #about {
+#contact, #landing {
     height: 100vh;
 }
 
 #about > .container {
     text-align: justify;
+}
+
+#about {
+    height: auto;
 }
 
 h2 {
@@ -475,7 +479,7 @@ footer {
    }
 
    #about, #members {
-    padding-top: 90px;
+    padding-top: 100px;
     }
 
     .proj-title{
@@ -536,11 +540,11 @@ footer {
     }
 
     #about> .container > h2 {
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
     }
 
     #projects> .container > h2 {
-        padding-bottom: 1em;
+        padding-bottom: 0.5em;
     }
 }
 
