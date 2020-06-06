@@ -21,6 +21,10 @@ body {
   height: auto;
 }
 
+#about > .container {
+  text-align: justify;
+}
+
 h2 {
   font-weight: 700;
   font-style: italic;
