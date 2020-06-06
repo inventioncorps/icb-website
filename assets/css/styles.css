@@ -18,7 +18,7 @@ body {
 }
 
 #contact, #landing, #about {
-  height: 92vh;
+  height: 100vh;
 }
 
 #about {
@@ -91,6 +91,7 @@ nav {
 .landing-text-bkd {
   background: #FFFFFF;
   padding: 0 0.75rem;
+  text-align: center;
 }
 
 .contact-txt > h2 {
