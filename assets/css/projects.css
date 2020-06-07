@@ -1,6 +1,5 @@
 h3 {
   text-align: center;
-  padding-bottom: 1.75rem;
 }
 
 h4 {
@@ -95,9 +94,6 @@ figcaption {
 }
 
 .logo-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -126,8 +122,6 @@ figcaption {
 ol > ul {
   list-style: disc;
 }
-
-
 
 @media (min-width: 768px) {
   .team-container p {
