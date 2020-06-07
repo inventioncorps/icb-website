@@ -23,17 +23,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-// **** Temporarily made each section as large as the screen size to demonstrate scrolling functionality ****
-#landing, #contact, #projects {
-    height: 100vh;
+ #projects, #members {
+     height: 70vh;
 }
 
-#about,  #members {
-    height: auto;
+#contact, #landing {
+    height: 100vh;
 }
 
 #about > .container {
     text-align: justify;
+}
+
+#about {
+    height: auto;
 }
 
 h2 {
@@ -118,6 +121,7 @@ nav {
 .landing-text-bkd {
     background: #FFFFFF;
     padding: 0 0.75rem;
+    text-align: center;
 }
 .contact-txt > h2 {
     font-weight: 800;
@@ -132,7 +136,7 @@ nav {
 }
 
 #about {
-    padding: 6.5em 0;
+    padding: 2em 0;
     flex-direction: column;
 }
 
@@ -166,7 +170,6 @@ h5 {
     justify-content: top;
     align-items: center;
     position: relative;
-    height: 100vh;
 }
 
 .labels {
@@ -375,6 +378,10 @@ footer {
     font-size: x-small;
 }
 
+#members > .container > h2 {
+    padding-bottom: 2em;
+}
+
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
@@ -390,6 +397,20 @@ footer {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    #landing, #contact, #projects{
+        height: 100vh;
+    }
+
+    #members
+    {
+        height: 60vw;
+    }
+
+    #about {
+        height: 100vw;
+    }
+
+
     .proj-title{
         position: absolute;
         top: 74%;
@@ -443,10 +464,38 @@ footer {
         width: 40vw;
     }
 
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+
+    #about> .container > h2 {
+        padding-bottom: 1em;
+    }
+
+    #projects> .container > h2 {
+        padding-bottom: 1em;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+    #landing, #contact, #projects, #members{
+        height: 50vw;
+    }
+
+    #about {
+        height: 80vw;
+    }
+    
+    #about, #members {
+    padding-top: 110px;
+    }
+
+    #members > .container {
+        width: 120vh;
+    }
+
     .proj-title{
         position: absolute;
         top: 74%;
@@ -499,10 +548,37 @@ footer {
             height: 40vh;
         }
     }
+
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+
+    #about> .container > h2 {
+        padding-bottom: 0.5em;
+    }
+
+    #projects> .container > h2 {
+        padding-bottom: 0.5em;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    #landing, #contact, #projects, #about {
+        height: 60vw;
+   }
+
+   #about {
+        height: 70vw;
+   }
+   #members {
+    height: 50vw;
+   }
+
+   #members > .container {
+    width: 60vw;
+}
+
     .proj-title{
         position: absolute;
         top: 74%;
@@ -542,6 +618,18 @@ footer {
         img {
             height: auto;
         }
+    }
+
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+
+    #about> .container > h2 {
+        padding-bottom: 2em;
+    }
+
+    #projects> .container > h2 {
+        padding-bottom: 2em;
     }
 }
 

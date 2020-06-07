@@ -127,6 +127,8 @@ ol > ul {
   list-style: disc;
 }
 
+
+
 @media (min-width: 768px) {
   .team-container p {
     font-size: 0.75rem;
