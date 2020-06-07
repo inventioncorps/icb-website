@@ -397,13 +397,19 @@ footer {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    #landing, #contact, #projects, #about, #members{
-        height: auto;
-   }
-   
-   #about {
-    padding-top: 140px;
+    #landing, #contact, #projects{
+        height: 100vh;
     }
+
+    #members
+    {
+        height: 60vw;
+    }
+
+    #about {
+        height: 100vw;
+    }
+
 
     .proj-title{
         position: absolute;
@@ -474,8 +480,12 @@ footer {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
-    #landing, #contact, #projects, #about, #members {
-        height: 100vh;
+    #landing, #contact, #projects, #members{
+        height: 50vw;
+    }
+
+    #about {
+        height: 80vw;
     }
     
     #about, #members {
@@ -554,9 +564,20 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    #landing, #contact, #projects, #about, #members{
-        height: 100vh;
+    #landing, #contact, #projects, #about {
+        height: 60vw;
    }
+
+   #about {
+        height: 70vw;
+   }
+   #members {
+    height: 50vw;
+   }
+
+   #members > .container {
+    width: 60vw;
+}
 
     .proj-title{
         position: absolute;

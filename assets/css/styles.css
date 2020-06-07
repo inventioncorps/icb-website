@@ -403,11 +403,14 @@ footer {
 }
 
 @media (min-width: 768px) {
-  #landing, #contact, #projects, #about, #members {
-    height: auto;
+  #landing, #contact, #projects {
+    height: 100vh;
+  }
+  #members {
+    height: 60vw;
   }
   #about {
-    padding-top: 140px;
+    height: 100vw;
   }
   .proj-title {
     position: absolute;
@@ -462,8 +465,11 @@ footer {
 }
 
 @media (min-width: 992px) {
-  #landing, #contact, #projects, #about, #members {
-    height: 100vh;
+  #landing, #contact, #projects, #members {
+    height: 50vw;
+  }
+  #about {
+    height: 80vw;
   }
   #about, #members {
     padding-top: 110px;
@@ -520,8 +526,17 @@ footer {
 }
 
 @media (min-width: 1200px) {
-  #landing, #contact, #projects, #about, #members {
-    height: 100vh;
+  #landing, #contact, #projects, #about {
+    height: 60vw;
+  }
+  #about {
+    height: 70vw;
+  }
+  #members {
+    height: 50vw;
+  }
+  #members > .container {
+    width: 60vw;
   }
   .proj-title {
     position: absolute;
