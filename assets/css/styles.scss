@@ -398,11 +398,11 @@ footer {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #landing, #contact, #projects, #about, #members{
-        height: 100vh;
+        height: auto;
    }
    
-   #about, #members{
-    padding-top: 90px;
+   #about {
+    padding-top: 140px;
     }
 
     .proj-title{
@@ -478,7 +478,7 @@ footer {
         height: 100vh;
     }
     
-    #about {
+    #about, #members {
     padding-top: 110px;
     }
 
