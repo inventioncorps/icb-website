@@ -75,6 +75,13 @@ nav {
     font-weight: 700;
 }
 
+.jumptarget::before {
+    content:"";
+    display:block;
+    height:100px; /* fixed header height*/
+    margin:-100px 0 0; /* negative fixed header height */
+  }
+
 // li {
 //     content: attr(data-content);
 //     position: absolute;
@@ -398,7 +405,7 @@ footer {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #landing, #contact, #projects{
-        height: 100vh;
+        height: 90vh;
     }
 
     #members
@@ -407,7 +414,7 @@ footer {
     }
 
     #about {
-        height: 100vw;
+        height: 80vw;
     }
 
 
@@ -564,22 +571,24 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    
     #landing, #contact, #projects, #about {
         height: 60vw;
    }
-
+     
    #about {
         height: 70vw;
    }
+
    #members {
     height: 50vw;
    }
 
    #members > .container {
     width: 60vw;
-}
-
-    .proj-title{
+   }
+   
+   .proj-title{
         position: absolute;
         top: 74%;
         left: 50%;
@@ -625,11 +634,11 @@ footer {
     }
 
     #about> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 
     #projects> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
 

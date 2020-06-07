@@ -63,6 +63,15 @@ nav {
   font-weight: 700;
 }
 
+.jumptarget::before {
+  content: "";
+  display: block;
+  height: 100px;
+  /* fixed header height*/
+  margin: -100px 0 0;
+  /* negative fixed header height */
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -404,13 +413,13 @@ footer {
 
 @media (min-width: 768px) {
   #landing, #contact, #projects {
-    height: 100vh;
+    height: 90vh;
   }
   #members {
     height: 60vw;
   }
   #about {
-    height: 100vw;
+    height: 80vw;
   }
   .proj-title {
     position: absolute;
@@ -570,10 +579,10 @@ footer {
     padding-bottom: 0px;
   }
   #about > .container > h2 {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
   #projects > .container > h2 {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
 }
 
