@@ -447,12 +447,15 @@ footer {
 @media (min-width: 768px) {
   #landing, #contact, #projects {
     height: 90vh;
+    min-height: 50vw;
   }
   #members {
     height: 60vw;
+    min-height: 120vw;
   }
   #about {
     height: 80vw;
+    min-height: 120vw;
   }
   .proj-title {
     position: absolute;
@@ -508,11 +511,14 @@ footer {
 
 @media (min-width: 992px) {
   #landing, #contact, #projects, #members {
-    height: 50vw;
+    height: 90vh;
+    min-height: 100vw;
+    max-height: 100vh;
   }
   #about {
-    height: 90vh;
     padding-top: 10vh;
+    min-height: 100vw;
+    max-height: 80vh;
   }
   #members > .container {
     width: 120vh;
