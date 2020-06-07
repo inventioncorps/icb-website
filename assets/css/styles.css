@@ -13,16 +13,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#landing, #contact, #projects {
-  height: 100vh;
+#projects, #members {
+  height: 70vh;
 }
 
-#about, #members {
-  height: auto;
+#contact, #landing {
+  height: 100vh;
 }
 
 #about > .container {
   text-align: justify;
+}
+
+#about {
+  height: auto;
 }
 
 h2 {
@@ -75,6 +79,7 @@ nav {
 .landing-text > h3 {
   font-weight: 800;
   font-size: 1.5rem;
+  padding-bottom: 1.75rem;
 }
 
 .landing-text > h1 {
@@ -86,6 +91,7 @@ nav {
 .landing-text-bkd {
   background: #FFFFFF;
   padding: 0 0.75rem;
+  text-align: center;
 }
 
 .contact-txt > h2 {
@@ -107,7 +113,7 @@ nav {
 }
 
 #about {
-  padding: 6.5em 0;
+  padding: 2em 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -148,7 +154,6 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  height: 100vh;
 }
 
 .labels {
@@ -382,6 +387,10 @@ footer {
   font-size: x-small;
 }
 
+#members > .container > h2 {
+  padding-bottom: 2em;
+}
+
 @media (min-width: 576px) {
   .proj-title {
     position: absolute;
@@ -394,6 +403,12 @@ footer {
 }
 
 @media (min-width: 768px) {
+  #landing, #contact, #projects, #about, #members {
+    height: auto;
+  }
+  #about {
+    padding-top: 140px;
+  }
   .proj-title {
     position: absolute;
     top: 74%;
@@ -435,9 +450,27 @@ footer {
     font-size: 2.75rem;
     width: 40vw;
   }
+  #members > .container > h2 {
+    padding-bottom: 0px;
+  }
+  #about > .container > h2 {
+    padding-bottom: 1em;
+  }
+  #projects > .container > h2 {
+    padding-bottom: 1em;
+  }
 }
 
 @media (min-width: 992px) {
+  #landing, #contact, #projects, #about, #members {
+    height: 100vh;
+  }
+  #about, #members {
+    padding-top: 110px;
+  }
+  #members > .container {
+    width: 120vh;
+  }
   .proj-title {
     position: absolute;
     top: 74%;
@@ -475,9 +508,21 @@ footer {
   #yellow-string img {
     height: 40vh;
   }
+  #members > .container > h2 {
+    padding-bottom: 0px;
+  }
+  #about > .container > h2 {
+    padding-bottom: 0.5em;
+  }
+  #projects > .container > h2 {
+    padding-bottom: 0.5em;
+  }
 }
 
 @media (min-width: 1200px) {
+  #landing, #contact, #projects, #about, #members {
+    height: 100vh;
+  }
   .proj-title {
     position: absolute;
     top: 74%;
@@ -505,6 +550,15 @@ footer {
   }
   #yellow-string img {
     height: auto;
+  }
+  #members > .container > h2 {
+    padding-bottom: 0px;
+  }
+  #about > .container > h2 {
+    padding-bottom: 2em;
+  }
+  #projects > .container > h2 {
+    padding-bottom: 2em;
   }
 }
 
