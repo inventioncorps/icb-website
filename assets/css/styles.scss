@@ -75,6 +75,13 @@ nav {
     font-weight: 700;
 }
 
+.jumptarget::before {
+    content:"";
+    display:block;
+    height:100px; /* fixed header height*/
+    margin:-100px 0 0; /* negative fixed header height */
+  }
+
 // li {
 //     content: attr(data-content);
 //     position: absolute;
@@ -386,6 +393,16 @@ footer {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    #landing, #contact, #projects{
+        max-height: 50vw;
+        height: 90vh;
+    }
+
+    #members{
+        max-height: 100vw;
+        height: 100vh;
+    }
+
     .proj-title{
         position: absolute;
         top: 74%;
@@ -393,21 +410,58 @@ footer {
         transform: translate(-50%, -50%);
         font-size: x-small;
     }
+    .artpiece {
+        transform: none;
+    }
+    #overlay {
+        transform: none;
+    }
+    #members > .container > h2 {
+        padding-bottom: 0px;
+    }
+    #red-string {
+        img {
+            height: auto;
+            width: 10vw;
+        }
+    }
+
+    #blue-string {
+        img {
+            height: 25vh;
+        }
+    }
+
+    #green-string {
+        img {
+            height: auto;
+            width: 10vw;
+        }
+    }
+
+    #yellow-string {
+        img {
+            height: 25vh;
+        }
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #landing, #contact, #projects{
-        height: 100vh;
+        height: 90vh;
+        min-height: 50vw;
     }
 
     #members
     {
         height: 60vw;
+        min-height: 120vw;
     }
 
     #about {
-        height: 100vw;
+        height: 80vw;
+        min-height: 120vw;
     }
 
 
@@ -481,15 +535,15 @@ footer {
 @media (min-width: 992px) {
 
     #landing, #contact, #projects, #members{
-        height: 50vw;
+        height: 90vh;
+        min-height: 100vw;
+        max-height: 100vh;
     }
 
     #about {
-        height: 80vw;
-    }
-    
-    #about, #members {
-    padding-top: 110px;
+        padding-top: 10vh;
+        min-height: 100vw;
+        max-height: 80vh;
     }
 
     #members > .container {
@@ -564,22 +618,27 @@ footer {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    #landing, #contact, #projects, #about {
-        height: 60vw;
+    
+    #landing, #contact, #projects, #members, #about {
+        min-height: 50vw;
+        height: 90vh;
+   }
+
+   #members {
+        min-height: 40vw;
+        height: 80vh;
    }
 
    #about {
-        height: 70vw;
-   }
-   #members {
-    height: 50vw;
-   }
+    min-height: 60vw;
+    height: 90vh;
+}
 
    #members > .container {
     width: 60vw;
-}
-
-    .proj-title{
+   }
+   
+   .proj-title{
         position: absolute;
         top: 74%;
         left: 50%;
@@ -625,11 +684,11 @@ footer {
     }
 
     #about> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 
     #projects> .container > h2 {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
 
