@@ -132,6 +132,7 @@ ol > ul {
 
 h7 {
   font-size: 0.85rem;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -139,6 +140,7 @@ h7 {
     visibility: hidden;
     display: none;
     font-size: .1rem;
+    text-align: center;
   }
 }
 
