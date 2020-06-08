@@ -12,7 +12,7 @@ h4 {
   padding-bottom: 1.5em;
 }
 
-.team-container > .row {
+.team-container>.row {
   padding-bottom: 1em;
 }
 
@@ -48,7 +48,8 @@ h4 {
   width: 75% !important;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 1em;
 }
 
@@ -99,8 +100,8 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #groupsource-logo {
@@ -123,27 +124,53 @@ figcaption {
   padding-bottom: 2em;
 }
 
-ol > ul {
+ol>ul {
   list-style: disc;
 }
 
+#teaminfo {
+  visibility: hidden;
+  display: inline
+  
+}
+
+h7 {
+  font-size: 0.85rem;
+}
+
+
+@media (min-width: 576px) {
+  #teaminfo {
+    visibility: hidden;
+    display: inline
+  }
+}
 
 
 @media (min-width: 768px) {
   .team-container p {
     font-size: 0.75rem;
   }
+
   .team-container p:nth-of-type(1) {
     font-size: 0.85rem;
   }
+
   .project-overview-container p {
     font-size: 1rem;
   }
+
   .project-overview-container .project {
     font-size: 1rem;
   }
+
   #groupsource-logo {
     width: 50vw;
+  }
+
+  #teaminfo {
+    visibility: visible;
+    display: inline;
   }
 }
 
@@ -151,5 +178,15 @@ ol > ul {
   #groupsource-logo {
     width: 40vw;
   }
+
+  #teaminfo {
+    visibility: visible;
+    display: inline;
+
+  }
+
+
+
 }
+
 /*# sourceMappingURL=projects.css.map */

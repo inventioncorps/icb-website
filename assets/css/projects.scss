@@ -146,7 +146,9 @@ ol > ul {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
+  #teaminfo {
+    font-size: 0.1rem;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -170,6 +172,9 @@ ol > ul {
     #groupsource-logo {
         width: 50vw;
     }
+    #teaminfo {
+      font-size: 1rem;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -177,6 +182,10 @@ ol > ul {
     #groupsource-logo {
         width: 40vw;
     }
+    #teaminfo {
+      font-size: 1rem;
+    }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
