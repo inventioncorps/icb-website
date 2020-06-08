@@ -11,183 +11,186 @@ $black: #202020;
 h3 {
     text-align: center;
     padding-bottom: 1.75rem;
-}
-
-h4 {
+  }
+  
+  h4 {
     font-size: 1.25rem;
-}
-
-.project-content-container img {
+  }
+  
+  .project-content-container img {
     width: 100%;
     padding-bottom: 1.5em;
-}
-
-.team-container > .row {
+  }
+  
+  .team-container>.row {
     padding-bottom: 1em;
-}
-
-.team-container p {
-    // font-style: italic;
-    font-size: 0.6rem;
+  }
+  
+  .team-container p {
+    font-size: 0.01rem;
     margin-bottom: 0;
-}
-
-.team-container p:nth-of-type(1) {
-    font-size: 0.75rem;
-}
-
-.team-container img {
+  }
+  
+  .team-container p:nth-of-type(1) {
+    font-size: 0.01rem;
+  }
+  
+  .team-container img {
     width: 100%;
     padding-bottom: 0;
-}
-
-.center-img {
+  }
+  
+  .center-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.xs-img {
-    width: 25%!important;
-}
-
-.sm-img {
-    width: 50%!important;
-}
-
-.md-img {
-    width: 75%!important;
-}
-
-ol, ul {
+  }
+  
+  .xs-img {
+    width: 25% !important;
+  }
+  
+  .sm-img {
+    width: 50% !important;
+  }
+  
+  .md-img {
+    width: 75% !important;
+  }
+  
+  ol,
+  ul {
     padding-left: 1em;
-}
-
-iframe {
+  }
+  
+  iframe {
     width: 100%;
-}
-
-// Base code for title underlines; would have to tweak for each title
-.red-ul {
+  }
+  
+  .red-ul {
     position: relative;
     padding: 0 .5em;
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 35%;
-      background-color: $red;
-      opacity: 0.6;
-      z-index: -10;
-      -webkit-transition: all .1s linear;
-      -moz-transition: all .1s linear;
-      transition: all .1s linear;
-    }
   }
-
-footer {
+  
+  .red-ul:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background-color: #E06B65;
+    opacity: 0.6;
+    z-index: -10;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+  }
+  
+  footer {
     background-color: #ffffff;
     height: 6vh;
-}
-
-.project-overview-container p {
+  }
+  
+  .project-overview-container p {
     font-size: 0.6rem;
-}
-
-.project-overview-container .project {
+  }
+  
+  .project-overview-container .project {
     font-size: 0.75rem;
-}
-
-figcaption {
+  }
+  
+  figcaption {
     color: #545454;
     text-align: center;
     font-size: 0.8rem;
-}
-
-// GROUPSOURCE
-
-.logo-container {
-    justify-content: center;
-}
-
-#groupsource-logo {
-    width: 80vw;
-}
-
-#netic-logo {
-    width: 50%;
-}
-
-// .team-container {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-// }
-.img-group img:not(:last-child) {
-    padding-bottom: 0;
-}
-
-#xls-embed {
-    height: 30vh;
-}
-
-// BSFC
-
-.bsfc-img {
-    padding-bottom: 2em;
-}
-
-ol > ul {
-    list-style: disc;
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #teaminfo {
-    font-size: 0.1rem;
   }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+  
+  .logo-container {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  #groupsource-logo {
+    width: 80vw;
+  }
+  
+  #netic-logo {
+    width: 50%;
+  }
+  
+  .img-group img:not(:last-child) {
+    padding-bottom: 0;
+  }
+  
+  #xls-embed {
+    height: 30vh;
+  }
+  
+  .bsfc-img {
+    padding-bottom: 2em;
+  }
+  
+  ol>ul {
+    list-style: disc;
+  }
+  
+  #teaminfo {
+    visibility: hidden;
+    display: none;
+    
+  }
+  
+  h7 {
+    font-size: 0.85rem;
+  }
+  
+  
+  @media (min-width: 576px) {
+    #teaminfo {
+      visibility: hidden;
+      display: none;
+      font-size: .1rem;
+    }
+  }
+  
+  
+  @media (min-width: 768px) {
     .team-container p {
-        font-size: 0.75rem;
+      font-size: 0.75rem;
     }
-
+  
     .team-container p:nth-of-type(1) {
-        font-size: 0.85rem;
+      font-size: 0.85rem;
     }
-
+  
     .project-overview-container p {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
     .project-overview-container .project {
-        font-size: 1rem;
-    }
-
-    #groupsource-logo {
-        width: 50vw;
-    }
-    #teaminfo {
       font-size: 1rem;
     }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
+  
     #groupsource-logo {
-        width: 40vw;
+      width: 50vw;
     }
+  
     #teaminfo {
-      font-size: 1rem;
+      visibility: visible;
+      display: inline;
+      font-size: .85rem;
     }
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
+  }
+  
+  @media (min-width: 992px) {
+    #groupsource-logo {
+      width: 40vw;
+    }
+  
+    #teaminfo {
+      visibility: visible;
+      display: inline;
+  
+    }
 }
