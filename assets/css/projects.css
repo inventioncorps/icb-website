@@ -130,6 +130,16 @@ ol > ul {
   display: none;
 }
 
+.web-team {
+  visibility: hidden;
+  display: none;
+}
+
+.mobile-team {
+  visibility: visible;
+  display: inline;
+}
+
 h7 {
   font-size: 0.85rem;
   text-align: center;
@@ -145,6 +155,14 @@ h7 {
 }
 
 @media (min-width: 768px) {
+  .web-team {
+    visibility: visible;
+    display: inline;
+  }
+  .mobile-team {
+    visibility: hidden;
+    display: none;
+  }
   .team-container p {
     font-size: 0.75rem;
   }
@@ -174,6 +192,14 @@ h7 {
   #teaminfo {
     visibility: visible;
     display: inline;
+  }
+  .web-team {
+    visibility: visible;
+    display: inline;
+  }
+  .mobile-team {
+    visibility: hidden;
+    display: none;
   }
 }
 /*# sourceMappingURL=projects.css.map */
