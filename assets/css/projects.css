@@ -125,7 +125,6 @@ ol>ul {
   list-style: disc;
 }
 
-<<<<<<< HEAD
 #teaminfo {
   visibility: hidden;
   display: inline
@@ -145,8 +144,6 @@ h7 {
 }
 
 
-=======
->>>>>>> 68fbe27460efdc23b92fabd719ea35755de148ff
 @media (min-width: 768px) {
   .team-container p {
     font-size: 0.75rem;
@@ -188,8 +185,4 @@ h7 {
 
 
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 68fbe27460efdc23b92fabd719ea35755de148ff
 /*# sourceMappingURL=projects.css.map */
