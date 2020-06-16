@@ -16,6 +16,8 @@ body {
 h2 {
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 
 
@@ -23,6 +25,7 @@ h4 {
     padding-top: 20px;
     padding-left: 60px;
     padding-bottom: 15px;
+    font-weight: 600;
 }
 
 h6 {
@@ -59,4 +62,13 @@ p {
     margin-top: 5vh;
     height: 60vh;
   
+}
+
+figcaption {
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    color: gray;
+
 }
