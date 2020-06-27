@@ -38,21 +38,22 @@ a {
 h2 {
   color: white;
   text-align: center;
+  font-style: normal;
   font-size: 25;
   font-weight: bold;
   margin-bottom: 7vh;
 }
 
 .dot {
-  height: 14vw;
-  width: 14vw;
+  height: 12.5vw;
+  width: 12.5vw;
   background-color: white;
   border: 4px solid blue;
   border-radius: 50%;
   display: inline-block;
 }
 
-.container {
+.team > .container, .exec > .container {
   text-align: center;
   margin-bottom: 7vh;
 }
@@ -75,5 +76,16 @@ p {
 
 .header > p {
   font-size: medium;
+}
+
+.span {
+  display: table;
+  vertical-align: middle;
+}
+
+.member {
+  max-width: 96%;
+  max-height: 96%;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=membersv15.css.map */
