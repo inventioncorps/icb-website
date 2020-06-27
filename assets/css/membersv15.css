@@ -1,0 +1,44 @@
+body {
+  background-color: #a2b9ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-size: medium;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 25;
+  font-style: bold;
+}
+/*# sourceMappingURL=membersv15.css.map */
