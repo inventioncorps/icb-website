@@ -20,7 +20,6 @@ h2 {
   font-weight: bold;
 }
 
-
 h4 {
   padding-top: 20px;
   padding-left: 50px;
@@ -69,7 +68,6 @@ p {
   height: 30vh;
   margin-left: 55px;
   margin-right: 55px;
-
 }
 
 #aboutpic3 {
@@ -88,6 +86,31 @@ figcaption {
   font-size: 8px;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  padding-left: 0;
+  margin-left: 0.5em;
+  padding-right: 0;
+  margin-right: 0.5em;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.4em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #787878;
+  border-color: #787878;
+}
+
+a.about {
+  border-bottom: solid #99CC99;
+}
+
+a.members {
+  border-bottom: solid #99CCFF;
+}
+
+a.projects {
+  border-bottom: solid #E06B65;
+}
 
 @media (min-width: 576px) {
   h2 {
@@ -96,24 +119,19 @@ figcaption {
     padding-bottom: 10px;
     font-weight: bold;
   }
-
-
   h4 {
     padding-top: 20px;
     padding-left: 60px;
     padding-bottom: 15px;
     font-weight: 600;
   }
-
   h6 {
     text-align: center;
   }
-
   #values {
     text-align: right;
     padding-right: 60px;
   }
-
   .column1 {
     text-align: justify;
     text-justify: inter-word;
@@ -122,38 +140,32 @@ figcaption {
     text-align: justify;
     text-justify: inter-word;
   }
-
   .row:after {
     display: table;
     clear: both;
   }
-
   p {
     padding-left: 60px;
     padding-right: 60px;
   }
-
   #aboutpic1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 30vh;
   }
-
   #aboutpic2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 30vh;
   }
-
   #aboutpic3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 30vh;
   }
-
   figcaption {
     padding: 2px;
     text-align: center;
@@ -170,24 +182,19 @@ figcaption {
     padding-bottom: 5px;
     font-weight: bold;
   }
-
-
   h4 {
     padding-top: 20px;
     padding-left: 60px;
     padding-bottom: 5px;
     font-weight: 600;
   }
-
   h6 {
     text-align: center;
   }
-
   #values {
     text-align: right;
     padding-right: 60px;
   }
-
   .column1 {
     text-align: justify;
     text-justify: inter-word;
@@ -196,17 +203,14 @@ figcaption {
     text-align: justify;
     text-justify: inter-word;
   }
-
   .row:after {
     display: table;
     clear: both;
   }
-
   p {
     padding-left: 40px;
     padding-right: 40px;
   }
-
   #aboutpic1 {
     display: block;
     margin-left: auto;
@@ -215,7 +219,6 @@ figcaption {
     margin-left: 150px;
     margin-right: 150px;
   }
-
   #aboutpic2 {
     display: block;
     margin-left: auto;
@@ -224,7 +227,6 @@ figcaption {
     margin-left: 150px;
     margin-right: 150px;
   }
-
   #aboutpic3 {
     display: block;
     margin-left: auto;
@@ -233,7 +235,6 @@ figcaption {
     margin-left: 150px;
     margin-right: 150px;
   }
-
   figcaption {
     padding: 2px;
     text-align: center;
@@ -244,8 +245,6 @@ figcaption {
   }
 }
 
-
-
 @media (min-width: 992px) {
   h2 {
     text-align: center;
@@ -253,50 +252,39 @@ figcaption {
     padding-bottom: 10px;
     font-weight: bold;
   }
-
-
   h4 {
     padding-top: 20px;
     padding-left: 60px;
     padding-bottom: 15px;
     font-weight: 600;
   }
-
   h6 {
     text-align: center;
   }
-
   #values {
     text-align: right;
     padding-right: 60px;
   }
-
   .column1 {
     float: left;
     width: 50%;
-
     text-align: justify;
     text-justify: inter-word;
   }
-
   .column2 {
     float: left;
     width: 50%;
-
     text-align: justify;
     text-justify: inter-word;
   }
-
   .row:after {
     display: table;
     clear: both;
   }
-
   p {
     padding-left: 60px;
     padding-right: 60px;
   }
-
   #aboutpic1 {
     display: block;
     margin-top: 25px;
@@ -304,7 +292,6 @@ figcaption {
     margin-right: auto;
     height: 60vh;
   }
-
   #aboutpic2 {
     margin-top: 10px;
     display: block;
@@ -312,14 +299,12 @@ figcaption {
     margin-right: auto;
     height: 60vh;
   }
-
   #aboutpic3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 60vh;
   }
-
   figcaption {
     padding: 2px;
     text-align: center;
@@ -329,3 +314,4 @@ figcaption {
     font-size: 15px;
   }
 }
+/*# sourceMappingURL=about.css.map */
