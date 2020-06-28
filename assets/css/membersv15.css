@@ -115,12 +115,38 @@ a {
   color: white;
 }
 
-a:hover {
-  scrollbar-highlight-color: #202020;
+a.about {
+  border-bottom: solid #99CC99;
 }
 
-.nav-link {
+a.members {
+  border-bottom: solid #99CCFF;
+}
+
+a.projects {
+  border-bottom: solid #E06B65;
+}
+
+.navbar-light .navbar-nav .nav-link {
   color: white;
+  padding-left: 0;
+  margin-left: 8px;
+  padding-right: 0;
+  margin-right: 8px;
+  padding-bottom: 2px;
+  margin-bottom: 6px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #787878;
+  border-color: #787878;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #787878;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
 }
 
 .black {

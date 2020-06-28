@@ -3,10 +3,6 @@ $red: #E06B65;
 $yellow: #FFEE52;
 $green:#99CC99;
 $blue: #99CCFF;
-$red2: #E06B65;
-$yellow2: #FFEE52;
-$green2:#99CC99;
-$blue2: #99CCFF;
 $gray: #787878;
 $black: #202020;
 body {
@@ -115,15 +111,45 @@ p {
 .yellow {
     border: 4px solid $yellow;
 }
+
 a {
     color: white;
 }
-a:hover {
-    scrollbar-highlight-color: #202020;
+
+a.about {
+    border-bottom: solid $green;
 }
-.nav-link {
+
+a.members {
+    border-bottom: solid $blue;
+}
+
+a.projects {
+    border-bottom: solid $red;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
     color: white;
+    padding-left: 0;
+    margin-left: 8px;
+    padding-right: 0;
+    margin-right: 8px;
+    padding-bottom: 2px;
+    margin-bottom: 6px;
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $gray;
+    border-color: $gray;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: $gray;
+    transition-timing-function: ease-in;
+}
+
 .black {
     color: black;
 }
@@ -134,22 +160,22 @@ a:hover {
 }
 
 .dot.red:hover {
-    background-color: $red2;
+    background-color: $red;
     border-color: $red;
     transition-timing-function: ease-in-out;
 }
 .dot.green:hover {
-    background-color: $green2;
+    background-color: $green;
     border-color: $green;
     transition-timing-function: ease-in-out;
 }
 .dot.blue:hover {
-    background-color: $blue2;
+    background-color: $blue;
     border-color: $blue;
     transition-timing-function: ease-in-out;
 }
 .dot.yellow:hover {
-    background-color: $yellow2;
+    background-color: $yellow;
     border-color: $yellow;
     transition-timing-function: ease-in-out;
 }
