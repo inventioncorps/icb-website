@@ -1,14 +1,12 @@
 body {
   background-color: #a2b9ca;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
+}
+
+.navbar.scrolled {
+  background-color: #202020 !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: white;
 }
 
 .header {
@@ -31,10 +29,6 @@ footer {
   margin-top: auto;
 }
 
-a {
-  color: white;
-}
-
 h2 {
   color: white;
   text-align: center;
@@ -48,9 +42,21 @@ h2 {
   height: 12.5vw;
   width: 12.5vw;
   background-color: white;
-  border: 4px solid blue;
   border-radius: 50%;
   display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: x-small;
+  font-weight: medium;
+  color: #202020;
 }
 
 .team > .container, .exec > .container {
@@ -78,14 +84,84 @@ p {
   font-size: medium;
 }
 
-.span {
-  display: table;
-  vertical-align: middle;
+.member {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  height: 94%;
+  width: 94%;
 }
 
-.member {
-  max-width: 96%;
-  max-height: 96%;
-  border-radius: 50%;
+.green {
+  border: 4px solid #99CC99;
+}
+
+.red {
+  border: 4px solid #E06B65;
+}
+
+.blue {
+  border: 4px solid #99CCFF;
+}
+
+.yellow {
+  border: 4px solid #FFEE52;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  scrollbar-highlight-color: #202020;
+}
+
+.nav-link {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.dot.red:hover {
+  background-color: #E06B65;
+  border-color: #E06B65;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.dot.green:hover {
+  background-color: #99CC99;
+  border-color: #99CC99;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.dot.blue:hover {
+  background-color: #99CCFF;
+  border-color: #99CCFF;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.dot.yellow:hover {
+  background-color: #FFEE52;
+  border-color: #FFEE52;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.img-container:hover {
+  opacity: 0.2;
 }
 /*# sourceMappingURL=membersv15.css.map */
