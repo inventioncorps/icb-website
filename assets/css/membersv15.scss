@@ -6,11 +6,7 @@ $blue: #99CCFF;
 $gray: #787878;
 $black: #202020;
 body {
-    background-image: url("../img/members/members1.png");
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    background-color: $gray;
 }
 .navbar.scrolled {
     background-color: #202020 !important;
@@ -41,7 +37,7 @@ h1 {
     font-weight: bold;
     font-style: normal;
 }
-  
+
 footer {
     background-color: #202020;
     color: white;
@@ -67,6 +63,8 @@ h2 {
     display: inline-block;
     position: relative;
     text-align: center;
+    min-height: 100px;
+    min-width: 100px;
 }
 .quote {
     position: absolute;
@@ -76,6 +74,7 @@ h2 {
     font-size: x-small;
     font-weight: medium;
     color: $black;
+    opacity: 0;
 }
 
 .team > .container, .exec> .container{
@@ -88,8 +87,8 @@ h2 {
     font-style: normal;
 }
 
-.col{
-      padding: 0 0 0 0;
+div.col-4.col-sm-3, div.col-6.col-sm-3, div.col-4.col-sm-4, div.col-6.col-sm-3, div.col-6.col-sm-4 {
+      padding: 5vh 0 0 0;
 }
 
 .header > p {
@@ -126,19 +125,6 @@ a {
     color: white;
 }
 
-a.about {
-    border-bottom: solid $green;
-}
-
-a.members {
-    border-bottom: solid $blue;
-}
-
-a.projects {
-    border-bottom: solid $red;
-}
-
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
     padding-left: 0;
@@ -160,26 +146,56 @@ a.projects {
     position: relative;
 }
 
-.dot.red:hover {
-    background-color: $red;
-    border-color: $red;
-    transition-timing-function: ease-in-out;
-}
-.dot.green:hover {
-    background-color: $green;
-    border-color: $green;
-    transition-timing-function: ease-in-out;
-}
-.dot.blue:hover {
-    background-color: $blue;
-    border-color: $blue;
-    transition-timing-function: ease-in-out;
-}
-.dot.yellow:hover {
-    background-color: $yellow;
-    border-color: $yellow;
-    transition-timing-function: ease-in-out;
-}
-.img-container:hover {
-    opacity: 0.2;
+@media (min-width: 576px) {
+    body {
+        background-image: url("../img/members/members1.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    a.about {
+        border-bottom: solid $green;
+    }
+    
+    a.members {
+        border-bottom: solid $blue;
+    }
+    
+    a.projects {
+        border-bottom: solid $red;
+    }
+    .dot.red:hover {
+        background-color: $red;
+        border-color: $red;
+        transition-timing-function: ease-in-out;
+    }
+    .dot.green:hover {
+        background-color: $green;
+        border-color: $green;
+        transition-timing-function: ease-in-out;
+    }
+    .dot.blue:hover {
+        background-color: $blue;
+        border-color: $blue;
+        transition-timing-function: ease-in-out;
+    }
+    .dot.yellow:hover {
+        background-color: $yellow;
+        border-color: $yellow;
+        transition-timing-function: ease-in-out;
+    }
+    .img-container:hover {
+        opacity: 0.2;
+    }
+    .quote {
+        opacity: 1;
+    }
+    p {
+        font-size: larger;
+    }
+    .header > p {
+        font-size: x-large;
+        padding-top: 2vh;
+    }
 }
