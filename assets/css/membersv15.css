@@ -20,7 +20,7 @@ p {
   color: white;
   text-align: center;
   font-style: italic;
-  margin-bottom: 10vh;
+  margin-bottom: 3vh;
 }
 
 p.header {
@@ -47,7 +47,7 @@ h2 {
   font-style: normal;
   font-size: 25;
   font-weight: bold;
-  margin-bottom: 7vh;
+  margin-bottom: 1vh;
 }
 
 .dot {
@@ -58,8 +58,8 @@ h2 {
   display: inline-block;
   position: relative;
   text-align: center;
-  min-height: 100px;
-  min-width: 100px;
+  min-height: 120px;
+  min-width: 120px;
 }
 
 .quote {
@@ -76,7 +76,7 @@ h2 {
 
 .team > .container, .exec > .container {
   text-align: center;
-  margin-bottom: 7vh;
+  margin-bottom: 1vh;
 }
 
 .name {
@@ -148,6 +148,15 @@ a {
   body {
     background-image: url("../img/members/members1.png");
     background-size: cover;
+  }
+  .header {
+    margin-bottom: 5vh;
+  }
+  h2 {
+    margin-bottom: 5vh;
+  }
+  .team > .container, .exec > .container {
+    margin-bottom: 5vh;
   }
   a.about {
     border-bottom: solid #99CC99;
