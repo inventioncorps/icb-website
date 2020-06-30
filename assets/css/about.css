@@ -11,7 +11,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url(../assets/img/about/gradient+clouds.png);
+  background-image: url(../img/about/gradient+clouds.png);
+  background-size: cover;
 }
 
 h1 {
@@ -43,11 +44,6 @@ h6 {
 
 }
 
-#values {
-  text-align: right;
-  padding-right: 60px;
-}
-
 .column1 {
   float: left;
   width: 50%;
@@ -68,19 +64,66 @@ h6 {
 }
 
 #aboutpic1,
-#aboutpic2,
-#aboutpic3 {
+#aboutpic2 {
   width: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#aboutpic3 {
+  height: 22em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#pillars3 {
+  width: 33rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pillars1 {
+  width: 33rem;
+  padding-top: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 figcaption {
-  text-align: center;
   font-style: italic;
-  font-weight: 1;
-  color: gray;
-  font-size: 15px;
-  max-width: 30em;
+  font-weight: 10px;
+  color: black;
+  max-width: 27em;
   margin: auto;
+}
+
+#end {
+  padding-bottom: 5rem;
+  text-align: justify;
+}
+
+#front {
+  padding-bottom: 2rem;
+}
+
+#origin {
+  padding-top: 4.5em;
+  width: 30em;
+  height: 25em;
+  text-align: justify;
+  margin: auto;
+}
+
+#mission {
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=about.css.map */
