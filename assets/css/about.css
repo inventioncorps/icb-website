@@ -15,6 +15,13 @@ body {
   background-size: cover;
 }
 
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: white;
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
@@ -73,7 +80,8 @@ h6 {
 }
 
 #aboutpic3 {
-  height: 22em;
+  height: 23rem;
+  width: 32rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -82,14 +90,14 @@ h6 {
 
 
 #pillars3 {
-  width: 33rem;
+  width: 36rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 #pillars1 {
-  width: 33rem;
+  width: 36rem;
   padding-top: 1em;
   display: block;
   margin-left: auto;
