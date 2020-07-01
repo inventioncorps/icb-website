@@ -51,58 +51,56 @@ h6 {
 
 }
 
+
 .column1 {
-  float: left;
-  width: 50%;
-  text-align: justify;
-  text-justify: inter-word;
+  visibility: none;
 }
 
 .column2 {
-  float: right;
-  width: 50%;
-  text-align: justify;
-  text-justify: inter-word;
+  visibility: none;
 }
 
 .row:after {
-  display: table;
+  visibility: none;
+  ;
   clear: both;
+}
+
+#mobile {
+  visibility: visible;
+}
+
+#mobile2 {
+  visibility: visible;
+  display: block;
 }
 
 #aboutpic1,
 #aboutpic2 {
-  width: 30em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  visibility: hidden;
+  display: none;
 }
 
 #aboutpic3 {
-  height: 23rem;
-  width: 32rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  visibility: hidden;
+  display: none;
 }
 
-
-#pillars3 {
-  width: 36rem;
+#aboutpic3mobile {
+  visibility: visible;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 10 rem;
 }
+
 
 #pillars1 {
-  width: 36rem;
-  padding-top: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  visibility: hidden;
+  display: none;
+}
 
+#pillars3 {
+  visibility: hidden;
+  display: none;
 }
 
 figcaption {
@@ -132,6 +130,196 @@ figcaption {
 
 #mission {
   padding-bottom: 2rem;
+}
+
+@media (min-width: 576px) {
+
+  #container {
+    visibility: none;
+  }
+
+  .column1 {
+    display: none;
+  }
+
+  .column2 {
+    display: none;
+  }
+
+  .row:after {
+    display: none;
+    ;
+    clear: both;
+  }
+
+  #mobile {
+    visibility: visible;
+  }
+
+  #mobile2 {
+    visibility: visible;
+  }
+
+  #aboutpic1,
+  #aboutpic2 {
+    visibility: none;
+  }
+
+  #aboutpic3 {
+    visibility: visible;
+  }
+
+
+  #pillars1 {
+    visibility: none;
+
+  }
+
+  #pillars3 {
+    visibility: none;
+  }
+
+  #aboutpic3mobile {
+    visibility: visible;
+    display: block;
+    width: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #container {
+    visibility: visible;
+  }
+
+  .column1 {
+    display: visible;
+  }
+
+  .column2 {
+    display: visible;
+  }
+
+  .row:after {
+    display: visible;
+    ;
+    clear: both;
+  }
+
+  #mobile {
+    visibility: none;
+  }
+
+  #aboutpic1,
+  #aboutpic2 {
+    visibility: visible;
+  }
+
+  #aboutpic3 {
+    visibility: visible;
+  }
+
+  #aboutpic3mobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #mobile2 {
+    visibility: visible;
+  }
+
+  #pillars1 {
+    visibility: visible;
+
+  }
+
+  #pillars3 {
+    visibility: visible;
+  }
+
+}
+
+@media (min-width: 992px) {
+  #container {
+    visibility: visible;
+    display: inline;
+    visibility: visible;
+  }
+
+  #mobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #mobile2 {
+    visibility: hidden;
+    block: none;
+  }
+
+  .column1 {
+    float: left;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline;
+    visibility: visible;
+  }
+
+  .column2 {
+    float: right;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline;
+    visibility: visible;
+
+  }
+
+  .row:after {
+    display: table;
+    clear: both;
+
+  }
+
+  #aboutpic1,
+  #aboutpic2 {
+    width: 30rem;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+
+  #aboutpic3 {
+    height: 23rem;
+    width: 32rem;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+
+  }
+
+  #aboutpic3mobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #pillars3 {
+    width: 36rem;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+
+  #pillars1 {
+    width: 36rem;
+    padding-top: 1em;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */
