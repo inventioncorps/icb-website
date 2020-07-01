@@ -11,58 +11,29 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url(../img/about/gradient+clouds.png);
-  background-size: cover;
-}
-
-.navbar.scrolled {
-  background-color: #ffffff !important;
-  -webkit-transition: background-color 200ms linear;
-  transition: background-color 200ms linear;
-  color: white;
-}
-
-h1 {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic;
-  padding-bottom: 0.4rem;
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 h4 {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 5px;
   font-weight: 600;
-  font-style: italic;
-  padding-bottom: 2rem;
-
 }
 
 h6 {
   text-align: center;
-  max-width: 25em;
-  margin: auto;
-  padding-bottom: 5em;
-  color: black;
-  font-weight: 100;
-  font-style: italic;
-
 }
 
-.column1 {
-  float: left;
-  width: 50%;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.column2 {
-  float: right;
-  width: 50%;
-  text-align: justify;
-  text-justify: inter-word;
+#values {
+  text-align: right;
+  padding-right: 50px;
 }
 
 .row:after {
@@ -70,68 +41,277 @@ h6 {
   clear: both;
 }
 
-#aboutpic1,
-#aboutpic2 {
-  width: 30em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.column1 {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
+.column2 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#aboutpic1 {
+  display: block;
+  height: 30vh;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+#aboutpic2 {
+  display: block;
+  height: 30vh;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 #aboutpic3 {
-  height: 23rem;
-  width: 32rem;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-
-#pillars3 {
-  width: 36rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#pillars1 {
-  width: 36rem;
-  padding-top: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  height: 30vh;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 figcaption {
+  padding: 2px;
+  text-align: center;
   font-style: italic;
-  font-weight: 10px;
-  color: black;
-  max-width: 27em;
-  margin: auto;
+  font-weight: 1;
+  color: gray;
+  font-size: 8px;
 }
 
-#end {
-  padding-bottom: 5rem;
-  text-align: justify;
+.navbar-light .navbar-nav .nav-link {
+  padding-left: 0;
+  margin-left: 0.5em;
+  padding-right: 0;
+  margin-right: 0.5em;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.4em;
 }
 
-#front {
-  padding-bottom: 2rem;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #787878;
+  border-color: #787878;
 }
 
-#origin {
-  padding-top: 4.5em;
-  width: 30em;
-  height: 25em;
-  text-align: justify;
-  margin: auto;
+a.about {
+  border-bottom: solid #99CC99;
 }
 
-#mission {
-  padding-bottom: 2rem;
+a.members {
+  border-bottom: solid #99CCFF;
 }
 
+a.projects {
+  border-bottom: solid #E06B65;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  h4 {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    font-weight: 600;
+  }
+  h6 {
+    text-align: center;
+  }
+  #values {
+    text-align: right;
+    padding-right: 60px;
+  }
+  .column1 {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .column2 {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #aboutpic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+  }
+  #aboutpic2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+  }
+  #aboutpic3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+  }
+  figcaption {
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    color: gray;
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  h4 {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 5px;
+    font-weight: 600;
+  }
+  h6 {
+    text-align: center;
+  }
+  #values {
+    text-align: right;
+    padding-right: 60px;
+  }
+  .column1 {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .column2 {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #aboutpic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #aboutpic2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #aboutpic3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  figcaption {
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    color: gray;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  h4 {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    font-weight: 600;
+  }
+  h6 {
+    text-align: center;
+  }
+  #values {
+    text-align: right;
+    padding-right: 60px;
+  }
+  .column1 {
+    float: left;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .column2 {
+    float: left;
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  p {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #aboutpic1 {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+  }
+  #aboutpic2 {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+  }
+  #aboutpic3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+  }
+  figcaption {
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    color: gray;
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=about.css.map */

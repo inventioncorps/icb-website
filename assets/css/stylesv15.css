@@ -281,6 +281,10 @@ h5 {
   display: inline;
 }
 
+.navbar a:hover {
+  opacity: 0.5;
+}
+
 #contact {
   position: relative;
   text-align: center;
