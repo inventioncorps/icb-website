@@ -27,16 +27,19 @@ h1 {
   font-weight: bold;
   font-style: italic;
   padding-bottom: 0.4rem;
+  font-size: 35px;
 }
 
 h2 {
   text-align: left;
+  font-size: 25px;
 }
 
 h4 {
   font-weight: 600;
   font-style: italic;
   padding-bottom: 2rem;
+  font-size: 18px;
 
 }
 
@@ -51,18 +54,18 @@ h6 {
 
 }
 
-
 .column1 {
-  visibility: none;
+  visibility: hidden;
+  display: none;
 }
 
 .column2 {
-  visibility: none;
+  visibility: hidden;
+  display: none;
 }
 
 .row:after {
   visibility: none;
-  ;
   clear: both;
 }
 
@@ -73,6 +76,13 @@ h6 {
 #mobile2 {
   visibility: visible;
   display: block;
+}
+
+#pillarsmobile1,
+#pillarsmobile3 {
+  visibility: visible;
+  display: inline;
+  width: 390px;
 }
 
 #aboutpic1,
@@ -89,7 +99,12 @@ h6 {
 #aboutpic3mobile {
   visibility: visible;
   display: block;
-  width: 10 rem;
+  width: 23rem;
+}
+
+figcaption {
+  visibility: hidden;
+  display: none;
 }
 
 
@@ -103,33 +118,39 @@ h6 {
   display: none;
 }
 
-figcaption {
-  font-style: italic;
-  font-weight: 10px;
-  color: black;
-  max-width: 27em;
-  margin: auto;
-}
-
 #end {
-  padding-bottom: 5rem;
   text-align: justify;
 }
 
+#frontmobile {
+  visibility: visible;
+  display: block;
+  text-align: justify;
+}
+
+#originmobile {
+  visibility: visible;
+  display: block;
+  text-align: justify;
+}
+
+#mission,
 #front {
-  padding-bottom: 2rem;
+  visibility: hidden;
+  display: none;
 }
 
-#origin {
-  padding-top: 4.5em;
-  width: 30em;
-  height: 25em;
+#container {
+  visibility: visible;
   text-align: justify;
-  margin: auto;
 }
 
-#mission {
-  padding-bottom: 2rem;
+
+#originmobiletitle,
+#missionmobile,
+#inventmobile {
+  visibility: visible;
+  display: block;
 }
 
 @media (min-width: 576px) {
@@ -154,6 +175,7 @@ figcaption {
 
   #mobile {
     visibility: visible;
+    display: block;
   }
 
   #mobile2 {
@@ -162,21 +184,37 @@ figcaption {
 
   #aboutpic1,
   #aboutpic2 {
-    visibility: none;
+    visibility: hidden;
+    display: none;
   }
 
   #aboutpic3 {
+    visibility: hidden;
+    display: none;
+
+  }
+
+  figcaption {
+    visibility: hidden;
+    display: none;
+  }
+
+  #pillarsmobile1,
+  #pillarsmobile3 {
     visibility: visible;
+    display: block;
   }
 
 
   #pillars1 {
-    visibility: none;
+    visibility: hidden;
+    display: none;
 
   }
 
   #pillars3 {
-    visibility: none;
+    visibility: hidden;
+    display: none;
   }
 
   #aboutpic3mobile {
@@ -184,9 +222,61 @@ figcaption {
     display: block;
     width: 30rem;
   }
+
+  #originmobile {
+    visibility: visible;
+    display: block;
+    text-align: justify;
+  }
+
+  #front {
+    visibility: hidden;
+    display: none;
+  }
+
+  #frontmobile {
+    visibility: visible;
+    display: block;
+  }
+
+  #originmobiletitle,
+  #missionmobile,
+  #inventmobile {
+    visibility: visible;
+    display: block;
+  }
+
+  #mission,
+  #front {
+    visibility: hidden;
+    display: none;
+  }
+
+
 }
 
 @media (min-width: 768px) {
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.4rem;
+    font-size: 50px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 35px;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 2rem;
+    font-size: 25px;
+
+  }
+
   #container {
     visibility: visible;
   }
@@ -212,10 +302,12 @@ figcaption {
   #aboutpic1,
   #aboutpic2 {
     visibility: visible;
+    display: block;
   }
 
   #aboutpic3 {
     visibility: visible;
+    display: block;
   }
 
   #aboutpic3mobile {
@@ -234,6 +326,45 @@ figcaption {
 
   #pillars3 {
     visibility: visible;
+  }
+
+  #pillarsmobile1,
+  #pillarsmobile3 {
+    visibility: hidden;
+    display: none;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-weight: 10px;
+    color: black;
+    max-width: 27em;
+    margin: auto;
+    visibility: visible;
+    display: block;
+  }
+
+  #originmobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #front,
+  #mission {
+    visibility: visible;
+    display: block;
+  }
+
+  #frontmobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #originmobiletitle,
+  #missionmobile,
+  #inventmobile {
+    visibility: hidden;
+    display: none;
   }
 
 }
@@ -280,10 +411,16 @@ figcaption {
 
   }
 
-  #aboutpic1,
+  #aboutpic1 {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+
+
   #aboutpic2 {
     width: 30rem;
-    display: inline;
     margin-left: auto;
     margin-right: auto;
     visibility: visible;
@@ -292,7 +429,6 @@ figcaption {
   #aboutpic3 {
     height: 23rem;
     width: 32rem;
-    display: inline;
     margin-left: auto;
     margin-right: auto;
     visibility: visible;
@@ -320,6 +456,83 @@ figcaption {
     margin-right: auto;
     visibility: visible;
   }
+
+  #pillarsmobile1,
+  #pillarsmobile3 {
+    visibility: hidden;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-weight: 10px;
+    color: black;
+    max-width: 27em;
+    margin: auto;
+    visibility: visible;
+    display: block;
+  }
+
+  #end {
+    display: block;
+    visibility: visible;
+  }
+
+
+  #origin {
+    padding-top: 75px;
+    padding-left: 60px;
+    width: 500px;
+  }
+
+  #originmobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #front,
+  #mission {
+    visibility: visible;
+    display: block;
+  }
+
+  #frontmobile {
+    visibility: hidden;
+    display: none;
+  }
+
+  #originmobiletitle,
+  #missionmobile,
+  #inventmobile {
+    visibility: hidden;
+    display: none;
+  }
+
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.4rem;
+    font-size: 50px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 35px;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 2rem;
+    font-size: 25px;
+
+  }
+
+
 }
 
 /*# sourceMappingURL=about.css.map */
