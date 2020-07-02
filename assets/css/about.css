@@ -153,6 +153,66 @@ figcaption {
   display: block;
 }
 
+#invent {
+  visibility: hidden;
+  display: none;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.4rem;
+    font-size: 30px;
+  }
+
+  #aboutpic3mobile {
+    visibility: visible;
+    display: block;
+    width: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  #pillarsmobile1,
+  #pillarsmobile3 {
+    visibility: visible;
+    display: inline;
+    width: 300px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 22px;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 2rem;
+    font-size: 16px;
+  }
+
+  h6 {
+    text-align: center;
+    max-width: 25em;
+    margin: auto;
+    padding-bottom: 5em;
+    color: black;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  #invent {
+    visibility: hidden;
+    display: none;
+  }
+
+
+}
+
 @media (min-width: 576px) {
   #container {
     visibility: none;
@@ -243,6 +303,11 @@ figcaption {
 
   #mission,
   #front {
+    visibility: hidden;
+    display: none;
+  }
+
+  #invent {
     visibility: hidden;
     display: none;
   }
@@ -420,6 +485,11 @@ figcaption {
   p {
     font-size: 12px;
   }
+
+  #invent {
+    visibility: visible;
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -581,6 +651,11 @@ figcaption {
 
   p {
     font-size: 16px;
+  }
+
+  #invent {
+    visibility: visible;
+    display: block;
   }
 
 }
