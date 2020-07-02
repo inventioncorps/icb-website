@@ -57,11 +57,6 @@ a:hover {
     transition-timing-function: ease-in;
 }
 
-// .container {
-//     padding-top: 2em;
-//     padding-bottom: 2em;
-// }
-
 nav {
     font-weight: 500;
 }
@@ -274,13 +269,9 @@ h5 {
     display: inline;
 }
 
-// svg {
-//     height: 50vh;
-// }
-
-// .art:hover {
-//     filter: grayscale(100%);
-// }
+.navbar a:hover {
+    opacity: 0.5;
+}
 
 // CONTACT PAGE
 #contact {

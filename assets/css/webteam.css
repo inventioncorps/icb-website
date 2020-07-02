@@ -1,0 +1,234 @@
+body {
+  background-color: #787878;
+}
+
+.navbar.scrolled {
+  background-color: #202020 !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: white;
+}
+
+.col-sm-5th {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p {
+  font-size: 11px;
+  margin-bottom: 0;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3vh;
+}
+
+p.header {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: 25;
+  font-weight: bold;
+  margin-bottom: 1vh;
+}
+
+.dot {
+  height: 10vw;
+  width: 10vw;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  min-height: 120px;
+  min-width: 120px;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: x-small;
+  font-weight: medium;
+  color: #202020;
+  opacity: 0;
+}
+
+.web > .container {
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.web {
+  overflow: auto;
+  padding-bottom: 5vh;
+}
+
+.name {
+  font-weight: bold;
+  font-style: normal;
+}
+
+div.col-4.col-sm-3, div.col-6.col-sm-3, div.col-4.col-sm-4, div.col-6.col-sm-3, div.col-6.col-sm-4, div.col-6.col-sm-1, div.col-6.col-sm-2 {
+  padding: 5vh 0 0 0;
+}
+
+.header > p {
+  font-size: medium;
+  text-align: center;
+  color: white;
+}
+
+.member {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  height: 94%;
+  width: 94%;
+}
+
+.green {
+  border: 4px solid #99CC99;
+}
+
+.red {
+  border: 4px solid #E06B65;
+}
+
+.blue {
+  border: 4px solid #99CCFF;
+}
+
+.yellow {
+  border: 4px solid #FFEE52;
+}
+
+a {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding-left: 0;
+  margin-left: 0.5em;
+  padding-right: 0;
+  margin-right: 0.5em;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.4em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #787878;
+  border-color: #787878;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.col-sm-5th {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-image: url("../img/members/members1.png");
+    background-size: cover;
+  }
+  .col-sm-5th {
+    width: 20%;
+    float: left;
+  }
+  .header {
+    margin-bottom: 5vh;
+  }
+  h2 {
+    margin-bottom: 5vh;
+  }
+  .team > .container, .web > .container {
+    margin-bottom: 5vh;
+  }
+  a.about {
+    border-bottom: solid #99CC99;
+  }
+  a.members {
+    border-bottom: solid #99CCFF;
+  }
+  a.projects {
+    border-bottom: solid #E06B65;
+  }
+  .dot.red:hover {
+    background-color: #E06B65;
+    border-color: #E06B65;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+  }
+  .dot.green:hover {
+    background-color: #99CC99;
+    border-color: #99CC99;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+  }
+  .dot.blue:hover {
+    background-color: #99CCFF;
+    border-color: #99CCFF;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+  }
+  .dot.yellow:hover {
+    background-color: #FFEE52;
+    border-color: #FFEE52;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+  }
+  .img-container:hover {
+    opacity: 0.2;
+  }
+  .quote {
+    opacity: 1;
+  }
+  p {
+    font-size: larger;
+  }
+  .header > p {
+    font-size: x-large;
+    padding-top: 2vh;
+  }
+}
+/*# sourceMappingURL=webteam.css.map */
