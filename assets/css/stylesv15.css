@@ -406,6 +406,27 @@ footer {
 }
 
 @media (min-width: 576px) {
+  a.about {
+    border-bottom: solid #99CC99;
+  }
+  a.members {
+    border-bottom: solid #99CCFF;
+  }
+  a.projects {
+    border-bottom: solid #E06B65;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding-left: 0;
+    margin-left: 0.5em;
+    padding-right: 0;
+    margin-right: 0.5em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.4em;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #787878;
+    border-color: #787878;
+  }
   #landing, #contact, #projects {
     max-height: 50vw;
     height: 90vh;
