@@ -7,6 +7,8 @@
 
 html {
   scroll-behavior: smooth;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020));
+  background-image: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020);
 }
 
 body {
@@ -306,46 +308,6 @@ h5 {
           align-items: center;
 }
 
-#red-string {
-  position: absolute;
-  top: 90px;
-  left: 0;
-}
-
-#red-string img {
-  height: 40vh;
-}
-
-#blue-string {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-#blue-string img {
-  height: 40vh;
-}
-
-#green-string {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-#green-string img {
-  height: 40vh;
-}
-
-#yellow-string {
-  position: absolute;
-  top: 90px;
-  right: 0;
-}
-
-#yellow-string img {
-  height: 30vh;
-}
-
 #contact-text {
   font-size: 2rem;
   width: 60vw;
@@ -627,20 +589,6 @@ footer {
   .landing-text > h1 {
     font-size: 6rem;
   }
-  #red-string img {
-    height: auto;
-    width: auto;
-  }
-  #blue-string img {
-    height: auto;
-  }
-  #green-string img {
-    height: auto;
-    width: auto;
-  }
-  #yellow-string img {
-    height: auto;
-  }
   #members > .container > h2 {
     padding-bottom: 0px;
   }
@@ -692,6 +640,16 @@ footer {
   background-color: green;
   color: black;
   border-radius: 40%;
+}
+
+.full-width {
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
 }
 
 .grid-container {
