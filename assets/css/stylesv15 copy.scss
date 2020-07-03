@@ -26,7 +26,6 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-<<<<<<< Updated upstream
 }
 
  #projects, #members {
@@ -62,6 +61,11 @@ a:hover {
     color: $gray;
     transition-timing-function: ease-in;
 }
+
+// .container {
+//     padding-top: 2em;
+//     padding-bottom: 2em;
+// }
 
 nav {
     font-weight: 500;
@@ -105,6 +109,10 @@ nav {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+body {
+    background-color: $black; 
 }
 
 #landing-container {
@@ -218,66 +226,13 @@ h5 {
     font-style: italic;
 }
 
-.artpiece {
-    transform: rotate(90deg);
-}
+// svg {
+//     height: 50vh;
+// }
 
-#overlay {
-    transform: rotate(90deg);
-}
-
-#art-container {
-    position: relative;
-    display: inline-block; /* <= shrinks container to image size */
-    transition: transform 150ms ease-in-out;
-    top: 0;
-  }
-
-  #art-container img { /* <= optional, for responsiveness */
-     display: block;
-     max-width: 100%;
-     height: auto;
-     -webkit-transition: all 300ms;
-  }
-
-  #art-container svg {
-    position: absolute;
-    // height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: 2;
-  }
-
-  .colored {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-  }
-
- .grayscale {
-    position: relative;
-    z-index: 0;
-    -webkit-filter: grayscale(100%);
-    top: 0;
-    left: 0;
-  }
-
-  .clip {
-    clip-path: url(#myClip);
-    transition: 0.5s ease clip-path;
-  }
-
-.underline {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
-    display: inline;
-}
-
-.navbar a:hover {
-    opacity: 0.5;
-}
+// .art:hover {
+//     filter: grayscale(100%);
+// }
 
 // CONTACT PAGE
 #contact {
@@ -351,31 +306,6 @@ footer {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    a.about {
-        border-bottom: solid $green;
-    }
-    
-    a.members {
-        border-bottom: solid $blue;
-    }
-    
-    a.projects {
-        border-bottom: solid $red;
-    }
-
-    .navbar-light .navbar-nav .nav-link {
-        padding-left: 0;
-        margin-left: 0.5em;
-        padding-right: 0;
-        margin-right: 0.5em;
-        padding-bottom: 0.1em;
-        margin-bottom: 0.4em;
-    }
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: $gray;
-        border-color: $gray;
-    }
-
     #landing, #contact, #projects{
         max-height: 50vw;
         height: 90vh;
@@ -687,16 +617,6 @@ footer {
     border-radius: 40%
   }
 
-  .full-width {
-	left: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	max-width: 100vw;
-	position: relative;
-	right: 50%;
-	width: 100vw;
-}
-
   .grid-container {
     display: -ms-grid;
     display: grid;
@@ -774,7 +694,3 @@ footer {
   .project-nav-blue:hover {
     background-color: #99CCFF;
   }
-=======
-    background-color: $grad-1;
-}
->>>>>>> Stashed changes
