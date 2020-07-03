@@ -6,6 +6,11 @@ $green: #99CC99;
 $blue: #99CCFF;
 $gray: #787878;
 $black: #202020;
+$grad-1: #F8E8B2;
+$grad-2: #F4CCBE;
+$grad-3: #E58F7C;
+$grad-4: #6376A8;
+$grad-5: #202020;
 
 // CSS RESET
 
@@ -17,6 +22,7 @@ $black: #202020;
 
 html {
     scroll-behavior: smooth;
+    background-image: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020);
 }
 
 body {
@@ -212,6 +218,9 @@ h5 {
     font-style: italic;
 }
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .artpiece {
     transform: rotate(90deg);
 }
@@ -272,6 +281,19 @@ h5 {
 .navbar a:hover {
     opacity: 0.5;
 }
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+// svg {
+//     height: 50vh;
+// }
+
+// .art:hover {
+//     filter: grayscale(100%);
+// }
+>>>>>>> Stashed changes
 
 // CONTACT PAGE
 #contact {
@@ -284,46 +306,6 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#red-string {
-    position: absolute;
-    top: 90px;
-    left: 0;
-
-    img {
-        height: 40vh;
-    }
-}
-
-#blue-string {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    img {
-        height: 40vh;
-    }
-}
-
-#green-string {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-    img {
-        height: 40vh;
-    }
-}
-
-#yellow-string {
-    position: absolute;
-    top: 90px;
-    right: 0;
-
-    img {
-        height: 30vh;
-    }
 }
 
 #contact-text {
@@ -643,32 +625,6 @@ footer {
 
     .landing-text > h1 {
         font-size: 6rem;
-    }
-
-    #red-string {
-        img {
-            height: auto;
-            width: auto;
-        }
-    }
-
-    #blue-string {
-        img {
-            height: auto;
-        }
-    }
-
-    #green-string {
-        img {
-            height: auto;
-            width: auto;
-        }
-    }
-
-    #yellow-string {
-        img {
-            height: auto;
-        }
     }
 
     #members > .container > h2 {
