@@ -26,7 +26,14 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-<<<<<<< Updated upstream
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
 }
 
  #projects, #members {
@@ -173,112 +180,6 @@ h5 {
     background: linear-gradient(to top, yellow 50%, transparent 50%);
 }
 
-// MEMBERS PAGE
-#members {
-    display: flex;
-    justify-content: top;
-    align-items: center;
-    position: relative;
-}
-
-.labels {
-    position: absolute;
-    font-size: 10px;
-}
-
-.labels.left {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    left: 0;
-    bottom: 0;
-    padding-left: 4em;
-}
-
-.labels.right {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    top: 0;
-    right: 0;
-    padding-right: 4em;
-}
-
-.label-col {
-    padding-left: 2em;
-}
-
-.label {
-    margin-bottom: 0.25rem;
-    // background: linear-gradient(180deg, #ffffff 65%, #ffffff 65%);
-    // display: inline;
-}
-
-.label > span {
-    font-style: italic;
-}
-
-.artpiece {
-    transform: rotate(90deg);
-}
-
-#overlay {
-    transform: rotate(90deg);
-}
-
-#art-container {
-    position: relative;
-    display: inline-block; /* <= shrinks container to image size */
-    transition: transform 150ms ease-in-out;
-    top: 0;
-  }
-
-  #art-container img { /* <= optional, for responsiveness */
-     display: block;
-     max-width: 100%;
-     height: auto;
-     -webkit-transition: all 300ms;
-  }
-
-  #art-container svg {
-    position: absolute;
-    // height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: 2;
-  }
-
-  .colored {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-  }
-
- .grayscale {
-    position: relative;
-    z-index: 0;
-    -webkit-filter: grayscale(100%);
-    top: 0;
-    left: 0;
-  }
-
-  .clip {
-    clip-path: url(#myClip);
-    transition: 0.5s ease clip-path;
-  }
-
-.underline {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
-    display: inline;
-}
-
-.navbar a:hover {
-    opacity: 0.5;
-}
-
 // CONTACT PAGE
 #contact {
     position: relative;
@@ -327,12 +228,6 @@ h5 {
 
 .social-icons>a:nth-child(4):hover {
     color: $blue;
-}
-
-// FOOTER
-footer {
-    height: 10%;
-    background-color: $gray;
 }
 
 .proj-title{
@@ -402,31 +297,6 @@ footer {
     #members > .container > h2 {
         padding-bottom: 0px;
     }
-    #red-string {
-        img {
-            height: auto;
-            width: 10vw;
-        }
-    }
-
-    #blue-string {
-        img {
-            height: 25vh;
-        }
-    }
-
-    #green-string {
-        img {
-            height: auto;
-            width: 10vw;
-        }
-    }
-
-    #yellow-string {
-        img {
-            height: 25vh;
-        }
-    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -447,7 +317,6 @@ footer {
         min-height: 120vw;
     }
 
-
     .proj-title{
         position: absolute;
         top: 74%;
@@ -461,26 +330,6 @@ footer {
 
     .landing-text > h1 {
         font-size: 4rem;
-    }
-
-    .artpiece {
-        transform: none;
-    }
-
-    #overlay {
-        transform: none;
-    }
-
-    #red-string {
-        img {
-            height: 45vh;
-        }
-    }
-
-    #yellow-string {
-        img {
-            height: 40vh;
-        }
     }
 
     #contact-text {
@@ -558,32 +407,6 @@ footer {
     .social-icons {
         font-size: 3rem;
         width: 25vw;
-    }
-
-    #red-string {
-        img {
-            height: auto;
-            width: 30vh;
-        }
-    }
-
-    #blue-string {
-        img {
-            height: 45vh;
-        }
-    }
-
-    #green-string {
-        img {
-            height: auto;
-            width: 40vh;
-        }
-    }
-
-    #yellow-string {
-        img {
-            height: 40vh;
-        }
     }
 
     #members > .container > h2 {
@@ -774,7 +597,3 @@ footer {
   .project-nav-blue:hover {
     background-color: #99CCFF;
   }
-=======
-    background-color: $grad-1;
-}
->>>>>>> Stashed changes
