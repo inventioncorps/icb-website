@@ -1,5 +1,19 @@
 body {
-  background-color: #787878;
+  background: -webkit-gradient(linear, left top, left bottom, from(#436394), to(#08102E)) no-repeat;
+  background: linear-gradient(#436394, #08102E) no-repeat;
+  position: relative;
+}
+
+.galaxy {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 100px;
+}
+
+.galaxy-img {
+  width: 100%;
+  height: auto;
 }
 
 .navbar.scrolled {
@@ -38,7 +52,9 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-  margin-top: auto;
+  position: relative;
+  vertical-align: top;
+  z-index: 1;
 }
 
 h2 {
@@ -51,15 +67,15 @@ h2 {
 }
 
 .dot {
-  height: 10vw;
-  width: 10vw;
+  height: 8vw;
+  width: 8vw;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
   position: relative;
   text-align: center;
-  min-height: 120px;
-  min-width: 120px;
+  min-height: 100px;
+  min-width: 100px;
 }
 
 .quote {
@@ -134,10 +150,16 @@ a {
 }
 
 @media (min-width: 576px) {
-  body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
-    background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
+  .dot {
+    height: 12vw;
+    width: 12vw;
   }
+  .galaxy {
+    bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
   .header {
     margin-bottom: 5vh;
   }

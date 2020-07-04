@@ -5,14 +5,25 @@ $green:#99CC99;
 $blue: #99CCFF;
 $gray: #787878;
 $black: #202020;
-$grad-1: #F8E8B2;
-$grad-2: #F4CCBE;
-$grad-3: #E58F7C;
-$grad-4: #6376A8;
-$grad-5: #202020;
+$grad-1: #436394;
+$grad-2: #08102E;
+
 body {
-    background-color: $gray;
+    background: linear-gradient($grad-1, $grad-2) no-repeat;
+    position: relative;
 }
+
+.galaxy {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+}
+.galaxy-img {
+    width: 100%;
+    height: auto;
+}
+
 .navbar.scrolled {
     background-color: #202020 !important;
     transition: background-color 200ms linear;
@@ -48,7 +59,9 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-    margin-top: auto;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
 }
 
 h2 {
@@ -61,15 +74,15 @@ h2 {
 }
   
 .dot {
-    height: 10vw;
-    width: 10vw;
+    height: 8vw;
+    width: 8vw;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
     position: relative;
     text-align: center;
-    min-height: 120px;
-    min-width: 120px;
+    min-height: 100px;
+    min-width: 100px;
 }
 .quote {
     position: absolute;
@@ -141,14 +154,19 @@ a {
 }
 
 @media (min-width: 576px) {
-    body {
-        // background-image: url("../img/members/members1.png");
-        // -webkit-background-size: cover;
-        // -moz-background-size: cover;
-        // -o-background-size: cover;
-        // background-size: cover;
-        background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5) no-repeat;
+    .dot {
+        height: 12vw;
+        width: 12vw;
     }
+    .galaxy {
+        bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
     .header {
         margin-bottom: 5vh;
     }
