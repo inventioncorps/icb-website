@@ -5,9 +5,25 @@ $green:#99CC99;
 $blue: #99CCFF;
 $gray: #787878;
 $black: #202020;
+$grad-1: #436394;
+$grad-2: #08102E;
+
 body {
-    background-color: $gray;
+    background: linear-gradient($grad-1, $grad-2) no-repeat;
+    position: relative;
 }
+
+.galaxy {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+}
+.galaxy-img {
+    width: 100%;
+    height: auto;
+}
+
 .navbar.scrolled {
     background-color: #202020 !important;
     transition: background-color 200ms linear;
@@ -43,7 +59,9 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-    margin-top: auto;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
 }
 
 h2 {
@@ -56,15 +74,15 @@ h2 {
 }
   
 .dot {
-    height: 10vw;
-    width: 10vw;
+    height: 8vw;
+    width: 8vw;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
     position: relative;
     text-align: center;
-    min-height: 120px;
-    min-width: 120px;
+    min-height: 100px;
+    min-width: 100px;
 }
 .quote {
     position: absolute;
@@ -127,17 +145,6 @@ a {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    padding-left: 0;
-    margin-left: 0.5em;
-    padding-right: 0;
-    margin-right: 0.5em;
-    padding-bottom: 0.1em;
-    margin-bottom: 0.4em;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: $gray;
-    border-color: $gray;
 }
 
 .img-container {
@@ -147,13 +154,19 @@ a {
 }
 
 @media (min-width: 576px) {
-    body {
-        background-image: url("../img/members/members1.png");
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    .dot {
+        height: 12vw;
+        width: 12vw;
     }
+    .galaxy {
+        bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
     .header {
         margin-bottom: 5vh;
     }

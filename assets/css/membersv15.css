@@ -1,5 +1,19 @@
 body {
-  background-color: #787878;
+  background: -webkit-gradient(linear, left top, left bottom, from(#436394), to(#08102E)) no-repeat;
+  background: linear-gradient(#436394, #08102E) no-repeat;
+  position: relative;
+}
+
+.galaxy {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 100px;
+}
+
+.galaxy-img {
+  width: 100%;
+  height: auto;
 }
 
 .navbar.scrolled {
@@ -38,7 +52,9 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-  margin-top: auto;
+  position: relative;
+  vertical-align: top;
+  z-index: 1;
 }
 
 h2 {
@@ -51,15 +67,15 @@ h2 {
 }
 
 .dot {
-  height: 10vw;
-  width: 10vw;
+  height: 8vw;
+  width: 8vw;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
   position: relative;
   text-align: center;
-  min-height: 120px;
-  min-width: 120px;
+  min-height: 100px;
+  min-width: 100px;
 }
 
 .quote {
@@ -125,17 +141,6 @@ a {
 
 .navbar-light .navbar-nav .nav-link {
   color: white;
-  padding-left: 0;
-  margin-left: 0.5em;
-  padding-right: 0;
-  margin-right: 0.5em;
-  padding-bottom: 0.1em;
-  margin-bottom: 0.4em;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #787878;
-  border-color: #787878;
 }
 
 .img-container {
@@ -145,10 +150,16 @@ a {
 }
 
 @media (min-width: 576px) {
-  body {
-    background-image: url("../img/members/members1.png");
-    background-size: cover;
+  .dot {
+    height: 12vw;
+    width: 12vw;
   }
+  .galaxy {
+    bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
   .header {
     margin-bottom: 5vh;
   }
