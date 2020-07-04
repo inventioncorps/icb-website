@@ -13,7 +13,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
   background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
-  height: 100%;
 }
 
 footer {
