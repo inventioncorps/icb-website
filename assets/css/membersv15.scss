@@ -47,12 +47,12 @@ body {
     color: white;
 }
 
-p {
-    font-size: 11px;
-    margin-bottom: 0;
+h6 {
     color: white;
     font-style: italic;
 }
+
+
 
 .header {
     color: white;
@@ -125,10 +125,6 @@ h2 {
 
 div.col-4.col-sm-3, div.col-6.col-sm-3, div.col-4.col-sm-4, div.col-6.col-sm-3, div.col-6.col-sm-4 {
       padding: 5vh 0 0 0;
-}
-
-.header > p {
-      font-size: medium;
 }
   
 .member {
@@ -234,9 +230,5 @@ a {
     }
     p {
         font-size: larger;
-    }
-    .header > p {
-        font-size: x-large;
-        padding-top: 2vh;
     }
 }
