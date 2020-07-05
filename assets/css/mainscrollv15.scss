@@ -1,0 +1,93 @@
+// COLOR SET
+
+$red: #E06B65;
+$yellow: #FFFF99;
+$green: #99CC99;
+$blue: #99CCFF;
+$gray: #787878;
+$black: #202020;
+$grad-1: #F8E8B2;
+$grad-2: #F4CCBE;
+$grad-3: #E58F7C;
+$grad-4: #6376A8;
+$grad-5: #202020;
+$title-light: #FFF3D6;
+$title-dark: #CB6724;
+
+// LANDING PAGE
+
+body {
+    background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5) no-repeat;
+}
+
+// SOCIAL ICONS
+
+.social-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.social-icons>a:nth-child(1):hover {
+    color: $red;
+}
+
+.social-icons>a:nth-child(2):hover {
+    color: $yellow;
+}
+
+.social-icons>a:nth-child(3):hover {
+    color: $green;
+}
+
+.social-icons>a:nth-child(4):hover {
+    color: $blue;
+}
+
+//
+
+a {
+    color: white;
+}
+
+// LANDING TITLE
+
+#landing-container {
+    height: 75%;
+}
+
+.landing-text > h3 {
+    font-weight: 800;
+    font-size: 1.75rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.landing-text > h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2rem;
+    // border-bottom: 10px solid $blue;
+}
+
+.landing-text-top {
+    color: $title-light;
+    padding: 0 0.75rem;
+    text-align: center;
+}
+
+.landing-text-bkd {
+    color: $title-dark;
+    padding: 0 0.75rem;
+    text-align: center;
+}
+
+// ABOUT & PILLARS
+
+.scene {
+    position: absolute;
+    width: 100%;
+	transform: translateY(var(--translateY));
+	will-change: transform;
+}

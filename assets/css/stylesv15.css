@@ -11,8 +11,6 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
-  background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
 }
 
 footer {
@@ -45,13 +43,6 @@ h2 {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: #202020;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-
 a:hover {
   text-decoration: none;
   color: #787878;
@@ -64,9 +55,10 @@ nav {
 }
 
 .navbar.scrolled {
-  background-color: #fff !important;
+  background-color: #202020 !important;
   -webkit-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
+  color: white;
 }
 
 .nav-link.active {
@@ -89,29 +81,6 @@ nav {
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-#landing-container {
-  height: 75%;
-}
-
-.landing-text > h3 {
-  font-weight: 800;
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-  padding-top: 3rem;
-}
-
-.landing-text > h1 {
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 2rem;
-}
-
-.landing-text-bkd {
-  background: #FFFFFF;
-  padding: 0 0.75rem;
-  text-align: center;
 }
 
 .contact-txt > h2 {
@@ -150,68 +119,6 @@ nav {
 
 .article > h1 {
   font-weight: 700;
-}
-
-#contact {
-  position: relative;
-  text-align: center;
-}
-
-#contact > .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#contact-text {
-  font-size: 2rem;
-  width: 60vw;
-}
-
-.line {
-  border: none;
-  background-color: #202020;
-  color: #ccc;
-  height: 1.75px;
-  width: 50px;
-  margin: 0.75em 0;
-}
-
-.social-icons {
-  font-size: 1.75rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50vw;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.social-icons > a:nth-child(1):hover {
-  color: #E06B65;
-}
-
-.social-icons > a:nth-child(2):hover {
-  color: #FFFF99;
-}
-
-.social-icons > a:nth-child(3):hover {
-  color: #99CC99;
-}
-
-.social-icons > a:nth-child(4):hover {
-  color: #99CCFF;
 }
 
 .proj-title {

@@ -26,10 +26,12 @@
   <!-- Bootstrap Styling -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="../icb-website/assets/css/stylesv15.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/stylesv15.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/mainscrollv15.css" type="text/css" />
 </head>
 
 <body>
+
     <!-- Navigation Bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <div class="container">
@@ -60,10 +62,32 @@
     </nav>
 
     <!-- Landing Section -->
+    <div class="landing-container">
         <div class="container">
-            <div style="background-image: url('../icb-website/assets/img/mainscroll1-5/landing_full_screen.png');" class="full-width">
+            <div class="social-icons">
+                <a href="mailto:inventioncorps@icb.berkeley.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/company/berkeley-invention-corps/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/InventionCorps" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/inventioncorps/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
+            <!-- <div class="container d-flex align-items-center justify-content-center">
+                <div class="landing-text">
+                    <h3><span id="we-are-top" class="landing-text-top">We are</span></h3>
+                    <h3><span id="we-are-bottom" class="landing-text-top">We are</span></h3>
+                    <h1><span class="landing-text-bkd">Invention</span></h1>
+                    <h1><span class="landing-text-bkd">Corps</span></h1>
+                </div>
+            </div> -->
         </div>
+        <img class="scene" data-modifier="18" src="assets/img/mainscrollv15/landscape.png">
+        <img class="scene" data-modifier="0" src="assets/img/mainscrollv15/lower-island.png">
+        <script src="https://s.electerious.com/basicScroll/dist/basicScroll.min.js"></script>
+        <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    </div>
+
+
+    <!-- <img src="assets/img/mainscroll1-5/pillar-island.png" alt="Pillar Island" id="pillar-island"> -->
+
 
    <!-- <section id="landing">
         <div class="container d-flex align-items-center justify-content-center" id="landing-container">
@@ -147,13 +171,9 @@
         </div>
     </section> -->
 
-    <!-- Contact Section 
+    <!-- Contact Section
     <section id="contact">
         <div class="container">
-            <div class="contact-txt">
-            <h2 id="contact-text" class="jumptarget">Collaborate with us.</h2>
-            </div>
-            <div class="line"></div>
             <div class="social-icons">
                 <a href="mailto:inventioncorps@icb.berkeley.edu" target="_blank"><i class="fas fa-envelope"></i></a>
                 <a href="https://www.linkedin.com/company/berkeley-invention-corps/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -161,7 +181,6 @@
                 <a href="https://www.instagram.com/inventioncorps/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </section>
     </section> -->
 
     <!-- Footer -->
@@ -179,6 +198,7 @@
     <script src="assets/js/app.js"></script> -->
     <!-- Custom Scripts -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/basicScroll.min.js"></script>
     <!-- <script src="assets/js/members.js"></script> -->
 </body>
 

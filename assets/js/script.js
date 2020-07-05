@@ -38,3 +38,23 @@ function onScroll(event){
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+
+//Using basicScroll to create parallax scrolling on landing
+document.querySelectorAll('.scene').forEach((elem) => {
+  
+  const modifier = elem.getAttribute('data-modifier')
+  
+  basicScroll.create({
+    elem: elem,
+    from: 0,
+    to: 1500,
+    direct: true,
+    props: {
+      '--translateY': {
+        from: '0',
+        to: `${ 10 * modifier }px`
+      }
+    }
+  }).start()
+    
+})

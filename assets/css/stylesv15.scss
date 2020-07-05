@@ -11,6 +11,8 @@ $grad-2: #F4CCBE;
 $grad-3: #E58F7C;
 $grad-4: #6376A8;
 $grad-5: #202020;
+$title-light: #FFF3D6;
+$title-dark: #CB6724;
 
 // CSS RESET
 
@@ -26,7 +28,6 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5) no-repeat;
 }
 
 footer {
@@ -59,12 +60,6 @@ h2 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: $black;
-    transition: all 0.25s ease;
-}
-
 a:hover {
     text-decoration: none;
     color: $gray;
@@ -76,8 +71,9 @@ nav {
 }
 
 .navbar.scrolled {
-    background-color: #fff !important;
+    background-color: #202020 !important;
     transition: background-color 200ms linear;
+    color: white;
 }
 
 .nav-link.active {
@@ -115,31 +111,6 @@ nav {
     z-index: -1;
 }
 
-#landing-container {
-    height: 75%;
-}
-
-.landing-text > h3 {
-    font-weight: 800;
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    padding-top: 3rem;
-    // background-color: white;
-}
-
-.landing-text > h1 {
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 2rem;
-    // background-color: white;
-    // border-bottom: 10px solid $blue;
-}
-
-.landing-text-bkd {
-    background: #FFFFFF;
-    padding: 0 0.75rem;
-    text-align: center;
-}
 .contact-txt > h2 {
     font-weight: 800;
     font-size: 7px;
@@ -178,54 +149,38 @@ h5 {
 }
 
 // CONTACT PAGE
-#contact {
-    position: relative;
-    text-align: center;
-}
+// #contact {
+//     position: relative;
+//     text-align: center;
+// }
 
-#contact > .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+// #contact > .container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
 
-#contact-text {
-    font-size: 2rem;
-    width: 60vw;
-}
+// #contact-text {
+//     font-size: 2rem;
+//     width: 60vw;
+// }
 
-.line {
-    border: none;
-    background-color: $black;
-    color: #ccc;
-    height: 1.75px;
-    width: 50px;
-    margin: 0.75em 0;
-}
+// .line {
+//     border: none;
+//     background-color: $black;
+//     color: #ccc;
+//     height: 1.75px;
+//     width: 50px;
+//     margin: 0.75em 0;
+// }
 
-.social-icons {
-    font-size: 1.75rem;
-    display: flex;
-    width: 50vw;
-    justify-content: space-between;
-}
-
-.social-icons>a:nth-child(1):hover {
-    color: $red;
-}
-
-.social-icons>a:nth-child(2):hover {
-    color: $yellow;
-}
-
-.social-icons>a:nth-child(3):hover {
-    color: $green;
-}
-
-.social-icons>a:nth-child(4):hover {
-    color: $blue;
-}
+// .social-icons {
+//     font-size: 1.75rem;
+//     display: flex;
+//     width: 50vw;
+//     justify-content: space-between;
+// }
 
 .proj-title{
     position: absolute;
