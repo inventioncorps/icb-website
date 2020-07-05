@@ -3,6 +3,18 @@ body {
   background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
 }
 
+a {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 .social-icons {
   width: 100%;
   display: -webkit-box;
@@ -33,37 +45,8 @@ body {
   color: #99CCFF;
 }
 
-a {
-  color: white;
-}
-
 #landing-container {
   height: 75%;
-}
-
-.landing-text > h3 {
-  font-weight: 800;
-  font-size: 1.75rem;
-  padding-bottom: 1rem;
-  padding-top: 3rem;
-}
-
-.landing-text > h1 {
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 2rem;
-}
-
-.landing-text-top {
-  color: #FFF3D6;
-  padding: 0 0.75rem;
-  text-align: center;
-}
-
-.landing-text-bkd {
-  color: #CB6724;
-  padding: 0 0.75rem;
-  text-align: center;
 }
 
 .scene {
