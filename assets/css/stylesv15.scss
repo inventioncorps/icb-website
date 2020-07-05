@@ -504,7 +504,8 @@ h5 {
   .mark {
     background-color: green;
     color: black;
-    border-radius: 40%
+    border-radius: 40%;
+    padding-bottom: 5%;
   }
 
   .full-width {
@@ -593,4 +594,17 @@ h5 {
   }
   .project-nav-blue:hover {
     background-color: #99CCFF;
+  }
+
+  #projects-subtitle {
+      text-align: center;
+      font-style: oblique;
+
+  }
+
+  #projects-header {
+      text-align: center;
+      font-weight: 10px;
+      font-size: 3vw;
+      padding-bottom: 0;
   }
