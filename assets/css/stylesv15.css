@@ -228,15 +228,6 @@ nav {
 }
 
 @media (min-width: 576px) {
-  a.about {
-    border-bottom: solid #99CC99;
-  }
-  a.members {
-    border-bottom: solid #99CCFF;
-  }
-  a.projects {
-    border-bottom: solid #E06B65;
-  }
   .navbar-light .navbar-nav .nav-link {
     padding-left: 0;
     margin-left: 0.5em;
@@ -248,6 +239,12 @@ nav {
   .navbar-light .navbar-nav .nav-link:hover {
     color: #787878;
     border-color: #787878;
+  }
+  footer > a:hover {
+    opacity: 0.7;
+  }
+  img.d-inline-block.align-top:hover {
+    opacity: 0.5;
   }
   #landing, #contact, #projects {
     max-height: 50vw;
@@ -334,6 +331,15 @@ nav {
     height: 90vh;
     min-height: 100vw;
     max-height: 100vh;
+  }
+  a.about {
+    border-bottom: solid #99CC99;
+  }
+  a.members {
+    border-bottom: solid #99CCFF;
+  }
+  a.projects {
+    border-bottom: solid #E06B65;
   }
   #about {
     padding-top: 10vh;

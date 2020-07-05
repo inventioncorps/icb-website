@@ -203,17 +203,6 @@ a {
     .team > .container, .exec> .container{
         margin-bottom: 5vh;
     }
-    a.about {
-        border-bottom: solid $green;
-    }
-    
-    a.members {
-        border-bottom: solid $blue;
-    }
-    
-    a.projects {
-        border-bottom: solid $red;
-    }
     .dot.red:hover {
         background-color: $red;
         border-color: $red;

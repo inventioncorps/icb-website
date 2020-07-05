@@ -243,17 +243,6 @@ h5 {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    a.about {
-        border-bottom: solid $green;
-    }
-    
-    a.members {
-        border-bottom: solid $blue;
-    }
-    
-    a.projects {
-        border-bottom: solid $red;
-    }
 
     .navbar-light .navbar-nav .nav-link {
         padding-left: 0;
@@ -263,9 +252,18 @@ h5 {
         padding-bottom: 0.1em;
         margin-bottom: 0.4em;
     }
+
     .navbar-light .navbar-nav .nav-link:hover {
         color: $gray;
         border-color: $gray;
+    }
+
+    footer > a:hover {
+        opacity: 0.7;
+    }
+
+    img.d-inline-block.align-top:hover {
+        opacity: 0.5;
     }
 
     #landing, #contact, #projects{
@@ -367,6 +365,18 @@ h5 {
         height: 90vh;
         min-height: 100vw;
         max-height: 100vh;
+    }
+
+    a.about {
+        border-bottom: solid $green;
+    }
+    
+    a.members {
+        border-bottom: solid $blue;
+    }
+    
+    a.projects {
+        border-bottom: solid $red;
     }
 
     #about {
