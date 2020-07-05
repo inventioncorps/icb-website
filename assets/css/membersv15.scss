@@ -24,6 +24,23 @@ body {
     height: auto;
 }
 
+.helmet {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+}
+.helmet-img-1 {
+    width: 8vw;
+    height: 8vw;
+    transform: translate(5vw, -5vw) rotate(140deg);
+}
+.helmet-img-2 {
+    width: 8vw;
+    height: 8vw;
+    transform: translate(87vw, -55vh) rotate(20deg);
+}
+
 .navbar.scrolled {
     background-color: #202020 !important;
     transition: background-color 200ms linear;
@@ -86,6 +103,7 @@ h2 {
 }
 .quote {
     position: absolute;
+    width: 95%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -161,12 +179,21 @@ a {
     .galaxy {
         bottom: 50px;
     }
+    .helmet-img-2 {
+        transform: translate(87vw, -140vh) rotate(20deg);
+    }
 }
 
 @media (min-width: 768px) {
+    .helmet-img-2 {
+        transform: translate(87vw, -100vh) rotate(20deg);
+    }
 }
 
 @media (min-width: 992px) {
+    .helmet-img-2 {
+        transform: translate(87vw, -200vh) rotate(20deg);
+    }
     .header {
         margin-bottom: 5vh;
     }
@@ -212,6 +239,9 @@ a {
     }
     .quote {
         opacity: 1;
+    }
+    .quote:hover {
+        z-index: 1;
     }
     p {
         font-size: larger;
