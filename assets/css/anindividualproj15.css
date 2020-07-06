@@ -1,0 +1,31 @@
+.topbar {
+    background-color: #6D6D6D;
+    color: white;
+}
+
+.col1 {
+    width: 50%
+}
+
+.col2 {
+    width: 50%
+}
+h3 {
+    padding-top: 10px;
+}
+
+
+.topbar-img {
+    width: 400px;
+    padding-top: 30px;
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  vertical-align: top;
+  z-index: 1;
+}
