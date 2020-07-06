@@ -24,6 +24,16 @@ body {
     height: auto;
 }
 
+.stars {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+}
+.stars-img {
+    width: 100%;
+    height: auto;
+}
+
 .helmet {
     width: 100%;
     height: auto;
@@ -165,6 +175,10 @@ a {
     height: 100%;
     width: 100%;
     position: relative;
+}
+
+p {
+    color: white;
 }
 
 @media (min-width: 576px) {
