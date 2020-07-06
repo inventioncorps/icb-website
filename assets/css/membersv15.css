@@ -110,7 +110,7 @@ h2 {
 
 .quote {
   position: absolute;
-  width: 95%;
+  width: 90%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -181,6 +181,10 @@ p {
 }
 
 @media (min-width: 576px) {
+  .quote {
+    font-weight: bold;
+    font-size: small;
+  }
   .dot {
     height: 12vw;
     width: 12vw;
