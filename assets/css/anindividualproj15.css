@@ -11,10 +11,15 @@
     width: 50%
 }
 
+.row {
+    padding-bottom: 0px;
+}
+
 h3 {
     padding-top: 3rem;
     font-weight: bold;
     text-align: center;
+    padding-bottom: 0px;
 }
 
 h5 {
@@ -26,19 +31,20 @@ h5 {
 }
 
 h4 {
-   margin-left: 8rem;
-   padding: 1rem;
+   margin-left: 6rem;
+   padding: 0.95rem;
 }
 h6 {
-    padding: 1rem;
+    padding: 0.8rem;
     max-width: 16rem;
+    padding-right: 1rem;
 }
 
 
 .topbar-img {
     height: 400px;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
 }
 
 
@@ -48,6 +54,8 @@ hr {
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 10px;
 }
 
 footer {
