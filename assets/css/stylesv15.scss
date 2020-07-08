@@ -32,9 +32,9 @@ footer {
     margin-top: auto;
 }
 
- #projects, #members {
-     height: 70vh;
-}
+// #projects, #members {
+//      height: 70vh;
+// }
 
 #contact, #landing {
     height: 90vh;
@@ -42,6 +42,7 @@ footer {
 
 #about > .container {
     text-align: justify;
+    width: 50%;
 }
 
 #about {
@@ -220,10 +221,10 @@ h5 {
         height: 90vh;
     }
 
-    #members{
-        max-height: 100vw;
-        height: 100vh;
-    }
+    // #members{
+    //     max-height: 100vw;
+    //     height: 100vh;
+    // }
 
     .proj-title{
         position: absolute;
@@ -310,9 +311,15 @@ h5 {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
-    #landing, #contact, #projects, #members{
+    #landing, #contact, #projects{
         height: 90vh;
         min-height: 100vw;
+        max-height: 100vh;
+    }
+
+    #members {
+        height: 15vh;
+        min-height: 30vw;
         max-height: 100vh;
     }
 
@@ -381,14 +388,14 @@ h5 {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     
-    #landing, #contact, #projects, #members, #about {
+    #landing, #contact, #projects, #about {
         min-height: 50vw;
         height: 90vh;
    }
 
    #members {
         min-height: 40vw;
-        height: 80vh;
+        height: 40vh;
    }
 
    #about {

@@ -1,6 +1,8 @@
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
-  background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020));
+  background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -9,10 +11,16 @@ a {
 
 h2 {
   color: white;
+  font-size: 1.85vw;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
 
 p {
   color: white;
+  font-size: 1.15vw;
 }
 
 .social-icons {
@@ -55,5 +63,57 @@ p {
   -webkit-transform: translateY(var(--translateY));
           transform: translateY(var(--translateY));
   will-change: transform;
+  z-index: -1;
+}
+
+#about-header {
+  margin-top: 22rem;
+  z-index: 2;
+}
+
+.pencil {
+  display: block;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+#members-title {
+  margin-top: 35rem;
+}
+
+#members > .container {
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.button {
+  text-align: center !important;
+  display: inline-block;
+  font-size: 1.25vw;
+  border-radius: 1em;
+  padding: 0.75em 2em;
+  margin: 1.5em 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#members-button {
+  border: solid #99CCFF;
+  background: #99CCFF;
+}
+
+#about-button {
+  border: solid #99CC99;
+  background: #99CC99;
+}
+
+.solar-system {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
 }
 /*# sourceMappingURL=mainscrollv15.css.map */
