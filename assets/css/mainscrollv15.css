@@ -1,8 +1,6 @@
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020));
   background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020);
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 a {
@@ -24,7 +22,6 @@ p {
 }
 
 .social-icons {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,9 +29,8 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  position: absolute;
+  left: 90%;
 }
 
 .social-icons > a:nth-child(1):hover {
@@ -115,5 +111,66 @@ p {
   display: block;
   margin: 0 auto;
   width: 80%;
+}
+
+@media (min-width: 576px) {
+  #about-header {
+    margin-top: 30em;
+  }
+  .pencil {
+    padding-top: 2.5rem;
+  }
+  #members-title {
+    margin-top: 22rem;
+  }
+  #projects {
+    margin: 10rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #about-header {
+    margin-top: 8em;
+  }
+  .pencil {
+    padding-top: 3rem;
+  }
+  #members-title {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #about-header {
+    margin-top: 17em;
+  }
+  .pencil {
+    padding-top: 4rem;
+  }
+  #members-title {
+    margin-top: 35rem;
+  }
+  #projects {
+    margin: 1em 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .social-icons {
+    margin-top: 2em;
+  }
+  #about-header {
+    margin-top: 39em;
+  }
+  .pencil {
+    padding-top: 5rem;
+  }
+  #members-title {
+    margin-top: 74rem;
+  }
+  #projects {
+    margin: 2em 0;
+    padding: 2em 0;
+  }
 }
 /*# sourceMappingURL=mainscrollv15.css.map */

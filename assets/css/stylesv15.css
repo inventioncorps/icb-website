@@ -181,8 +181,8 @@ nav {
     min-height: 50vw;
   }
   #members {
-    height: 60vw;
-    min-height: 120vw;
+    height: 20vw;
+    min-height: 40vw;
   }
   #about {
     height: 80vw;
@@ -212,7 +212,7 @@ nav {
     margin: 1.5em 0;
   }
   .social-icons {
-    font-size: 2.75rem;
+    font-size: 1.8rem;
     width: 40vw;
   }
   #members > .container > h2 {
@@ -274,7 +274,7 @@ nav {
     width: 80px;
   }
   .social-icons {
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 25vw;
   }
   #members > .container > h2 {
