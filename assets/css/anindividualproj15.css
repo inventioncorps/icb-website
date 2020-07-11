@@ -15,11 +15,27 @@
     padding-bottom: 0px;
 }
 
-h3 {
+#proj-title {
     padding-top: 3rem;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     padding-bottom: 0px;
+}
+
+
+#proj-details {
+    margin-left: 6rem;
+    padding: 0.95rem;
+}
+
+h3 {
+    text-align: left;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: left;
+
 }
 
 h5 {
@@ -30,11 +46,12 @@ h5 {
     font-weight: lighter;
 }
 
-h4 {
-   margin-left: 6rem;
-   padding: 0.95rem;
-}
 h6 {
+    padding-left: 3rem;
+}
+
+
+#proj-answers {
     padding: 0.8rem;
     max-width: 16rem;
     padding-right: 1rem;
@@ -65,5 +82,15 @@ footer {
     text-align: center;
     position: relative;
     vertical-align: top;
-    z-index: 1;
+
+}
+
+p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#border {
+    background: rgba(105, 191, 70, 0.4);
+    border-radius: 10px;
 }
