@@ -249,10 +249,10 @@ p {
     p {
         font-size: larger;
     }
+}
 
-    @media (min-width: 1200px) {
-        .quote {
-            font-size: small;
-        }
+@media (min-width: 1200px) {
+    .quote {
+        font-size: small;
     }
 }
