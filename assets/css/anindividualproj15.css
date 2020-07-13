@@ -63,6 +63,8 @@ h5 {
 #how {
     padding-left: 3rem;
     font-style: italic;
+    font-weight: 600;
+    color: #5B5B5B;
 }
 
 
@@ -103,7 +105,7 @@ p {
     background: rgba(246, 208, 224, 0.6);
     border-radius: 50px;
     height: 21px;
-    width: 173px;
+    width: 179px;
     position: absolute;
     z-index: -1;
     left: 170px;
@@ -125,7 +127,7 @@ p {
     background: rgba(246, 208, 224, 0.6);
     border-radius: 50px;
     height: 21px;
-    width: 173px;
+    width: 179px;
     position: absolute;
     z-index: -1;
     left: 170px;
@@ -136,7 +138,7 @@ p {
     background: rgba(246, 208, 224, 0.6);
     border-radius: 50px;
     height: 21px;
-    width: 173px;
+    width: 179px;
     position: absolute;
     z-index: -1;
     left: 270px;
@@ -162,7 +164,7 @@ p {
     position: absolute;
     z-index: -1;
     left: 705px;
-    top: 1470px;
+    top: 1770px;
 }
 
 #underline7 {
@@ -173,7 +175,7 @@ p {
     position: absolute;
     z-index: -1;
     left: 150px;
-    top: 1910px;
+    top: 2010px;
 }
 
 #underline8 {
@@ -184,5 +186,24 @@ p {
     position: absolute;
     z-index: -1;
     left: 705px;
-    top: 2350px;
+    top: 2650px;
+}
+
+#d1p1 {
+    padding-left: 10px;
+    margin-bottom: 50px;
+    border-left: 3px solid rgba(153, 204, 255, 0.77);
+
+}
+
+#d1p2 {
+    padding-left: 10px;
+    border-left: 3px solid #C4C4C4;
+    margin-bottom: 50px;
+}
+
+#d2p1 {
+    padding-right: 10px;
+    border-right: 3px solid #202020;
+
 }
