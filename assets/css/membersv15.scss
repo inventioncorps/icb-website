@@ -24,14 +24,26 @@ body {
     height: auto;
 }
 
+.role {
+    display: none;
+    visibility: hidden;
+}
+
 .stars {
     width: 100%;
     height: 0px;
-    position: absolute;
+    position: relative;
 }
-.stars-img {
-    width: 100%;
+
+.stars-img-1 {
+    width: 25vw;
     height: auto;
+}
+
+.stars-img-2 {
+    width: 28vw;
+    height: auto;
+    margin-left: 72vw;
 }
 
 .helmet {
@@ -40,11 +52,13 @@ body {
     position: absolute;
     bottom: 100px;
 }
+
 .helmet-img-1 {
     width: 8vw;
     height: 8vw;
     transform: translate(5vw, -5vw) rotate(140deg);
 }
+
 .helmet-img-2 {
     width: 8vw;
     height: 8vw;
@@ -62,8 +76,6 @@ h6 {
     font-style: italic;
 }
 
-
-
 .header {
     color: white;
     text-align: center;
@@ -76,7 +88,7 @@ p.header {
 }
   
 h1 {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: bold;
     font-style: normal;
 }
@@ -95,7 +107,7 @@ h2 {
     color: white;
     text-align: center;
     font-style: normal;
-    font-size: 25;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1vh;
 }
@@ -117,7 +129,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: xx-small;
+    font-size: 0.1rem;
     font-weight: medium;
     color: $black;
     opacity: 0;
@@ -179,6 +191,7 @@ a {
 
 p {
     color: white;
+    font-size: 0.75rem;
 }
 
 @media (min-width: 576px) {
@@ -200,7 +213,19 @@ p {
     }
     .quote {
         font-weight: bold;
-        font-size: x-small;
+        font-size: 0.2rem;
+    }
+    .role {
+        display: block;
+        visibility: visible;
+    }
+    .stars-img-1 {
+        width: 15vw;
+    }
+    
+    .stars-img-2 {
+        width: 18vw;
+        margin-left: 82vw;
     }
 }
 
@@ -247,12 +272,12 @@ p {
         z-index: 1;
     }
     p {
-        font-size: larger;
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 1200px) {
     .quote {
-        font-size: small;
+        font-size: 0.75rem;
     }
 }
