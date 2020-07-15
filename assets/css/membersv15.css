@@ -83,7 +83,7 @@ p.header {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
   font-style: normal;
 }
@@ -102,7 +102,7 @@ h2 {
   color: white;
   text-align: center;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 1vh;
 }
@@ -225,6 +225,12 @@ p {
   .stars-img-2 {
     width: 18vw;
     margin-left: 82vw;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
 
