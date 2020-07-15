@@ -36,14 +36,14 @@ body {
 }
 
 .stars-img-1 {
-    width: 15vw;
+    width: 25vw;
     height: auto;
 }
 
 .stars-img-2 {
-    width: 15vw;
+    width: 28vw;
     height: auto;
-    margin-left: 85vw;
+    margin-left: 72vw;
 }
 
 .helmet {
@@ -58,6 +58,7 @@ body {
     height: 8vw;
     transform: translate(5vw, -5vw) rotate(140deg);
 }
+
 .helmet-img-2 {
     width: 8vw;
     height: 8vw;
@@ -74,8 +75,6 @@ h6 {
     color: white;
     font-style: italic;
 }
-
-
 
 .header {
     color: white;
@@ -219,6 +218,14 @@ p {
     .role {
         display: block;
         visibility: visible;
+    }
+    .stars-img-1 {
+        width: 15vw;
+    }
+    
+    .stars-img-2 {
+        width: 18vw;
+        margin-left: 82vw;
     }
 }
 

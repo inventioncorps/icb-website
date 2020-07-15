@@ -28,14 +28,14 @@ body {
 }
 
 .stars-img-1 {
-  width: 15vw;
+  width: 25vw;
   height: auto;
 }
 
 .stars-img-2 {
-  width: 15vw;
+  width: 28vw;
   height: auto;
-  margin-left: 85vw;
+  margin-left: 72vw;
 }
 
 .helmet {
@@ -218,6 +218,13 @@ p {
   .role {
     display: block;
     visibility: visible;
+  }
+  .stars-img-1 {
+    width: 15vw;
+  }
+  .stars-img-2 {
+    width: 18vw;
+    margin-left: 82vw;
   }
 }
 
