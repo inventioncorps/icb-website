@@ -220,12 +220,15 @@ p {
     border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
 }
 
+.bubbles1 {
+    padding-left: 2rem;
+}
+
 @media (min-width: 778px) {
 
     .topbar-img {
         margin: 4.5rem;
         height: 30vw;
-
     }
 
     #proj-details {
@@ -255,4 +258,7 @@ p {
     h3 {
         font-size: 1.17;
     }
-}
+
+    #proj-title {
+        padding-top: 5rem;
+    }
