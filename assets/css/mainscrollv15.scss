@@ -17,10 +17,14 @@ $title-dark: #CB6724;
 
 // LANDING PAGE
 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
 body {
-    background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5);
-    // background-size: cover;
-    // background-attachment: fixed;
+    background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5) no-repeat;
+    height: auto;
+    position: relative;
 }
 
 a {
@@ -32,29 +36,10 @@ h2 {
     font-size: 1.85vw;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
 p {
     color: white;
     font-size: 1.15vw;
 }
-
-// h2 {
-//     z-index: 100;
-//     position: absolute;
-//     color: white;
-//     font-size: 1.5vw;
-//     font-weight: bold;
-// }
-
-// p {
-//     z-index: 75;
-//     color: white;
-//     font-size: 1vw;
-// }
-
 
 // LOADING PAGE
 
@@ -98,8 +83,10 @@ p {
 
 // LANDING TITLE
 
-#landing-container {
+.landing-container {
+    position: absolute;
     height: 75%;
+    width: 100%;
 }
 
 // .landing-text > h3 {
@@ -154,12 +141,13 @@ p {
 // MISSION & MEMBERS
 
 #members-title {
-    margin-top: 35rem;
+    // margin-top: 35rem;
 }
 
-#members > .container {
+.container.members {
     text-align: center;
     height: fit-content;
+    position: relative;
 }
 
 
@@ -193,9 +181,13 @@ p {
 
 // FEATURED PROJECTS
 
-#projects {
-    min-height: 100%;
-  }
+.projects-div {
+    height: fit-content;
+}
+
+.project-planet {
+    position: absolute;
+}
   
   img {
     position: relative;
@@ -203,7 +195,7 @@ p {
   }
   
   .container {
-    position: absolute;
+    // position: absolute;
     z-index: 1;
   }
   
@@ -234,9 +226,9 @@ p {
         padding-top: 2.5rem;
     }
     #members-title {
-        margin-top: 22rem;
+        // margin-top: 22rem;
     }
-    #projects {
+    .projects-div {
         margin: 10rem 0;
     }
 
@@ -252,7 +244,7 @@ p {
         padding-top: 3rem;
     }
     #members-title {
-        margin-top: 10rem;
+        // margin-top: 10rem;
     }
 
 }
@@ -267,9 +259,9 @@ p {
         padding-top: 4rem;
     }
     #members-title {
-        margin-top: 35rem;
+        // margin-top: 35rem;
     }
-    #projects {
+    .projects-div {
         margin: 1em 0;
     }
 
@@ -288,9 +280,9 @@ p {
         padding-top: 5rem;
     }
     #members-title {
-        margin-top: 74rem;
+        // margin-top: 74rem;
     }
-    #projects {
+    .projects-div {
         margin: 2em 0;
         padding: 2em 0;
     }

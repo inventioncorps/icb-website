@@ -1,6 +1,12 @@
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020));
-  background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
+  background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
+  height: auto;
+  position: relative;
 }
 
 a {
@@ -10,10 +16,6 @@ a {
 h2 {
   color: white;
   font-size: 1.85vw;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
 }
 
 p {
@@ -59,8 +61,10 @@ p {
   color: #99CCFF;
 }
 
-#landing-container {
+.landing-container {
+  position: absolute;
   height: 75%;
+  width: 100%;
 }
 
 .scene {
@@ -83,15 +87,12 @@ p {
   padding-top: 4rem;
 }
 
-#members-title {
-  margin-top: 35rem;
-}
-
-#members > .container {
+.container.members {
   text-align: center;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  position: relative;
 }
 
 .button {
@@ -117,8 +118,14 @@ p {
   background: #99CC99;
 }
 
-#projects {
-  min-height: 100%;
+.projects-div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.project-planet {
+  position: absolute;
 }
 
 img {
@@ -127,7 +134,6 @@ img {
 }
 
 .container {
-  position: absolute;
   z-index: 1;
 }
 
@@ -142,10 +148,7 @@ img {
   .pencil {
     padding-top: 2.5rem;
   }
-  #members-title {
-    margin-top: 22rem;
-  }
-  #projects {
+  .projects-div {
     margin: 10rem 0;
   }
 }
@@ -157,9 +160,6 @@ img {
   .pencil {
     padding-top: 3rem;
   }
-  #members-title {
-    margin-top: 10rem;
-  }
 }
 
 @media (min-width: 992px) {
@@ -169,10 +169,7 @@ img {
   .pencil {
     padding-top: 4rem;
   }
-  #members-title {
-    margin-top: 35rem;
-  }
-  #projects {
+  .projects-div {
     margin: 1em 0;
   }
 }
@@ -187,10 +184,7 @@ img {
   .pencil {
     padding-top: 5rem;
   }
-  #members-title {
-    margin-top: 74rem;
-  }
-  #projects {
+  .projects-div {
     margin: 2em 0;
     padding: 2em 0;
   }
