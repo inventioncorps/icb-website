@@ -11,6 +11,14 @@
     width: 50%
 }
 
+.col-sm-5th {
+    width: 20%;
+    float:left;
+}
+
+.team-header {
+    padding-top: 4rem;
+}
 .row {
     padding-bottom: 0px;
 }
@@ -47,9 +55,6 @@
     height: 20%;
     font-style: italic;
 }
-
-.details {}
-
 
 h2 {
     text-align: left;
@@ -262,3 +267,4 @@ p {
     #proj-title {
         padding-top: 5rem;
     }
+}
