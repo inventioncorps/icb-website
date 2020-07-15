@@ -2,6 +2,10 @@
   color: white;
 }
 
+p.about-txt {
+  text-align: center;
+}
+
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
   background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
@@ -61,15 +65,23 @@ p {
   color: #99CCFF;
 }
 
-.landing-container {
-  position: absolute;
-  height: 75%;
+#landing-section {
+  min-height: 75%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  height: 100%;
   width: 100%;
 }
 
 .scene {
   position: absolute;
   width: 100%;
+  height: auto;
   -webkit-transform: translateY(var(--translateY));
           transform: translateY(var(--translateY));
   will-change: transform;
@@ -87,11 +99,13 @@ p {
   padding-top: 4rem;
 }
 
+#members-title {
+  margin-top: 35rem;
+}
+
 .container.members {
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
   position: relative;
 }
 
@@ -122,10 +136,12 @@ p {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  margin: auto;
 }
 
 .project-planet {
   position: absolute;
+  margin: auto;
 }
 
 img {
@@ -148,8 +164,8 @@ img {
   .pencil {
     padding-top: 2.5rem;
   }
-  .projects-div {
-    margin: 10rem 0;
+  #members-title {
+    margin-top: 22rem;
   }
 }
 
@@ -160,6 +176,9 @@ img {
   .pencil {
     padding-top: 3rem;
   }
+  #members-title {
+    margin-top: 10rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -169,8 +188,8 @@ img {
   .pencil {
     padding-top: 4rem;
   }
-  .projects-div {
-    margin: 1em 0;
+  #members-title {
+    margin-top: 35rem;
   }
 }
 
@@ -179,14 +198,13 @@ img {
     margin-top: 2em;
   }
   #about-header {
-    margin-top: 39em;
+    margin-top: 35rem;
   }
   .pencil {
     padding-top: 5rem;
   }
-  .projects-div {
-    margin: 2em 0;
-    padding: 2em 0;
+  #members-title {
+    margin-top: 60rem;
   }
 }
 /*# sourceMappingURL=mainscrollv15.css.map */

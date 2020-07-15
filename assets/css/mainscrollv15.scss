@@ -21,6 +21,10 @@ $title-dark: #CB6724;
     color: white;
 }
 
+p.about-txt {
+    text-align: center;
+}
+
 body {
     background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5) no-repeat;
     height: auto;
@@ -83,9 +87,16 @@ p {
 
 // LANDING TITLE
 
-.landing-container {
-    position: absolute;
-    height: 75%;
+#landing-section{
+    min-height: 75%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.landing{
+    position: relative;
+    height: 100%;
     width: 100%;
 }
 
@@ -121,6 +132,7 @@ p {
 .scene {
     position: absolute;
     width: 100%;
+    height: auto;
 	transform: translateY(var(--translateY));
     will-change: transform;
     z-index: -1;
@@ -141,12 +153,12 @@ p {
 // MISSION & MEMBERS
 
 #members-title {
-    // margin-top: 35rem;
+    margin-top: 35rem;
 }
 
 .container.members {
     text-align: center;
-    height: fit-content;
+    height: auto;
     position: relative;
 }
 
@@ -183,10 +195,12 @@ p {
 
 .projects-div {
     height: fit-content;
+    margin: auto;
 }
 
 .project-planet {
     position: absolute;
+    margin: auto;
 }
   
   img {
@@ -226,10 +240,10 @@ p {
         padding-top: 2.5rem;
     }
     #members-title {
-        // margin-top: 22rem;
+        margin-top: 22rem;
     }
     .projects-div {
-        margin: 10rem 0;
+        // margin: 10rem 0;
     }
 
 }
@@ -244,7 +258,7 @@ p {
         padding-top: 3rem;
     }
     #members-title {
-        // margin-top: 10rem;
+        margin-top: 10rem;
     }
 
 }
@@ -259,10 +273,10 @@ p {
         padding-top: 4rem;
     }
     #members-title {
-        // margin-top: 35rem;
+        margin-top: 35rem;
     }
     .projects-div {
-        margin: 1em 0;
+        // margin: 1em 0;
     }
 
 }
@@ -274,17 +288,17 @@ p {
         margin-top: 2em;
     }
     #about-header {
-        margin-top: 39em;
+        margin-top: 35rem;
     }
     .pencil {
         padding-top: 5rem;
     }
     #members-title {
-        // margin-top: 74rem;
+        margin-top: 60rem;
     }
     .projects-div {
-        margin: 2em 0;
-        padding: 2em 0;
+        // margin: 2em 0;
+        // padding: 2em 0;
     }
 
 }
