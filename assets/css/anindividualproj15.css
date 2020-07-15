@@ -29,29 +29,28 @@
 }
 
 #proj-answers {
-    padding: 0.8rem;
     max-width: 16rem;
-    padding-right: 1rem;
     font-family: 'Chivo', sans-serif;
     height: 25%;
+    letter-spacing: 0.07em;
+    line-height: 122%;
 }
 
 #proj-details {
-    padding: 0.95rem;
     font-family: 'Chivo', sans-serif;
     text-align: right;
     height: 20%;
+    font-style: italic;
 }
 
-.details {
-    overflow: auto;
-}
+.details {}
 
 
 h2 {
     text-align: left;
     font-weight: bold;
     font-style: italic;
+    font-size: 1.5em;
 }
 
 h3 {
@@ -60,6 +59,7 @@ h3 {
     font-style: italic;
     font-weight: 200;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
 
 }
 
@@ -79,13 +79,11 @@ h5 {
     padding-bottom: 30px;
 }
 
-
-
 .topbar-img {
-    height: 400px;
-    margin-top: 2.5rem;
+    height: 90vw;
+    margin: 1.5rem;
+    margin-left: 1.5rem;
 }
-
 
 #topbar-hr {
     height: 0.01rem;
@@ -200,7 +198,6 @@ p {
     padding-left: 10px;
     margin-bottom: 50px;
     border-left: 3px solid rgba(153, 204, 255, 0.77);
-
 }
 
 #d1p2 {
@@ -212,24 +209,45 @@ p {
 #d2p1 {
     padding-right: 10px;
     border-right: 3px solid #202020;
-
 }
 
 #d4p3 {
     border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
 }
 
+@media (min-width: 778px) {
 
-@media (min-width: 576px) {
     .topbar-img {
-        height: 400px;
-        margin-top: 2.5rem;
-        margin-left: 2.5rem;
+        margin: 4.5rem;
+        height: 30vw;
+
     }
 
     #proj-details {
-        padding: 0.95rem;
         font-family: 'Chivo', sans-serif;
         text-align: right;
+        padding-bottom: 30px;
+
+    }
+
+    #proj-answers {
+        max-width: 16rem;
+        font-family: 'Chivo', sans-serif;
+        height: 25%;
+        padding-top: 5px;
+        text-align: left;
+    }
+
+    .holder {
+        margin-left: 4.5rem;
+
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.17;
     }
 }
