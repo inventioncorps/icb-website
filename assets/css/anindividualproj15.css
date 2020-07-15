@@ -224,7 +224,6 @@ p {
     .topbar-img {
         margin: 4.5rem;
         height: 30vw;
-
     }
 
     #proj-details {
@@ -254,4 +253,7 @@ p {
     h3 {
         font-size: 1.17;
     }
-}
+
+    #proj-title {
+        padding-top: 5rem;
+    }
