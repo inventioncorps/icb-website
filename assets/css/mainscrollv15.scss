@@ -99,13 +99,35 @@ p {
 
 // ABOUT & PILLARS
 
-.scene {
+.planets {
+    width: 100%;
+    height: auto;
     position: absolute;
+    bottom: 0;
+}
+.planets-img {
+    width: 100%;
+    height: auto;
+}
+
+.clouds {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 140vh;
+}
+.clouds-img {
+    width: 100%;
+    height: auto;
+}
+
+.scene {
     width: 100%;
     height: auto;
 	transform: translateY(var(--translateY));
     will-change: transform;
     z-index: -1;
+    bottom: 0;
 }
 
 .pencil {
@@ -131,6 +153,7 @@ p {
     margin-top: 0;
     height: 70vh;
 }
+
 .about-img {
     position: absolute;
     width: 100%;
@@ -196,10 +219,10 @@ p {
     margin: auto;
 }
   
-  img {
+img {
     position: relative;
     z-index: -1;
-  }
+}
 
   .project-link:hover {
     opacity: .1%;

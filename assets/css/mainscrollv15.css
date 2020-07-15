@@ -77,14 +77,38 @@ p {
   clear: both;
 }
 
-.scene {
+.planets {
+  width: 100%;
+  height: auto;
   position: absolute;
+  bottom: 0;
+}
+
+.planets-img {
+  width: 100%;
+  height: auto;
+}
+
+.clouds {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 140vh;
+}
+
+.clouds-img {
+  width: 100%;
+  height: auto;
+}
+
+.scene {
   width: 100%;
   height: auto;
   -webkit-transform: translateY(var(--translateY));
           transform: translateY(var(--translateY));
   will-change: transform;
   z-index: -1;
+  bottom: 0;
 }
 
 .pencil {
