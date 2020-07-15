@@ -9,7 +9,9 @@ p.about-txt {
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#F8E8B2), color-stop(#F4CCBE), color-stop(#E58F7C), color-stop(#6376A8), to(#202020)) no-repeat;
   background: linear-gradient(#F8E8B2, #F4CCBE, #E58F7C, #6376A8, #202020) no-repeat;
-  height: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   position: relative;
 }
 
@@ -65,17 +67,14 @@ p {
   color: #99CCFF;
 }
 
-#landing-section {
-  min-height: 75%;
-  height: 100%;
-  position: relative;
-  width: 100%;
-}
-
 .landing {
   position: relative;
-  height: 100%;
   width: 100%;
+  height: 100vh;
+}
+
+.spacer {
+  clear: both;
 }
 
 .scene {
@@ -88,15 +87,37 @@ p {
   z-index: -1;
 }
 
-#about-header {
-  margin-top: 22rem;
-  z-index: 2;
-}
-
 .pencil {
   display: block;
   margin: 0 auto;
   padding-top: 4rem;
+}
+
+.about-section {
+  position: relative;
+  margin-top: 0;
+  height: 70vh;
+}
+
+.members-section {
+  position: relative;
+  margin-top: 0;
+  height: 70vh;
+}
+
+.projects-section {
+  position: relative;
+  margin-top: 0;
+  height: 70vh;
+}
+
+.about-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  -webkit-transform: translateY(-50vh);
+          transform: translateY(-50vh);
+  z-index: -1;
 }
 
 #members-title {
@@ -107,6 +128,11 @@ p {
   text-align: center;
   height: auto;
   position: relative;
+}
+
+.about-content {
+  -webkit-transform: translateY(300%);
+          transform: translateY(300%);
 }
 
 .button {
@@ -158,9 +184,6 @@ img {
 }
 
 @media (min-width: 576px) {
-  #about-header {
-    margin-top: 30em;
-  }
   .pencil {
     padding-top: 2.5rem;
   }
@@ -170,9 +193,6 @@ img {
 }
 
 @media (min-width: 768px) {
-  #about-header {
-    margin-top: 8em;
-  }
   .pencil {
     padding-top: 3rem;
   }
@@ -182,9 +202,6 @@ img {
 }
 
 @media (min-width: 992px) {
-  #about-header {
-    margin-top: 17em;
-  }
   .pencil {
     padding-top: 4rem;
   }
@@ -196,9 +213,6 @@ img {
 @media (min-width: 1200px) {
   .social-icons {
     margin-top: 2em;
-  }
-  #about-header {
-    margin-top: 35rem;
   }
   .pencil {
     padding-top: 5rem;
