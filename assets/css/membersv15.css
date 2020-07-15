@@ -24,12 +24,18 @@ body {
 .stars {
   width: 100%;
   height: 0px;
-  position: absolute;
+  position: relative;
 }
 
-.stars-img {
-  width: 100%;
+.stars-img-1 {
+  width: 15vw;
   height: auto;
+}
+
+.stars-img-2 {
+  width: 15vw;
+  height: auto;
+  margin-left: 85vw;
 }
 
 .helmet {
