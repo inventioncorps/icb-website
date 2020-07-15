@@ -102,7 +102,7 @@ p {
 .members-section {
   position: relative;
   margin-top: 0;
-  height: 70vh;
+  height: 50vh;
 }
 
 .projects-section {
@@ -131,8 +131,9 @@ p {
 }
 
 .about-content {
-  -webkit-transform: translateY(300%);
-          transform: translateY(300%);
+  -webkit-transform: translateY(250%);
+          transform: translateY(250%);
+  width: 50%;
 }
 
 .button {
@@ -175,10 +176,6 @@ img {
   z-index: -1;
 }
 
-.container {
-  z-index: 1;
-}
-
 .project-link:hover {
   opacity: .1%;
 }
@@ -187,26 +184,17 @@ img {
   .pencil {
     padding-top: 2.5rem;
   }
-  #members-title {
-    margin-top: 22rem;
-  }
 }
 
 @media (min-width: 768px) {
   .pencil {
     padding-top: 3rem;
   }
-  #members-title {
-    margin-top: 10rem;
-  }
 }
 
 @media (min-width: 992px) {
   .pencil {
     padding-top: 4rem;
-  }
-  #members-title {
-    margin-top: 35rem;
   }
 }
 
@@ -216,9 +204,6 @@ img {
   }
   .pencil {
     padding-top: 5rem;
-  }
-  #members-title {
-    margin-top: 60rem;
   }
 }
 /*# sourceMappingURL=mainscrollv15.css.map */
