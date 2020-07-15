@@ -177,6 +177,28 @@ p {
     background: $green;
 }
 
+
+// FEATURED PROJECTS
+
+#projects {
+    min-height: 100%;
+  }
+  
+  img {
+    position: relative;
+    z-index: -1;
+  }
+  
+  .container {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .project-link:hover {
+    opacity: .1%;
+  }
+
+
 // FOOTER
 
 // #footer {
