@@ -22,6 +22,11 @@
     padding-bottom: 0px;
 }
 
+.navbar.scrolled {
+    background-color: white !important;
+    -webkit-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
 #proj-answers {
     padding: 0.8rem;
     max-width: 16rem;
