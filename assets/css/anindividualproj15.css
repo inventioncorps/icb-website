@@ -15,6 +15,11 @@
     padding-bottom: 0px;
 }
 
+#users {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #proj-title {
     padding-top: 1em;
     font-weight: bolder;
