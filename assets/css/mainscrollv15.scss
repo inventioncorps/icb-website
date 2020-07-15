@@ -56,6 +56,19 @@ p {
 // }
 
 
+// LOADING PAGE
+
+#load_screen {
+    background: $black;
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 // SOCIAL ICONS
 
 .social-icons {
