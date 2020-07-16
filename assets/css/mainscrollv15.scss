@@ -14,7 +14,6 @@ $grad-5: #202020;
 $title-light: #FFF3D6;
 $title-dark: #CB6724;
 
-
 // LANDING PAGE
 
 .navbar-light .navbar-nav .nav-link {
@@ -57,7 +56,6 @@ p {
     height: 100%;
 }
 
-
 // SOCIAL ICONS
 
 .social-icons {
@@ -83,19 +81,13 @@ p {
     color: $blue;
 }
 
-
 // LANDING TITLE
 
 .landing{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 30vh;
 }
-
-.spacer {
-    clear: both;
-}
-
 
 // ABOUT & PILLARS
 
@@ -103,7 +95,7 @@ p {
     width: 100%;
     height: auto;
     position: absolute;
-    bottom: 0;
+    bottom: 100px;
 }
 .planets-img {
     width: 100%;
@@ -114,7 +106,7 @@ p {
     width: 100%;
     height: auto;
     position: absolute;
-    top: 140vh;
+    top: 80vh;
 }
 .clouds-img {
     width: 100%;
@@ -133,50 +125,45 @@ p {
 .pencil {
     display: block;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 1.5rem;
 }
 
 .about-section {
     position: relative;
-    margin-top: 0;
-    height: 70vh;
+    margin-top: 5vh;
+    height: 50vh;
 }
 
 .members-section {
     position: relative;
     margin-top: 0;
-    height: 50vh;
+    height: 40vh;
 }
 
 .projects-section {
     position: relative;
     margin-top: 0;
-    height: 70vh;
+    height: 50vh;
 }
 
 .about-img {
     position: absolute;
     width: 100%;
     height: auto;
-    transform: translateY(-50vh);
+    top: -15vh;
     z-index: -1;
 }
 
-// MISSION & MEMBERS
-
-#members-title {
-    margin-top: 35rem;
+.about-content {
+    width: 50%;
 }
+
+// MISSION & MEMBERS
 
 .container.members {
     text-align: center;
     height: auto;
     position: relative;
-}
-
-.about-content {
-    transform: translateY(250%);
-    width: 50%;
 }
 
 // BUTTONS
@@ -206,7 +193,6 @@ p {
     background: $green;
 }
 
-
 // FEATURED PROJECTS
 
 .projects-div {
@@ -216,7 +202,14 @@ p {
 
 .project-planet {
     position: absolute;
-    margin: auto;
+    margin-left: auto;
+    width: 50vw;
+    height: auto;
+}
+
+.project-link {
+    width: 20vw;
+    height: auto;
 }
   
 img {
@@ -224,30 +217,48 @@ img {
     z-index: -1;
 }
 
-  .project-link:hover {
+.project-link:hover {
     opacity: .1%;
-  }
-
-
-// FOOTER
-
-// #footer {
-//     position: absolute;
-//     bottom: 0;
-//     width: 100%;
-//     height: 5rem;
-// }
-
+}
 
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
     .pencil {
-        padding-top: 2.5rem;
+        padding-top: 2rem;
+        width: 50vw;
+        height: auto;
     }
 
+    .landing {
+        height: 110vh;
+    }
+
+    .about-section {
+        height: 200vh;
+        margin-top: 5vh;
+    }
+
+    .members-section {
+        height: 100vh;
+    }
+
+    .projects-section {
+        height: 150vh;
+    }
+
+    .about-img {
+        top: -50vh;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 250vh;
+    }
 }
 
 // Medium devices (tablets, 768px and up)

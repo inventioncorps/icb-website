@@ -70,18 +70,14 @@ p {
 .landing {
   position: relative;
   width: 100%;
-  height: 100vh;
-}
-
-.spacer {
-  clear: both;
+  height: 30vh;
 }
 
 .planets {
   width: 100%;
   height: auto;
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
 }
 
 .planets-img {
@@ -93,7 +89,7 @@ p {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 140vh;
+  top: 80vh;
 }
 
 .clouds-img {
@@ -114,50 +110,43 @@ p {
 .pencil {
   display: block;
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
 }
 
 .about-section {
   position: relative;
-  margin-top: 0;
-  height: 70vh;
+  margin-top: 5vh;
+  height: 50vh;
 }
 
 .members-section {
   position: relative;
   margin-top: 0;
-  height: 50vh;
+  height: 40vh;
 }
 
 .projects-section {
   position: relative;
   margin-top: 0;
-  height: 70vh;
+  height: 50vh;
 }
 
 .about-img {
   position: absolute;
   width: 100%;
   height: auto;
-  -webkit-transform: translateY(-50vh);
-          transform: translateY(-50vh);
+  top: -15vh;
   z-index: -1;
 }
 
-#members-title {
-  margin-top: 35rem;
+.about-content {
+  width: 50%;
 }
 
 .container.members {
   text-align: center;
   height: auto;
   position: relative;
-}
-
-.about-content {
-  -webkit-transform: translateY(250%);
-          transform: translateY(250%);
-  width: 50%;
 }
 
 .button {
@@ -192,7 +181,14 @@ p {
 
 .project-planet {
   position: absolute;
-  margin: auto;
+  margin-left: auto;
+  width: 50vw;
+  height: auto;
+}
+
+.project-link {
+  width: 20vw;
+  height: auto;
 }
 
 img {
@@ -206,7 +202,31 @@ img {
 
 @media (min-width: 576px) {
   .pencil {
-    padding-top: 2.5rem;
+    padding-top: 2rem;
+    width: 50vw;
+    height: auto;
+  }
+  .landing {
+    height: 110vh;
+  }
+  .about-section {
+    height: 200vh;
+    margin-top: 5vh;
+  }
+  .members-section {
+    height: 100vh;
+  }
+  .projects-section {
+    height: 150vh;
+  }
+  .about-img {
+    top: -50vh;
+  }
+  .planets {
+    bottom: 50px;
+  }
+  .clouds {
+    top: 250vh;
   }
 }
 
