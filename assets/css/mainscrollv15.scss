@@ -86,7 +86,7 @@ p {
 .landing{
     position: relative;
     width: 100%;
-    height: 30vh;
+    height: 60vw;
 }
 
 // ABOUT & PILLARS
@@ -106,7 +106,7 @@ p {
     width: 100%;
     height: auto;
     position: absolute;
-    top: 80vh;
+    top: 160vw;
 }
 .clouds-img {
     width: 100%;
@@ -126,31 +126,33 @@ p {
     display: block;
     margin: 0 auto;
     padding-top: 1.5rem;
+    width: 40%;
+    height: auto;
 }
 
 .about-section {
     position: relative;
-    margin-top: 5vh;
-    height: 50vh;
+    margin-top: 5vw;
+    height: 100vw;
 }
 
 .members-section {
     position: relative;
     margin-top: 0;
-    height: 40vh;
+    height: 80vw;
 }
 
 .projects-section {
     position: relative;
     margin-top: 0;
-    height: 50vh;
+    height: 100vw;
 }
 
 .about-img {
     position: absolute;
     width: 100%;
     height: auto;
-    top: -15vh;
+    top: -25vw;
     z-index: -1;
 }
 
@@ -227,29 +229,27 @@ img {
 @media (min-width: 576px) {
     .pencil {
         padding-top: 2rem;
-        width: 50vw;
-        height: auto;
     }
 
     .landing {
-        height: 110vh;
+        height: 60vw;
     }
 
     .about-section {
-        height: 200vh;
-        margin-top: 5vh;
+        height: 80vw;
+        margin-top: 5vw;
     }
 
     .members-section {
-        height: 100vh;
+        height: 60vw;
     }
 
     .projects-section {
-        height: 150vh;
+        height: 60vw;
     }
 
     .about-img {
-        top: -50vh;
+        top: -25vw;
     }
 
     .planets {
@@ -257,7 +257,7 @@ img {
     }
 
     .clouds {
-        top: 250vh;
+        top: 110vw;
     }
 }
 
@@ -268,15 +268,71 @@ img {
         padding-top: 3rem;
     }
 
+    .landing {
+        height: 60vw;
+    }
+
+    .about-section {
+        height: 90vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 60vw;
+    }
+
+    .projects-section {
+        height: 70vw;
+    }
+
+    .about-img {
+        top: -25vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 120vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
     .pencil {
-        padding-top: 4rem;
+        padding-top: 3rem;
     }
 
+    .landing {
+        height: 60vw;
+    }
+
+    .about-section {
+        height: 80vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 60vw;
+    }
+
+    .projects-section {
+        height: 80vw;
+    }
+
+    .about-img {
+        top: -30vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 102vw;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -285,7 +341,37 @@ img {
     .social-icons {
         margin-top: 2em;
     }
+
     .pencil {
-        padding-top: 5rem;
+        padding-top: 6rem;
+    }
+
+    .landing {
+        height: 60vw;
+    }
+
+    .about-section {
+        height: 80vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 50vw;
+    }
+
+    .projects-section {
+        height: 80vw;
+    }
+
+    .about-img {
+        top: -30vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 120vw;
     }
 }
