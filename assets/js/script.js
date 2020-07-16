@@ -37,7 +37,7 @@ function onScroll(event){
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
-  })
+  });
 
 //Using basicScroll to create parallax scrolling on landing
 document.querySelectorAll('.scene').forEach((elem) => {
@@ -57,4 +57,9 @@ document.querySelectorAll('.scene').forEach((elem) => {
     }
   }).start()
     
-})
+});
+
+window.addEventListener("load", function () {
+  var load_screen = document.getElementById("load_screen");
+  document.body.removeChild(load_screen);
+});

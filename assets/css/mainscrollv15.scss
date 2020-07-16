@@ -14,13 +14,20 @@ $grad-5: #202020;
 $title-light: #FFF3D6;
 $title-dark: #CB6724;
 
-
 // LANDING PAGE
 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+p.about-txt {
+    text-align: center;
+}
+
 body {
-    background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5);
-    // background-size: cover;
-    // background-attachment: fixed;
+    background: linear-gradient($grad-1, $grad-2, $grad-3, $grad-4, $grad-5) no-repeat;
+    height: fit-content;
+    position: relative;
 }
 
 a {
@@ -32,36 +39,28 @@ h2 {
     font-size: 1.85vw;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
 p {
     color: white;
     font-size: 1.15vw;
 }
 
-// h2 {
-//     z-index: 100;
-//     position: absolute;
-//     color: white;
-//     font-size: 1.5vw;
-//     font-weight: bold;
-// }
+// LOADING PAGE
 
-// p {
-//     z-index: 75;
-//     color: white;
-//     font-size: 1vw;
-// }
-
+#load_screen {
+    background: $black;
+    opacity: 1;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 
 // SOCIAL ICONS
 
 .social-icons {
     display: flex;
     flex-direction: column;
-    // justify-content: flex-end;
     position: absolute;
     left: 90%;
 }
@@ -82,73 +81,92 @@ p {
     color: $blue;
 }
 
-
 // LANDING TITLE
 
-#landing-container {
-    height: 75%;
+.landing{
+    position: relative;
+    width: 100%;
+    height: 60vw;
 }
-
-// .landing-text > h3 {
-//     font-weight: 800;
-//     font-size: 1.75rem;
-//     padding-bottom: 1rem;
-//     padding-top: 3rem;
-// }
-
-// .landing-text > h1 {
-//     font-weight: 800;
-//     text-transform: uppercase;
-//     font-size: 2rem;
-//     // border-bottom: 10px solid $blue;
-// }
-
-// .landing-text-top {
-//     color: $title-light;
-//     padding: 0 0.75rem;
-//     text-align: center;
-// }
-
-// .landing-text-bkd {
-//     color: $title-dark;
-//     padding: 0 0.75rem;
-//     text-align: center;
-// }
-
 
 // ABOUT & PILLARS
 
-.scene {
-    position: absolute;
+.planets {
     width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 100px;
+}
+.planets-img {
+    width: 100%;
+    height: auto;
+}
+
+.clouds {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 160vw;
+}
+.clouds-img {
+    width: 100%;
+    height: auto;
+}
+
+.scene {
+    width: 100%;
+    height: auto;
 	transform: translateY(var(--translateY));
     will-change: transform;
     z-index: -1;
-}
-
-#about-header {
-    margin-top: 22rem;
-    z-index: 2;
+    bottom: 0;
 }
 
 .pencil {
     display: block;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 1.5rem;
+    width: 40%;
+    height: auto;
 }
 
+.about-section {
+    position: relative;
+    margin-top: 5vw;
+    height: 100vw;
+}
+
+.members-section {
+    position: relative;
+    margin-top: 0;
+    height: 80vw;
+}
+
+.projects-section {
+    position: relative;
+    margin-top: 0;
+    height: 100vw;
+}
+
+.about-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -25vw;
+    z-index: -1;
+}
+
+.about-content {
+    width: 50%;
+}
 
 // MISSION & MEMBERS
 
-#members-title {
-    margin-top: 35rem;
-}
-
-#members > .container {
+.container.members {
     text-align: center;
-    height: fit-content;
+    height: auto;
+    position: relative;
 }
-
 
 // BUTTONS
 
@@ -177,76 +195,144 @@ p {
     background: $green;
 }
 
-// FOOTER
-
-// #footer {
-//     position: absolute;
-//     bottom: 0;
-//     width: 100%;
-//     height: 5rem;
-// }
-
-
 // FEATURED PROJECTS
 
-.solar-system {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
+.projects-div {
+    height: fit-content;
+    margin: auto;
 }
 
+.project-planet {
+    position: absolute;
+    margin-left: auto;
+    width: 30vw;
+    height: auto;
+}
+
+.project-link {
+    width: 25vw;
+    height: auto;
+}
+  
+img {
+    position: relative;
+    z-index: -1;
+}
+
+.project-link:hover {
+    opacity: .1%;
+}
 
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
-    #about-header {
-        margin-top: 30em;
-    }
     .pencil {
-        padding-top: 2.5rem;
-    }
-    #members-title {
-        margin-top: 22rem;
-    }
-    #projects {
-        margin: 10rem 0;
+        padding-top: 2rem;
     }
 
+    .landing {
+        height: 60vw;
+    }
+
+    .about-section {
+        height: 80vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 60vw;
+    }
+
+    .projects-section {
+        height: 60vw;
+    }
+
+    .about-img {
+        top: -25vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 110vw;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    
-    #about-header {
-        margin-top: 8em;
-    }
+
     .pencil {
         padding-top: 3rem;
     }
-    #members-title {
-        margin-top: 10rem;
+
+    .landing {
+        height: 60vw;
     }
 
+    .about-section {
+        height: 90vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 60vw;
+    }
+
+    .projects-section {
+        height: 70vw;
+    }
+
+    .about-img {
+        top: -25vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 120vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
-    #about-header {
-        margin-top: 17em;
-    }
     .pencil {
-        padding-top: 4rem;
-    }
-    #members-title {
-        margin-top: 35rem;
-    }
-    #projects {
-        margin: 1em 0;
+        padding-top: 3rem;
     }
 
+    .landing {
+        height: 60vw;
+    }
+
+    .about-section {
+        height: 80vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 60vw;
+    }
+
+    .projects-section {
+        height: 80vw;
+    }
+
+    .about-img {
+        top: -30vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 102vw;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -255,18 +341,37 @@ p {
     .social-icons {
         margin-top: 2em;
     }
-    #about-header {
-        margin-top: 39em;
-    }
+
     .pencil {
-        padding-top: 5rem;
-    }
-    #members-title {
-        margin-top: 74rem;
-    }
-    #projects {
-        margin: 2em 0;
-        padding: 2em 0;
+        padding-top: 6rem;
     }
 
+    .landing {
+        height: 60vw;
+    }
+
+    .about-section {
+        height: 80vw;
+        margin-top: 5vw;
+    }
+
+    .members-section {
+        height: 50vw;
+    }
+
+    .projects-section {
+        height: 80vw;
+    }
+
+    .about-img {
+        top: -30vw;
+    }
+
+    .planets {
+        bottom: 50px;
+    }
+
+    .clouds {
+        top: 120vw;
+    }
 }

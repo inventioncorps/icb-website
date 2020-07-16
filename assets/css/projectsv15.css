@@ -3,6 +3,10 @@ h3 {
   padding-bottom: 1.75rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
 h4 {
   font-size: 1.25rem;
 }
