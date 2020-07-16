@@ -184,12 +184,12 @@ p {
 .project-planet {
   position: absolute;
   margin-left: auto;
-  width: 50vw;
+  width: 30vw;
   height: auto;
 }
 
 .project-link {
-  width: 20vw;
+  width: 25vw;
   height: auto;
 }
 
