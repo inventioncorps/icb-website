@@ -5,6 +5,9 @@ $green:#99CC99;
 $blue: #99CCFF;
 $gray: #787878;
 $black: #202020;
+$light: #F9FCFF;
+$med: #EEF7FF;
+$dark: #CBE7FF;
 
 * {
   margin: 0px;
@@ -19,7 +22,9 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url(../img/about/gradient+clouds.png);
+  background: linear-gradient($light, $med, $dark);
+  background-image: url(../img/about/about-clouds.svg);
+  background-image: url(../img/about/about-clouds.svg), linear-gradient($light, $med, $dark);
   background-size: cover;
 }
 

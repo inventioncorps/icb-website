@@ -11,7 +11,11 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url(../img/about/gradient+clouds.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F9FCFF), color-stop(#EEF7FF), to(#CBE7FF));
+  background: linear-gradient(#F9FCFF, #EEF7FF, #CBE7FF);
+  background-image: url(../img/about/about-clouds.svg);
+  background-image: url(../img/about/about-clouds.svg), -webkit-gradient(linear, left top, left bottom, from(#F9FCFF), color-stop(#EEF7FF), to(#CBE7FF));
+  background-image: url(../img/about/about-clouds.svg), linear-gradient(#F9FCFF, #EEF7FF, #CBE7FF);
   background-size: cover;
 }
 
