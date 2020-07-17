@@ -47,7 +47,7 @@ document.querySelectorAll('.scene').forEach((elem) => {
   basicScroll.create({
     elem: elem,
     from: 0,
-    to: 1500,
+    to: 3500,
     direct: true,
     props: {
       '--translateY': {
@@ -57,9 +57,4 @@ document.querySelectorAll('.scene').forEach((elem) => {
     }
   }).start()
     
-});
-
-window.addEventListener("load", function () {
-  var load_screen = document.getElementById("load_screen");
-  document.body.removeChild(load_screen);
 });
