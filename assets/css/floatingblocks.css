@@ -22,7 +22,7 @@
 
 #underline5 {
   background: #E95633;
-  width: 12rem;
+  width: 10rem;
 }
 
 #underline6 {
@@ -33,5 +33,9 @@
 #underline7 {
   background: #E95633;
   width: 13rem;
+}
+
+.col-4 {
+  margin-right: 0;
 }
 /*# sourceMappingURL=floatingblocks.css.map */
