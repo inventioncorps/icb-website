@@ -14,7 +14,14 @@ h3 {
   }
 
   .navbar-light .navbar-nav .nav-link {
-    color: white;
+    color: $black;
+}
+
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  color: white;
 }
   
   h4 {
@@ -88,11 +95,6 @@ h3 {
     z-index: -10;
     -webkit-transition: all .1s linear;
     transition: all .1s linear;
-  }
-  
-  footer {
-    background-color: #ffffff;
-    height: 6vh;
   }
   
   .project-overview-container p {
@@ -184,7 +186,7 @@ a.members {
 a.projects {
   border-bottom: solid $red;
 }
-  
+
   @media (min-width: 576px) {
     #teaminfo {
       visibility: hidden;

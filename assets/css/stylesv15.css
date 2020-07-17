@@ -356,7 +356,7 @@ nav {
 }
 
 .project-tile:hover {
-  opacity: .1;
+  opacity: 50%;
 }
 
 .project-tile {
