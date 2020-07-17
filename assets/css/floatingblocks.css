@@ -22,39 +22,16 @@
 
 #underline5 {
   background: #E95633;
-  width: 280px;
+  width: 12rem;
 }
 
 #underline6 {
   background: #E95633;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
+  width: 12rem;
 }
 
 #underline7 {
   background: #E95633;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
-}
-
-#underline8 {
-  background: #E95633;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
+  width: 13rem;
 }
 /*# sourceMappingURL=floatingblocks.css.map */

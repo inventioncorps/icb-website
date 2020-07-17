@@ -35,11 +35,17 @@
   text-align: center;
 }
 
+.deliverable-img {
+  width: 90%;
+  height: auto;
+}
+
 #proj-title {
   padding-top: 1em;
   font-weight: bolder;
   text-align: center;
   padding-bottom: 0px;
+  font-size: 3rem;
 }
 
 .navbar.scrolled {
@@ -54,6 +60,7 @@
   height: 25%;
   letter-spacing: 0.07em;
   line-height: 122%;
+  font-size: 1rem;
 }
 
 #proj-details {
@@ -61,6 +68,7 @@
   text-align: right;
   height: 20%;
   font-style: italic;
+  font-size: 1.5re;
 }
 
 h2 {
@@ -96,9 +104,7 @@ h5 {
 }
 
 .topbar-img {
-  height: 90vw;
-  margin: 1.5rem;
-  margin-left: 1.5rem;
+  height: 80vw;
 }
 
 #topbar-hr {
@@ -128,6 +134,11 @@ a {
 p {
   padding-top: 0px;
   margin-top: 0px;
+}
+
+.partner-link {
+  color: #202020;
+  text-decoration: underline;
 }
 
 .user {
@@ -185,8 +196,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-42px);
-          transform: translateY(-42px);
+  -webkit-transform: translate(-3px, -43px);
+          transform: translate(-3px, -43px);
 }
 
 #underline6 {
@@ -196,8 +207,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-42px);
-          transform: translateY(-42px);
+  -webkit-transform: translate(-3px, -43px);
+          transform: translate(-3px, -43px);
 }
 
 #underline7 {
@@ -207,8 +218,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-42px);
-          transform: translateY(-42px);
+  -webkit-transform: translate(-3px, -43px);
+          transform: translate(-3px, -43px);
 }
 
 #underline8 {
@@ -218,41 +229,19 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-42px);
-          transform: translateY(-42px);
+  -webkit-transform: translate(-3px, -43px);
+          transform: translate(-3px, -43px);
 }
 
-#d1p1 {
+#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
   padding-left: 10px;
-  margin-bottom: 50px;
-  border-left: 3px solid rgba(153, 204, 255, 0.77);
-}
-
-#d1p2 {
-  padding-left: 10px;
-  border-left: 3px solid #C4C4C4;
-  margin-bottom: 50px;
-}
-
-#d2p1 {
-  padding-right: 10px;
-  border-right: 3px solid #202020;
-}
-
-#d4p3 {
-  -o-border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(25%, grey), color-stop(25%, yellow), color-stop(50%, yellow), color-stop(50%, red), color-stop(75%, red), color-stop(75%, teal)) 5;
-     border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
-}
-
-.bubbles1 {
-  padding-left: 2rem;
+  margin-bottom: 35px;
 }
 
 @media (min-width: 778px) {
   .topbar-img {
-    margin: 4.5rem;
-    height: 30vw;
+    margin-top: 4.5rem;
+    height: 40vw;
   }
   #proj-details {
     font-family: 'Chivo', sans-serif;
