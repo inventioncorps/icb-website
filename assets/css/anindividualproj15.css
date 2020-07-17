@@ -26,6 +26,13 @@
 #users {
   margin-left: auto;
   margin-right: auto;
+  width: 20vw;
+  height: auto;
+}
+
+.user-txt {
+  width: 20vw;
+  text-align: center;
 }
 
 #proj-title {
@@ -123,48 +130,52 @@ p {
   margin-top: 0px;
 }
 
+.user {
+  font-weight: bold;
+}
+
 #underline1 {
   opacity: 50%;
   border-radius: 50px;
-  width: 308px;
+  width: 7.5rem;
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-32px);
-          transform: translateY(-32px);
+  -webkit-transform: translate(-3px, -28px);
+          transform: translate(-3px, -28px);
 }
 
 #underline2 {
   opacity: 50%;
   border-radius: 50px;
-  width: 308px;
+  width: 8.125rem;
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-32px);
-          transform: translateY(-32px);
+  -webkit-transform: translate(-3px, -28px);
+          transform: translate(-3px, -28px);
 }
 
 #underline3 {
   opacity: 50%;
   border-radius: 50px;
-  width: 308px;
+  width: 10rem;
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-32px);
-          transform: translateY(-32px);
+  -webkit-transform: translate(-3px, -28px);
+          transform: translate(-3px, -28px);
 }
 
 #underline4 {
   opacity: 50%;
   border-radius: 50px;
-  width: 308px;
+  width: 10rem;
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translateY(-32px);
-          transform: translateY(-32px);
+  -webkit-transform: translate(-3px, -28px);
+          transform: translate(-3px, -28px);
 }
 
 #underline5 {
