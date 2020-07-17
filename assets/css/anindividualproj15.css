@@ -1,3 +1,8 @@
+#how::after {
+    content: "\a";
+    white-space: pre;
+  }
+
 .topbar {
     background-color: #6D6D6D;
     color: white;
