@@ -30,6 +30,16 @@
   padding-bottom: 1rem;
 }
 
+.background-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.deliverables-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
 h7 {
   font-weight: 600;
 }
@@ -106,6 +116,7 @@ h2 {
 
 h3 {
   text-align: left;
+  padding-top: 0.5rem;
   padding-bottom: 10px;
   font-style: italic;
   font-weight: 200;
