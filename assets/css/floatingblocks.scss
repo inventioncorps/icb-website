@@ -1,3 +1,12 @@
+//COLOR SET
+
+$red: #E06B65;
+$yellow: #FFFF99;
+$green: #99CC99;
+$blue: #99CCFF;
+$gray: #787878;
+$black: #202020;
+
 .topbar {
     background-color: #E95633;
     color: white;
@@ -40,21 +49,21 @@
 }
 
 .p1 {
-    border-color: red;
+    border-color: $red;
 }
 
 .p2 {
-    border-color: yellow;
+    border-color: $yellow;
 }
 
 .p3 {
-    border-color: green;
+    border-color: $green;
 }
 
 .p4 {
-    border-color: blue;
+    border-color: $blue;
 }
 
 .p5 {
-    border-color: grey;
+    border-color: $gray;
 }
