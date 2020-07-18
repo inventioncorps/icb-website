@@ -43,9 +43,17 @@
 .deliverable-img {
   margin-bottom: 5vw;
   margin-top: 5vw;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
   -o-object-fit: contain;
      object-fit: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h7 {
@@ -69,14 +77,14 @@ h7 {
 #users {
   margin-left: auto;
   margin-right: auto;
-  width: 40vw;
+  width: 12vw;
   height: auto;
 }
 
 .user-txt {
   margin-left: auto;
   margin-right: auto;
-  width: 80vw;
+  width: 20vw;
   text-align: center;
 }
 
