@@ -295,8 +295,8 @@ p {
 }
 
 .bubbles {
-    width: 5.5em;
-    padding-left: 1.5rem;
+    height: 3em;
+    padding-top: 1rem;
 }
 
 // MEDIA QUERIES
@@ -319,6 +319,10 @@ p {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .bubbles {
+        width: 5.5em;
+        padding-left: 1.5rem;
+    }
 
     .topbar-img {
         margin-top: 4.5rem;
@@ -371,6 +375,11 @@ p {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .bubbles {
+        width: 5.5em;
+        padding-left: 1.5rem;
+    }
+
     .left {
         border-left: solid grey;
         border-left-width: medium;
@@ -400,6 +409,11 @@ p {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    .bubbles {
+        width: 5.5em;
+        padding-left: 1.5rem;
+    }
+    
     .topbar-img {
         margin-top: 4.5rem;
         margin-bottom: 4.5rem;
