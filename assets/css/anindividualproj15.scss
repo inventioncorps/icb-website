@@ -43,8 +43,12 @@
 .deliverable-img {
     margin-bottom: 5vw;
     margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     object-fit: contain;
+    display: flex;
+    align-items: center;
 }
 
 h7 {
@@ -68,14 +72,14 @@ h7 {
 #users {
     margin-left: auto;
     margin-right: auto;
-    width: 12vw;
+    width: 30vw;
     height: auto;
 }
 
 .user-txt {
     margin-left: auto;
     margin-right: auto;
-    width: 20vw;
+    width: 80vw;
     text-align: center;
 }
 
@@ -266,7 +270,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(10px, 35px);
+    transform: translate(10px, 23px);
 }
 
 #underline6 {
@@ -276,7 +280,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(10px, 35px);
+    transform: translate(10px, 23px);
 }
 
 #underline7 {
@@ -286,7 +290,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(10px, 35px);
+    transform: translate(10px, 23px);
 }
 
 #underline8 {
@@ -296,7 +300,33 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(10px, 35px);
+    transform: translate(10px, 23px);
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+    padding-left: 10px;
+    margin-bottom: 35px;
+}
+
+.left {
+    border-left: solid grey;
+    border-left-width: medium;
+}
+
+.right {
+    border-left: solid grey;
+    border-left-width: medium;
+}
+
+.bubbles {
+    height: 3em;
+    padding-top: 1rem;
 }
 
 // MEDIA QUERIES
@@ -319,6 +349,10 @@ p {
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .bubbles {
+        width: 5.5em;
+        padding-left: 1.5rem;
+    }
 
     .topbar-img {
         margin-top: 4.5rem;
@@ -363,11 +397,182 @@ p {
         text-align: center;
         width: 50vw;
     }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .bubbles {
+        width: 5.5em;
+        padding-left: 1.5rem;
+    }
+
+    .left {
+        border-left: solid grey;
+        border-left-width: medium;
+    }
 
     #underline1 {
         opacity: 50%;
         border-radius: 50px;
         width: 8rem;
+        height: 20px;
+        
+    }
+
+    #underline2 {
+        opacity: 50%;
+        border-radius: 50px;
+        width: 8rem;
+        height: 20px;
+        
+    }
+
+    #underline3 {
+        opacity: 50%;
+        border-radius: 50px;
+        width: 11rem;
+        height: 20px;
+      
+    }
+
+    #underline4 {
+        opacity: 50%;
+        border-radius: 50px;
+        width: 10.7rem;
+        height: 20px;
+       
+    }
+
+    .user-txt {
+        margin-left: 0;
+        margin-right: auto;
+        width: 20vw;
+        text-align: center;
+    }
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .bubbles {
+        width: 5.5em;
+        padding-left: 1.5rem;
+    }
+
+    .topbar-img {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+        height: 40vw;
+    }
+
+
+
+    #underline5 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 29px);
+    }
+
+    #underline6 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 29px);
+    }
+
+    #underline7 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 29px);
+    }
+
+    #underline8 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 29px);
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .left {
+        border-left: solid grey;
+        border-left-width: medium;
+    }
+
+    .right {
+        border-right: solid grey;
+        border-right-width: medium;
+        border-left-width: 0;
+    }
+
+    #users {
+        margin-left: 15%;
+        width: 12vw;
+        height: auto;
+        padding-top: 3%;
+    }
+
+    .user-txt {
+        margin-left: 0;
+        margin-right: auto;
+        width: 20vw;
+        text-align: center;
+    }
+
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .topbar-img {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+        height: 40vw;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.17em;
+    }
+
+    .cool {
+        display: flex;
+        align-items: center;
+    }
+
+    .row-details {
+        display: flex;
+        align-items: center;
+    }
+
+    #proj-answers {
+        padding-bottom: 2rem;
+    }
+
+
+    #underline1 {
+        opacity: 50%;
+        border-radius: 50px;
+        width: 7.5rem;
         height: 20px;
         position: absolute;
         z-index: -1;
@@ -377,7 +582,7 @@ p {
     #underline2 {
         opacity: 50%;
         border-radius: 50px;
-        width: 8rem;
+        width: 8.125rem;
         height: 20px;
         position: absolute;
         z-index: -1;
@@ -387,7 +592,7 @@ p {
     #underline3 {
         opacity: 50%;
         border-radius: 50px;
-        width: 11rem;
+        width: 10rem;
         height: 20px;
         position: absolute;
         z-index: -1;
@@ -397,192 +602,50 @@ p {
     #underline4 {
         opacity: 50%;
         border-radius: 50px;
-        width: 10.7rem;
+        width: 10rem;
         height: 20px;
         position: absolute;
         z-index: -1;
         transform: translate(-3px, -28px);
     }
 
-        #underline5 {
-            opacity: 60%;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 29px);
-        }
-
-        #underline6 {
-            opacity: 60%;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 29px);
-        }
-
-        #underline7 {
-            opacity: 60%;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 29px);
-        }
-
-        #underline8 {
-            opacity: 60%;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 29px);
-        }
+    #underline5 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
     }
 
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) {
-        .left {
-            border-left: solid grey;
-            border-left-width: medium;
-        }
-
-        .right {
-            border-right: solid grey;
-            border-right-width: medium;
-            border-left-width: 0;
-        }
-
-        #users {
-            margin-left: 15%;
-            width: 12vw;
-            height: auto;
-            padding-top: 3%;
-        }
-
-        .user-txt {
-            margin-left: 0;
-            margin-right: auto;
-            width: 20vw;
-            text-align: center;
-        }
-
+    #underline6 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
     }
 
+    #underline7 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
+    }
 
-        // Extra large devices (large desktops, 1200px and up)
-        @media (min-width: 1200px) {
-            .topbar-img {
-                margin-top: 4.5rem;
-                margin-bottom: 4.5rem;
-                height: 40vw;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
-
-            h3 {
-                font-size: 1.17em;
-            }
-
-            .cool {
-                display: flex;
-                align-items: center;
-            }
-
-            .row-details {
-                display: flex;
-                align-items: center;
-            }
-
-            #proj-answers {
-                padding-bottom: 2rem;
-            }
-
-
-            #underline1 {
-                opacity: 50%;
-                border-radius: 50px;
-                width: 7.5rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(-3px, -28px);
-            }
-
-            #underline2 {
-                opacity: 50%;
-                border-radius: 50px;
-                width: 8.125rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(-3px, -28px);
-            }
-
-            #underline3 {
-                opacity: 50%;
-                border-radius: 50px;
-                width: 10rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(-3px, -28px);
-            }
-
-            #underline4 {
-                opacity: 50%;
-                border-radius: 50px;
-                width: 10rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(-3px, -28px);
-            }
-
-            #underline5 {
-                opacity: 60%;
-                border-radius: 50px;
-                width: 10rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(10px, 30px);
-            }
-
-            #underline6 {
-                opacity: 60%;
-                border-radius: 50px;
-                width: 10rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(10px, 30px);
-            }
-
-            #underline7 {
-                opacity: 60%;
-                border-radius: 50px;
-                width: 10rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(10px, 30px);
-            }
-
-            #underline8 {
-                opacity: 60%;
-                border-radius: 50px;
-                width: 10rem;
-                height: 20px;
-                position: absolute;
-                z-index: -1;
-                transform: translate(10px, 30px);
-            }
-        }
+    #underline8 {
+        opacity: 60%;
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
+    }
+}

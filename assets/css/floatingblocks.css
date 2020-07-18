@@ -23,20 +23,27 @@
 #underline5 {
   background: #E95633;
   width: 14rem;
+  -webkit-transform: translate(10px, 23px);
+          transform: translate(10px, 23px);
 }
 
 #underline6 {
   background: #E95633;
   width: 15rem;
+  -webkit-transform: translate(10px, 39px);
+          transform: translate(10px, 39px);
 }
 
 #underline7 {
   background: #E95633;
   width: 16rem;
+  -webkit-transform: translate(10px, 39px);
+          transform: translate(10px, 39px);
 }
 
 .col-4 {
   margin-right: 0;
+  margin-left: 0;
 }
 
 .p1 {
@@ -63,14 +70,20 @@
   #underline5 {
     background: #E95633;
     width: 12rem;
+    -webkit-transform: translate(10px, 23px);
+            transform: translate(10px, 23px);
   }
   #underline6 {
     background: #E95633;
     width: 12.5rem;
+    -webkit-transform: translate(10px, 39px);
+            transform: translate(10px, 39px);
   }
   #underline7 {
     background: #E95633;
-    width: 13.5rem;
+    width: 12rem;
+    -webkit-transform: translate(10px, 39px);
+            transform: translate(10px, 39px);
   }
 }
 

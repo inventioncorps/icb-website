@@ -43,9 +43,17 @@
 .deliverable-img {
   margin-bottom: 5vw;
   margin-top: 5vw;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
   -o-object-fit: contain;
      object-fit: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 h7 {
@@ -69,14 +77,14 @@ h7 {
 #users {
   margin-left: auto;
   margin-right: auto;
-  width: 12vw;
+  width: 30vw;
   height: auto;
 }
 
 .user-txt {
   margin-left: auto;
   margin-right: auto;
-  width: 20vw;
+  width: 80vw;
   text-align: center;
 }
 
@@ -270,8 +278,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(10px, 35px);
-          transform: translate(10px, 35px);
+  -webkit-transform: translate(10px, 23px);
+          transform: translate(10px, 23px);
 }
 
 #underline6 {
@@ -281,8 +289,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(10px, 35px);
-          transform: translate(10px, 35px);
+  -webkit-transform: translate(10px, 23px);
+          transform: translate(10px, 23px);
 }
 
 #underline7 {
@@ -292,8 +300,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(10px, 35px);
-          transform: translate(10px, 35px);
+  -webkit-transform: translate(10px, 23px);
+          transform: translate(10px, 23px);
 }
 
 #underline8 {
@@ -303,8 +311,34 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(10px, 35px);
-          transform: translate(10px, 35px);
+  -webkit-transform: translate(10px, 23px);
+          transform: translate(10px, 23px);
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
+  padding-left: 10px;
+  margin-bottom: 35px;
+}
+
+.left {
+  border-left: solid grey;
+  border-left-width: medium;
+}
+
+.right {
+  border-left: solid grey;
+  border-left-width: medium;
+}
+
+.bubbles {
+  height: 3em;
+  padding-top: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -321,6 +355,10 @@ p {
 }
 
 @media (min-width: 768px) {
+  .bubbles {
+    width: 5.5em;
+    padding-left: 1.5rem;
+  }
   .topbar-img {
     margin-top: 4.5rem;
     height: 40vw;
@@ -356,45 +394,58 @@ p {
     text-align: center;
     width: 50vw;
   }
+}
+
+@media (min-width: 992px) {
+  .bubbles {
+    width: 5.5em;
+    padding-left: 1.5rem;
+  }
+  .left {
+    border-left: solid grey;
+    border-left-width: medium;
+  }
   #underline1 {
     opacity: 50%;
     border-radius: 50px;
     width: 8rem;
     height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(-3px, -28px);
-            transform: translate(-3px, -28px);
   }
   #underline2 {
     opacity: 50%;
     border-radius: 50px;
     width: 8rem;
     height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(-3px, -28px);
-            transform: translate(-3px, -28px);
   }
   #underline3 {
     opacity: 50%;
     border-radius: 50px;
     width: 11rem;
     height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(-3px, -28px);
-            transform: translate(-3px, -28px);
   }
   #underline4 {
     opacity: 50%;
     border-radius: 50px;
     width: 10.7rem;
     height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(-3px, -28px);
-            transform: translate(-3px, -28px);
+  }
+  .user-txt {
+    margin-left: 0;
+    margin-right: auto;
+    width: 20vw;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bubbles {
+    width: 5.5em;
+    padding-left: 1.5rem;
+  }
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
   }
   #underline5 {
     opacity: 60%;
