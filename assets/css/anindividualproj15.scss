@@ -43,8 +43,12 @@
 .deliverable-img {
     margin-bottom: 5vw;
     margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
     object-fit: contain;
+    display: flex;
+    align-items: center;
 }
 
 h7 {
@@ -354,10 +358,6 @@ p {
 
     h3 {
         font-size: 1.17em;
-    }
-
-    #proj-title {
-        // padding-top: 5rem;
     }
 
     #users {
