@@ -244,8 +244,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(-4px, -41px);
-          transform: translate(-4px, -41px);
+  -webkit-transform: translate(10px, 30px);
+          transform: translate(10px, 30px);
 }
 
 #underline6 {
@@ -255,8 +255,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(-4px, -41px);
-          transform: translate(-4px, -41px);
+  -webkit-transform: translate(10px, 30px);
+          transform: translate(10px, 30px);
 }
 
 #underline7 {
@@ -266,8 +266,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(-4px, -41px);
-          transform: translate(-4px, -41px);
+  -webkit-transform: translate(10px, 30px);
+          transform: translate(10px, 30px);
 }
 
 #underline8 {
@@ -277,8 +277,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(-4px, -41px);
-          transform: translate(-4px, -41px);
+  -webkit-transform: translate(10px, 30px);
+          transform: translate(10px, 30px);
 }
 
 .p1,
