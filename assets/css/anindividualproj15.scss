@@ -81,6 +81,7 @@ h7 {
     margin-right: auto;
     width: 80vw;
     text-align: center;
+    max-width: 95%;
 }
 
 #proj-title {
@@ -132,7 +133,7 @@ h3 {
     padding-top: 0.5rem;
     padding-bottom: 10px;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4em;
 
@@ -227,7 +228,7 @@ p {
 }
 
 #underline1 {
-    opacity: 0.5;
+    opacity: 0.4;
     border-radius: 50px;
     width: 9rem;
     height: 20px;
@@ -237,7 +238,7 @@ p {
 }
 
 #underline2 {
-    opacity: 0.5;
+    opacity: 0.4;
     border-radius: 50px;
     width: 9.5rem;
     height: 20px;
@@ -247,7 +248,7 @@ p {
 }
 
 #underline3 {
-    opacity: 0.5;
+    opacity: 0.4;
     border-radius: 50px;
     width: 12rem;
     height: 20px;
@@ -257,7 +258,7 @@ p {
 }
 
 #underline4 {
-    opacity: 0.5;
+    opacity: 0.4;
     border-radius: 50px;
     width: 12.2rem;
     height: 20px;
@@ -346,6 +347,7 @@ p {
         margin: 0 auto;
         text-align: center;
         width: 50vw;
+        max-width: 95%;
     }
 
     #underline1 {
@@ -453,146 +455,135 @@ p {
     }
 }
 
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) {
-        .bubbles {
-            width: 5.5em;
-        }
-
-        .left {
-            border-left: solid grey;
-            border-left-width: medium;
-        }
-
-        .right {
-            border-right: solid grey;
-            border-right-width: medium;
-            border-left-width: 0;
-        }
-
-        #users {
-            margin-left: 15%;
-            width: 12vw;
-            height: auto;
-            padding-top: 3%;
-        }
-
-        .user-txt {
-            margin-left: 0;
-            margin-right: auto;
-            width: 20vw;
-            text-align: center;
-        }
-
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .bubbles {
+        width: 5.5em;
     }
 
-    // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) {
-        .bubbles {
-            width: 5.5em;
-        }
-
-        .topbar-img {
-            margin-top: 4.5rem;
-            margin-bottom: 4.5rem;
-            height: 40vw;
-        }
-
-        h2 {
-            font-size: 1.5em;
-        }
-
-        h3 {
-            font-size: 1.17em;
-        }
-
-        .cool {
-            display: flex;
-            align-items: center;
-        }
-
-        #proj-answers {
-            padding-bottom: 2rem;
-        }
-
-
-        #underline1 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 7.5rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(-3px, -28px);
-        }
-
-        #underline2 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 8.125rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(-3px, -28px);
-        }
-
-        #underline3 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(-3px, -28px);
-        }
-
-        #underline4 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(-3px, -28px);
-        }
-
-        #underline5 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 30px);
-        }
-
-        #underline6 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 30px);
-        }
-
-        #underline7 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 30px);
-        }
-
-        #underline8 {
-            opacity: 0.6;
-            border-radius: 50px;
-            width: 10rem;
-            height: 20px;
-            position: absolute;
-            z-index: -1;
-            transform: translate(10px, 30px);
-        }
+    .left {
+        border-left: solid grey;
+        border-left-width: medium;
     }
+
+    .right {
+        border-right: solid grey;
+        border-right-width: medium;
+        border-left-width: 0;
+    }
+
+    #users {
+        margin-left: 15%;
+        width: 12vw;
+        height: auto;
+        padding-top: 3%;
+    }
+
+    .user-txt {
+        margin-left: 0;
+        margin-right: auto;
+        width: 20vw;
+        text-align: center;
+        max-width: 95%;
+    }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .bubbles {
+        width: 5.5em;
+    }
+
+    .topbar-img {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+        height: 40vw;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .cool {
+        display: flex;
+        align-items: center;
+    }
+
+    #proj-answers {
+        padding-bottom: 2rem;
+    }
+
+
+    #underline1 {
+        border-radius: 50px;
+        width: 9rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(-3px, -28px);
+    }
+
+    #underline2 {
+        border-radius: 50px;
+        width: 9.6rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(-3px, -28px);
+    }
+
+    #underline3 {
+        border-radius: 50px;
+        width: 12rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(-3px, -28px);
+    }
+
+    #underline4 {
+        border-radius: 50px;
+        width: 12rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(-3px, -28px);
+    }
+
+    #underline5 {
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
+    }
+
+    #underline6 {
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
+    }
+
+    #underline7 {
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
+    }
+
+    #underline8 {
+        border-radius: 50px;
+        width: 10rem;
+        height: 20px;
+        position: absolute;
+        z-index: -1;
+        transform: translate(10px, 30px);
+    }
+}
