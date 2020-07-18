@@ -224,7 +224,6 @@ p {
 
 .bubbles {
   width: 5.5em;
-  padding-left: 1.5rem;
 }
 
 #underline1 {
@@ -338,7 +337,6 @@ p {
 
 .bubbles {
   height: 3em;
-  padding-top: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -352,12 +350,35 @@ p {
     text-align: center;
     width: 50vw;
   }
+  #underline1 {
+    width: 7.76rem;
+  }
+  #underline2 {
+    width: 8.2rem;
+  }
+  #underline3 {
+    width: 10.2rem;
+  }
+  #underline4 {
+    width: 10.2rem;
+  }
+  #underline5 {
+    -webkit-transform: translate(10px, 20px);
+            transform: translate(10px, 20px);
+  }
+  #underline6 {
+    -webkit-transform: translate(10px, 20px);
+            transform: translate(10px, 20px);
+  }
+  #underline7 {
+    -webkit-transform: translate(10px, 20px);
+            transform: translate(10px, 20px);
+  }
 }
 
 @media (min-width: 768px) {
   .bubbles {
     width: 5.5em;
-    padding-left: 1.5rem;
   }
   .topbar-img {
     margin-top: 4.5rem;
@@ -394,102 +415,36 @@ p {
     text-align: center;
     width: 50vw;
   }
-}
-
-@media (min-width: 992px) {
-  .bubbles {
-    width: 5.5em;
-    padding-left: 1.5rem;
-  }
-  .left {
-    border-left: solid grey;
-    border-left-width: medium;
-  }
   #underline1 {
-    opacity: 50%;
-    border-radius: 50px;
-    width: 8rem;
-    height: 20px;
+    width: 9.2rem;
   }
   #underline2 {
-    opacity: 50%;
-    border-radius: 50px;
-    width: 8rem;
-    height: 20px;
+    width: 10.2rem;
   }
   #underline3 {
-    opacity: 50%;
-    border-radius: 50px;
-    width: 11rem;
-    height: 20px;
+    width: 13.2rem;
   }
   #underline4 {
-    opacity: 50%;
-    border-radius: 50px;
-    width: 10.7rem;
-    height: 20px;
-  }
-  .user-txt {
-    margin-left: 0;
-    margin-right: auto;
-    width: 20vw;
-    text-align: center;
-  }
-}
-
-@media (min-width: 1200px) {
-  .bubbles {
-    width: 5.5em;
-    padding-left: 1.5rem;
-  }
-  .topbar-img {
-    margin-top: 4.5rem;
-    margin-bottom: 4.5rem;
-    height: 40vw;
+    width: 13.2rem;
   }
   #underline5 {
-    opacity: 60%;
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 29px);
-            transform: translate(10px, 29px);
+    -webkit-transform: translate(10px, 20px);
+            transform: translate(10px, 20px);
   }
   #underline6 {
-    opacity: 60%;
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 29px);
-            transform: translate(10px, 29px);
+    -webkit-transform: translate(10px, 20px);
+            transform: translate(10px, 20px);
   }
   #underline7 {
-    opacity: 60%;
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 29px);
-            transform: translate(10px, 29px);
-  }
-  #underline8 {
-    opacity: 60%;
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 29px);
-            transform: translate(10px, 29px);
+    -webkit-transform: translate(10px, 20px);
+            transform: translate(10px, 20px);
   }
 }
 
 @media (min-width: 992px) {
+  .bubbles {
+    width: 5.5em;
+  }
   .left {
     border-left: solid grey;
     border-left-width: medium;
@@ -514,6 +469,9 @@ p {
 }
 
 @media (min-width: 1200px) {
+  .bubbles {
+    width: 5.5em;
+  }
   .topbar-img {
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;

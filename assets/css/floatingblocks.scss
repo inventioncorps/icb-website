@@ -32,19 +32,16 @@ $black: #202020;
 #underline5 {
     background: #E95633;
     width: 14rem;
-    transform: translate(10px, 23px);
 }
 
 #underline6 {
     background: #E95633;
     width: 15rem;
-    transform: translate(10px, 39px);
 }
 
 #underline7 {
     background: #E95633;
     width: 16rem;
-    transform: translate(10px, 39px);
 }
 
 .col-4 {
@@ -72,24 +69,52 @@ $black: #202020;
     border-color: $gray;
 }
 
+@media (min-width: 576px) {
+    #underline1 {
+        width:;
+    }
+
+    #underline2 {
+    
+    }
+
+    #underline3 {
+    
+    }
+
+    #underline4 {
+        
+    }
+
+    #underline5 {
+        
+    }
+
+    #underline6 {
+    
+    }
+
+    #underline7 {
+        width: 18rem;
+    }
+}
+
 @media (min-width: 768px) {
 
     #underline5 {
         background: #E95633;
         width: 12rem;
-        transform: translate(10px, 23px);
     }
 
     #underline6 {
         background: #E95633;
         width: 12.5rem;
-        transform: translate(10px, 39px);
+
     }
 
     #underline7 {
         background: #E95633;
         width: 12rem;
-        transform: translate(10px, 39px);
     }
 
 }
