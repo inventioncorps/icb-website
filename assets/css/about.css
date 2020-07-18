@@ -28,7 +28,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 3.3vw;
   font-weight: bold;
   font-style: normal;
 }
@@ -50,9 +50,9 @@ h6 {
   text-align: center;
   max-width: 25em;
   margin: auto;
-  padding-bottom: 5em;
+  padding-bottom: 4%;
   color: black;
-  font-weight: 100;
+  font-weight: .1px;
   font-style: italic;
 }
 

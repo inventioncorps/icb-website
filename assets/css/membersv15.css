@@ -69,6 +69,8 @@ body {
 h6 {
   color: white;
   font-style: italic;
+  font-weight: .1px;
+  padding-bottom: 4%;
 }
 
 .header {
@@ -83,7 +85,7 @@ p.header {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3.3vw;
   font-weight: bold;
   font-style: normal;
 }
@@ -225,9 +227,6 @@ p {
   .stars-img-2 {
     width: 18vw;
     margin-left: 82vw;
-  }
-  h1 {
-    font-size: 4rem;
   }
   h2 {
     font-size: 2rem;
