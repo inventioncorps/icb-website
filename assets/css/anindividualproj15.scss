@@ -150,7 +150,7 @@ h5 {
 
 .topbar-img {
     height: 80vw;
-    margin-top: 5vh;
+   // margin-top: 5vh;
 }
 
 #topbar-hr {
@@ -238,7 +238,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(-3px, -47px);
+    transform: translate(-4px, -41px);
 }
 
 #underline6 {
@@ -248,7 +248,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(-3px, -47px);
+    transform: translate(-4px, -41px);
 }
 
 #underline7 {
@@ -258,7 +258,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(-3px, -47px);
+    transform: translate(-4px, -41px);
 }
 
 #underline8 {
@@ -268,7 +268,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(-3px, -47px);
+    transform: translate(-4px, -41px);
 }
 
 .p1,
@@ -293,14 +293,9 @@ p {
 }
 
 .bubbles {
-    width: 25%;
+    width: 5.5em;
     padding-left: 1.5rem;
 }
-
-// .nums {
-
-// }
-
 
 // MEDIA QUERIES
 
@@ -354,7 +349,7 @@ p {
     }
 
     #proj-title {
-        padding-top: 5rem;
+       // padding-top: 5rem;
     }
 
 }
@@ -384,7 +379,7 @@ p {
         padding-top: 5rem;
     }
 
-    .cool-row {
+    .cool {
         display: flex;
         align-items: center;
     }
