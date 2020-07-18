@@ -79,7 +79,11 @@ h7 {
 .user-txt {
     margin-left: auto;
     margin-right: auto;
+<<<<<<< Updated upstream
     width: 80vw;
+=======
+    width: 20vw;
+>>>>>>> Stashed changes
     text-align: center;
 }
 
@@ -328,13 +332,19 @@ p {
 }
 
 .bubbles {
+<<<<<<< Updated upstream
     height: 3em;
+=======
+    width: 25%;
+    padding-left: 1.5rem;
+>>>>>>> Stashed changes
 }
 
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+<<<<<<< Updated upstream
 
     #users {
         margin: 0 auto;
@@ -376,13 +386,28 @@ p {
         transform: translate(10px, 20px);
     }
 
+=======
+    .left {
+        border-left: solid grey;
+        border-left-width: medium;
+    }
+    
+    .right {
+        border-right: solid grey;
+        border-right-width: medium;
+        border-left-width: 0;
+    }
+>>>>>>> Stashed changes
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+<<<<<<< Updated upstream
     .bubbles {
         width: 5.5em;
     }
+=======
+>>>>>>> Stashed changes
 
     .topbar-img {
         margin-top: 4.5rem;
@@ -412,6 +437,7 @@ p {
         font-size: 1.5em;
     }
 
+<<<<<<< Updated upstream
     #users {
         margin: 0 auto;
         width: 30%;
@@ -469,6 +495,47 @@ p {
             border-right-width: medium;
             border-left-width: 0;
         }
+=======
+    h3 {
+        font-size: 1.17em;
+    }
+
+    #proj-title {
+        padding-top: 5rem;
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .topbar-img {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+        height: 40vw;
+
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.17em;
+    }
+
+    #proj-title {
+        padding-top: 5rem;
+    }
+
+    .cool-row {
+        display: flex;
+        align-items: center;
+    }
+>>>>>>> Stashed changes
 
         #users {
             margin-left: 15%;
