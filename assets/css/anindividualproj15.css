@@ -20,8 +20,17 @@
 }
 
 .team-header {
-  color: hotpink;
+  color: #202020;
   padding-top: 4rem;
+}
+
+h7 {
+  font-weight: 600;
+}
+
+.team-names {
+  text-align: center;
+  font-style: italic;
 }
 
 .row {
@@ -242,7 +251,13 @@ p {
           transform: translate(-3px, -43px);
 }
 
-#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7 {
   padding-left: 10px;
   margin-bottom: 35px;
 }
@@ -611,6 +626,148 @@ p {
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
     height: 40vw;
+  }
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+#proj-title {
+  padding-top: 5rem;
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  #proj-title {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
+  }
+  .holder {
+    display: inline;
   }
 }
 /*# sourceMappingURL=anindividualproj15.css.map */
