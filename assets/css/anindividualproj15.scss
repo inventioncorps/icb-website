@@ -115,6 +115,10 @@ h7 {
     font-size: 1.5rem
 }
 
+.details {
+    padding-left: 2rem;
+}
+
 h2 {
     text-align: left;
     font-weight: bold;
@@ -345,19 +349,19 @@ p {
     }
 
     #underline1 {
-        width: 7.76rem;
+        width: 8.76rem;
     }
 
     #underline2 {
-        width: 8.2rem;
+        width: 9.7rem;
     }
 
     #underline3 {
-        width: 10.2rem;
+        width: 12.2rem;
     }
 
     #underline4 {
-        width: 10.2rem;
+        width: 12.6rem;
     }
 
     #underline5 {
@@ -371,6 +375,7 @@ p {
     #underline7 {
         transform: translate(10px, 20px);
     }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -407,10 +412,6 @@ p {
         font-size: 1.5em;
     }
 
-    h3 {
-        font-size: 1.17em;
-    }
-
     #users {
         margin: 0 auto;
         width: 30%;
@@ -424,19 +425,19 @@ p {
     }
 
     #underline1 {
-        width: 9.2rem;
+        width: 8.8rem;
     }
 
     #underline2 {
-        width: 10.2rem;
+        width: 9.7rem;
     }
 
     #underline3 {
-        width: 13.2rem;
+        width: 12.2rem;
     }
 
     #underline4 {
-        width: 13.2rem;
+        width: 12.5rem;
     }
 
     #underline5 {
@@ -506,11 +507,6 @@ p {
         }
 
         .cool {
-            display: flex;
-            align-items: center;
-        }
-
-        .row-details {
             display: flex;
             align-items: center;
         }
