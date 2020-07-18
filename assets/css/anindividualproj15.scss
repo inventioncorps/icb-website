@@ -115,6 +115,10 @@ h7 {
     font-size: 1.5rem
 }
 
+.details {
+    padding-left: 2rem;
+}
+
 h2 {
     text-align: left;
     font-weight: bold;
@@ -371,6 +375,7 @@ p {
     #underline7 {
         transform: translate(10px, 20px);
     }
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -502,11 +507,6 @@ p {
         }
 
         .cool {
-            display: flex;
-            align-items: center;
-        }
-
-        .row-details {
             display: flex;
             align-items: center;
         }

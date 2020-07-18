@@ -120,6 +120,10 @@ h7 {
   font-size: 1.5rem;
 }
 
+.details {
+  padding-left: 2rem;
+}
+
 h2 {
   text-align: left;
   font-weight: bold;
@@ -481,14 +485,6 @@ p {
     font-size: 1.17em;
   }
   .cool {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .row-details {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
