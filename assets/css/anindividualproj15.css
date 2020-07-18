@@ -30,6 +30,16 @@
   padding-bottom: 1rem;
 }
 
+.background-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.deliverables-header {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
 h7 {
   font-weight: 600;
 }
@@ -106,6 +116,7 @@ h2 {
 
 h3 {
   text-align: left;
+  padding-top: 0.5rem;
   padding-bottom: 10px;
   font-style: italic;
   font-weight: 200;
@@ -800,6 +811,7 @@ h3 {
     margin-bottom: 4.5rem;
     height: 40vw;
   }
+<<<<<<< Updated upstream
   .cool-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -819,5 +831,7 @@ h3 {
   #proj-answers {
     padding-bottom: 2rem;
   }
+=======
+>>>>>>> Stashed changes
 }
 /*# sourceMappingURL=anindividualproj15.css.map */
