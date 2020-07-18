@@ -15,11 +15,9 @@
     float: left;
 }
 
-.hmw{
+.hmw {
     padding-bottom: 2rem;
 }
-
-
 
 .team-header {
     color: #202020;
@@ -246,15 +244,25 @@ p {
     transform: translate(-3px, -43px);
 }
 
-#p1,
-#p2,
-#p3,
-#p4,
-#p5,
-#p6,
-#p7 {
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7 {
     padding-left: 10px;
     margin-bottom: 35px;
+}
+
+.left {
+    border-left: solid grey;
+    border-left-width: medium;
+}
+
+.right {
+    border-left: solid grey;
+    border-left-width: medium;
 }
 
 .bubbles {
@@ -271,7 +279,18 @@ p {
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .left {
+        border-left: solid grey;
+        border-left-width: medium;
+    }
+    
+    .right {
+        border-right: solid grey;
+        border-right-width: medium;
+        border-left-width: 0;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
