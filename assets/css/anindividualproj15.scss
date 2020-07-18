@@ -303,6 +303,18 @@ p {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+
+    #users {
+        margin: 0 auto;
+        width: 30%;
+        padding-bottom: 2%;
+    }
+
+    .user-txt {
+        margin: 0 auto;
+        text-align: center;
+        width: 50vw;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -344,6 +356,17 @@ p {
        // padding-top: 5rem;
     }
 
+    #users {
+        margin: 0 auto;
+        width: 30%;
+        padding-bottom: 2%;
+    }
+
+    .user-txt {
+        margin: 0 auto;
+        text-align: center;
+        width: 50vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)
