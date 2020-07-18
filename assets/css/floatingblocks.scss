@@ -31,17 +31,17 @@ $black: #202020;
 
 #underline5 {
     background: #E95633;
-    width: 11.5rem;
+    width: 14rem;
 }
 
 #underline6 {
     background: #E95633;
-    width: 12rem;
+    width: 15rem;
 }
 
 #underline7 {
     background: #E95633;
-    width: 13rem;
+    width: 16rem;
 }
 
 .col-4 {
@@ -66,4 +66,74 @@ $black: #202020;
 
 .p5 {
     border-color: $gray;
+}
+
+@media (min-width: 768px) {
+    #underline5 {
+        background: #E95633;
+        width: 12rem;
+    }
+
+    #underline6 {
+        background: #E95633;
+        width: 12.5rem;
+    }
+
+    #underline7 {
+        background: #E95633;
+        width: 13.5rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #underline5 {
+        background: #E95633;
+        width: 12rem;
+    }
+
+    #underline6 {
+        background: #E95633;
+        width: 12.5rem;
+    }
+
+    #underline7 {
+        background: #E95633;
+        width: 13.5rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    // #underline1 {
+    //     width: 7.5rem;
+    // }
+
+    // #underline2 {
+    //     width: 8.125rem;
+    // }
+
+    // #underline3 {
+    //     width: 10rem;
+    // }
+
+    // #underline4 {
+    //     width: 10rem;
+    // }
+
+    // #underline5 {
+    //     width: 10rem;
+    // }
+
+    // #underline6 {
+    //     width: 10rem;
+    // }
+
+    // #underline7 {
+    //     width: 10rem;
+    // }
+
+    // #underline8 {
+    //     width: 10rem;
+    // }
 }
