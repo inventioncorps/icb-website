@@ -339,6 +339,11 @@ p {
   height: 3em;
 }
 
+.delivtitle {
+  padding-bottom: 5%;
+  width: 80%;
+}
+
 @media (min-width: 576px) {
   #users {
     margin: 0 auto;
