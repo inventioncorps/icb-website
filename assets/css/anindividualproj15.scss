@@ -24,6 +24,12 @@
 .team-header {
     color: #202020;
     padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.mentors-header {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 h7 {
@@ -33,6 +39,11 @@ h7 {
 .team-names {
     text-align: center;
     font-style: italic;
+    line-height: 1.3;
+}
+
+.img-container {
+    padding-bottom: 6%;
 }
 
 .row {
@@ -92,6 +103,7 @@ h2 {
     font-weight: bold;
     font-style: italic;
     font-size: 1.5em;
+    letter-spacing: 0.05rem;
 }
 
 h3 {
