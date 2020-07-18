@@ -15,7 +15,7 @@
     float: left;
 }
 
-.hmw{
+.hmw {
     padding-bottom: 2rem;
 }
 
@@ -95,7 +95,7 @@ h7 {
     text-align: right;
     height: 20%;
     font-style: italic;
-    font-size:1.5rem
+    font-size: 1.5rem
 }
 
 h2 {
@@ -1036,6 +1036,18 @@ h3 {
         height: 40vw;
     }
 
-    .holder {
+    .cool-row {
+        display: flex;
+        align-items: center;
     }
+
+    .row-details {
+        display: flex;
+        align-items: center;
+    }
+
+    #proj-answers {
+        padding-bottom: 2rem;
+    }
+
 }
