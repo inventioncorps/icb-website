@@ -205,7 +205,7 @@ p {
     height: 20px;
     position: absolute;
     z-index: -1;
-    transform: translate(-3px, -43px);
+    transform: translate(-1px, -43px);
 }
 
 #underline7 {
@@ -233,8 +233,14 @@ p {
     margin-bottom: 35px;
 }
 
-// .bubbles1 {
-    //bottom-padding: 4rem;
+.bubbles {
+    //padding-bottom: 4rem;
+    width: 25%;
+    padding-left: 1.5rem;
+}
+
+// .nums {
+
 // }
 
 @media (min-width: 778px) {

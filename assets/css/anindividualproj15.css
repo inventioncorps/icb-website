@@ -207,8 +207,8 @@ p {
   height: 20px;
   position: absolute;
   z-index: -1;
-  -webkit-transform: translate(-3px, -43px);
-          transform: translate(-3px, -43px);
+  -webkit-transform: translate(-1px, -43px);
+          transform: translate(-1px, -43px);
 }
 
 #underline7 {
@@ -236,6 +236,11 @@ p {
 #p1, #p2, #p3, #p4, #p5, #p6, #p7 {
   padding-left: 10px;
   margin-bottom: 35px;
+}
+
+.bubbles {
+  width: 25%;
+  padding-left: 1.5rem;
 }
 
 @media (min-width: 778px) {
