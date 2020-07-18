@@ -120,6 +120,10 @@ h7 {
   font-size: 1.5rem;
 }
 
+.details {
+  padding-left: 2rem;
+}
+
 h2 {
   text-align: left;
   font-weight: bold;
@@ -227,7 +231,7 @@ p {
 }
 
 #underline1 {
-  opacity: 50%;
+  opacity: 0.5;
   border-radius: 50px;
   width: 9rem;
   height: 20px;
@@ -238,7 +242,7 @@ p {
 }
 
 #underline2 {
-  opacity: 50%;
+  opacity: 0.5;
   border-radius: 50px;
   width: 9.5rem;
   height: 20px;
@@ -249,7 +253,7 @@ p {
 }
 
 #underline3 {
-  opacity: 50%;
+  opacity: 0.5;
   border-radius: 50px;
   width: 12rem;
   height: 20px;
@@ -260,7 +264,7 @@ p {
 }
 
 #underline4 {
-  opacity: 50%;
+  opacity: 0.5;
   border-radius: 50px;
   width: 12.2rem;
   height: 20px;
@@ -271,7 +275,7 @@ p {
 }
 
 #underline5 {
-  opacity: 60%;
+  opacity: 0.6;
   border-radius: 50px;
   width: 15rem;
   height: 20px;
@@ -282,7 +286,7 @@ p {
 }
 
 #underline6 {
-  opacity: 60%;
+  opacity: 0.6;
   border-radius: 50px;
   width: 13rem;
   height: 20px;
@@ -293,7 +297,7 @@ p {
 }
 
 #underline7 {
-  opacity: 60%;
+  opacity: 0.6;
   border-radius: 50px;
   width: 15rem;
   height: 20px;
@@ -304,7 +308,7 @@ p {
 }
 
 #underline8 {
-  opacity: 60%;
+  opacity: 0.6;
   border-radius: 50px;
   width: 15rem;
   height: 20px;
@@ -356,16 +360,16 @@ p {
     width: 50vw;
   }
   #underline1 {
-    width: 7.76rem;
+    width: 8.76rem;
   }
   #underline2 {
-    width: 8.2rem;
+    width: 9.7rem;
   }
   #underline3 {
-    width: 10.2rem;
+    width: 12.2rem;
   }
   #underline4 {
-    width: 10.2rem;
+    width: 12.6rem;
   }
   #underline5 {
     -webkit-transform: translate(10px, 20px);
@@ -407,9 +411,6 @@ p {
   h2 {
     font-size: 1.5em;
   }
-  h3 {
-    font-size: 1.17em;
-  }
   #users {
     margin: 0 auto;
     width: 30%;
@@ -421,16 +422,16 @@ p {
     width: 50vw;
   }
   #underline1 {
-    width: 9.2rem;
+    width: 8.8rem;
   }
   #underline2 {
-    width: 10.2rem;
+    width: 9.7rem;
   }
   #underline3 {
-    width: 13.2rem;
+    width: 12.2rem;
   }
   #underline4 {
-    width: 13.2rem;
+    width: 12.5rem;
   }
   #underline5 {
     -webkit-transform: translate(10px, 20px);
@@ -496,19 +497,11 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
-  .row-details {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   #proj-answers {
     padding-bottom: 2rem;
   }
   #underline1 {
-    opacity: 50%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 7.5rem;
     height: 20px;
@@ -518,7 +511,7 @@ p {
             transform: translate(-3px, -28px);
   }
   #underline2 {
-    opacity: 50%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 8.125rem;
     height: 20px;
@@ -528,7 +521,7 @@ p {
             transform: translate(-3px, -28px);
   }
   #underline3 {
-    opacity: 50%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 10rem;
     height: 20px;
@@ -538,7 +531,7 @@ p {
             transform: translate(-3px, -28px);
   }
   #underline4 {
-    opacity: 50%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 10rem;
     height: 20px;
@@ -548,7 +541,7 @@ p {
             transform: translate(-3px, -28px);
   }
   #underline5 {
-    opacity: 60%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 10rem;
     height: 20px;
@@ -558,7 +551,7 @@ p {
             transform: translate(10px, 30px);
   }
   #underline6 {
-    opacity: 60%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 10rem;
     height: 20px;
@@ -568,7 +561,7 @@ p {
             transform: translate(10px, 30px);
   }
   #underline7 {
-    opacity: 60%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 10rem;
     height: 20px;
@@ -578,7 +571,7 @@ p {
             transform: translate(10px, 30px);
   }
   #underline8 {
-    opacity: 60%;
+    opacity: 0.6;
     border-radius: 50px;
     width: 10rem;
     height: 20px;
