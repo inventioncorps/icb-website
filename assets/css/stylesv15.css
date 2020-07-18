@@ -34,6 +34,10 @@ footer {
   height: auto;
 }
 
+h1 {
+  font-size: 5vw;
+}
+
 h2 {
   font-weight: 700;
   font-style: italic;

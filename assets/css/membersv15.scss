@@ -197,6 +197,11 @@ p {
     font-size: 0.75rem;
 }
 
+.here:hover {
+    cursor: grab;
+    color: $red;
+}
+
 @media (min-width: 576px) {
     .dot {
         height: 12vw;

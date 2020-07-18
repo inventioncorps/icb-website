@@ -194,6 +194,12 @@ p {
   font-size: 0.75rem;
 }
 
+.here:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  color: #E06B65;
+}
+
 @media (min-width: 576px) {
   .dot {
     height: 12vw;
