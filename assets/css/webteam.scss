@@ -180,18 +180,29 @@ p {
     color: white;
 }
 
+.clouds-left, .clouds-right {
+    width: 100%;
+    height: 0px;
+    position: relative;
+}
+
+.clouds-img-1 {
+    width: 30vw;
+    height: auto;
+    margin-top: 40vw;
+}
+
+.clouds-img-2 {
+    width: 30vw;
+    height: auto;
+    margin-top: 40vw;
+    margin-left: 70vw;
+}
+
 @media (min-width: 576px) {
     .dot {
         height: 12vw;
         width: 12vw;
-    }
-
-    .galaxy {
-        bottom: 50px;
-    }
-
-    .helmet-img-2 {
-        transform: translate(87vw, -140vh) rotate(20deg);
     }
 
     .role {
@@ -202,6 +213,10 @@ p {
     .dark {
         visibility: hidden;
         display: none;
+    }
+
+    .clouds-img-1, .clouds-img-2 {
+        margin-top: 12vw;
     }
 }
 
@@ -222,11 +237,15 @@ p {
         width: 20%;
         float: left;
     }
+
+    .clouds-img-1, .clouds-img-2 {
+        margin-top: 9vw;
+    }
 }
 
 @media (min-width: 992px) {
-    .helmet-img-2 {
-        transform: translate(87vw, -200vh) rotate(20deg);
+    .clouds-img-1, .clouds-img-2 {
+        margin-top: 8vw;
     }
 
     .header {
@@ -298,6 +317,9 @@ p {
 }
 
 @media (min-width: 1200px) {
+    .clouds-img-1, .clouds-img-2 {
+        margin-top: 7vw;
+    }
     .quote {
         font-size: small;
     }
