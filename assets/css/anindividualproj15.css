@@ -275,50 +275,6 @@ p {
           transform: translate(-3px, -28px);
 }
 
-#underline5 {
-  opacity: 0.6;
-  border-radius: 50px;
-  width: 15rem;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translate(10px, 23px);
-          transform: translate(10px, 23px);
-}
-
-#underline6 {
-  opacity: 0.6;
-  border-radius: 50px;
-  width: 13rem;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translate(10px, 23px);
-          transform: translate(10px, 23px);
-}
-
-#underline7 {
-  opacity: 0.6;
-  border-radius: 50px;
-  width: 15rem;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translate(10px, 23px);
-          transform: translate(10px, 23px);
-}
-
-#underline8 {
-  opacity: 0.6;
-  border-radius: 50px;
-  width: 15rem;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translate(10px, 23px);
-          transform: translate(10px, 23px);
-}
-
 .p1,
 .p2,
 .p3,
@@ -341,7 +297,8 @@ p {
 }
 
 .bubbles {
-  height: 3em;
+  width: 25%;
+  padding-left: 1.5rem;
 }
 
 @media (min-width: 576px) {
@@ -368,24 +325,18 @@ p {
   #underline4 {
     width: 12.6rem;
   }
-  #underline5 {
-    -webkit-transform: translate(10px, 20px);
-            transform: translate(10px, 20px);
+  .left {
+    border-left: solid grey;
+    border-left-width: medium;
   }
-  #underline6 {
-    -webkit-transform: translate(10px, 20px);
-            transform: translate(10px, 20px);
-  }
-  #underline7 {
-    -webkit-transform: translate(10px, 20px);
-            transform: translate(10px, 20px);
+  .right {
+    border-right: solid grey;
+    border-right-width: medium;
+    border-left-width: 0;
   }
 }
 
 @media (min-width: 768px) {
-  .bubbles {
-    width: 5.5em;
-  }
   .topbar-img {
     margin-top: 4.5rem;
     height: 40vw;
@@ -408,7 +359,6 @@ p {
   h2 {
     font-size: 1.5em;
   }
-<<<<<<< Updated upstream
   #users {
     margin: 0 auto;
     width: 30%;
@@ -430,18 +380,6 @@ p {
   }
   #underline4 {
     width: 12.5rem;
-  }
-  #underline5 {
-    -webkit-transform: translate(10px, 20px);
-            transform: translate(10px, 20px);
-  }
-  #underline6 {
-    -webkit-transform: translate(10px, 20px);
-            transform: translate(10px, 20px);
-  }
-  #underline7 {
-    -webkit-transform: translate(10px, 20px);
-            transform: translate(10px, 20px);
   }
 }
 
@@ -469,27 +407,31 @@ p {
     margin-right: auto;
     width: 20vw;
     text-align: center;
-<<<<<<< HEAD
     max-width: 95%;
-=======
-=======
-  h3 {
-    font-size: 1.17em;
-  }
-  #proj-title {
-    padding-top: 5rem;
->>>>>>> Stashed changes
->>>>>>> 9278c78d9bc24de56bd7687fdb0a097dba2199cf
   }
 }
 
 @media (min-width: 1200px) {
-<<<<<<< Updated upstream
-  .bubbles {
-    width: 5.5em;
+  .topbar-img {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    height: 40vw;
   }
-=======
->>>>>>> Stashed changes
+  #proj-title {
+    padding-top: 5rem;
+  }
+  #users {
+    margin-left: 15%;
+    width: 12vw;
+    height: auto;
+    padding-top: 3%;
+  }
+  .user-txt {
+    margin-left: 0;
+    margin-right: auto;
+    width: 20vw;
+    text-align: center;
+  }
   .topbar-img {
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
@@ -498,28 +440,7 @@ p {
   h2 {
     font-size: 1.5em;
   }
-<<<<<<< HEAD
-=======
-  h3 {
-    font-size: 1.17em;
-  }
-<<<<<<< Updated upstream
->>>>>>> 9278c78d9bc24de56bd7687fdb0a097dba2199cf
   .cool {
-=======
-  #proj-title {
-    padding-top: 5rem;
-  }
-  .cool-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .row-details {
->>>>>>> Stashed changes
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -531,76 +452,20 @@ p {
     padding-bottom: 2rem;
   }
   #underline1 {
-    border-radius: 50px;
-    width: 9rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
     -webkit-transform: translate(-3px, -28px);
             transform: translate(-3px, -28px);
   }
   #underline2 {
-    border-radius: 50px;
-    width: 9.6rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
     -webkit-transform: translate(-3px, -28px);
             transform: translate(-3px, -28px);
   }
   #underline3 {
-    border-radius: 50px;
-    width: 12rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
     -webkit-transform: translate(-3px, -28px);
             transform: translate(-3px, -28px);
   }
   #underline4 {
-    border-radius: 50px;
-    width: 12rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
     -webkit-transform: translate(-3px, -28px);
             transform: translate(-3px, -28px);
-  }
-  #underline5 {
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 30px);
-            transform: translate(10px, 30px);
-  }
-  #underline6 {
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 30px);
-            transform: translate(10px, 30px);
-  }
-  #underline7 {
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 30px);
-            transform: translate(10px, 30px);
-  }
-  #underline8 {
-    border-radius: 50px;
-    width: 10rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translate(10px, 30px);
-            transform: translate(10px, 30px);
   }
 }
 /*# sourceMappingURL=anindividualproj15.css.map */
