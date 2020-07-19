@@ -1,92 +1,49 @@
+//COLOR SET
+$background: #E95633; //CHANGE to topbar color
+$red: #E06B65;
+$yellow: #FFFF99;
+$green: #99CC99;
+$blue: #99CCFF;
+$gray: #C4C4C4;
+$black: #202020;
+
 .topbar {
     background-color: #373737;
-    color: white;
+
 }
 
 #underline1 {
     background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
 }
 
 #underline2 {
     background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
 }
 
 #underline3 {
     background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
 }
 
 #underline4 {
     background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
 }
 
-#underline5 {
-    background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p1 {
+    border-color: $red; //CHANGE to color of first teammember
 }
 
-#underline6 {
-    background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p2 {
+    border-color: $yellow; //CHANGE to color of second teammember
 }
 
-#underline7 {
-    background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p3 {
+    border-color: $green; //CHANGE to color of third teammember
 }
 
-#underline8 {
-    background: #373737;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p4 {
+    border-color: $blue; //CHANGE to color of fourth teammember
+}
+
+.p5 {
+    border-color: $gray; //CHANGE to color of fifth teammember
 }
