@@ -67,6 +67,40 @@ p {
   color: #99CCFF;
 }
 
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  left: 80%;
+  font-size: 2.5rem;
+  width: 15vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.footer-icons > a:nth-child(1):hover {
+  color: #E06B65;
+}
+
+.footer-icons > a:nth-child(2):hover {
+  color: #FFFF99;
+}
+
+.footer-icons > a:nth-child(3):hover {
+  color: #99CC99;
+}
+
+.footer-icons > a:nth-child(4):hover {
+  color: #99CCFF;
+}
+
 .landing {
   position: relative;
   width: 100%;
@@ -78,6 +112,7 @@ p {
   height: auto;
   position: absolute;
   bottom: 100px;
+  z-index: -1;
 }
 
 .planets-img {
@@ -182,11 +217,6 @@ p {
 #projects-button {
   border: solid #E06B65;
   background: #E06B65;
-  font-size: 1.15vw;
-  padding: 0.5em 1.5em;
-  border-radius: 0.85em;
-  margin-top: 1.5em;
-  top: 65%;
 }
 
 #members-button:hover {

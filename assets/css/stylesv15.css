@@ -16,9 +16,10 @@ body {
 footer {
   background-color: #202020;
   color: white;
-  padding: 20px;
+  padding: 20px 10vw;
   text-align: center;
   margin-top: auto;
+  z-index: 1;
 }
 
 #contact, #landing {
@@ -248,6 +249,9 @@ nav {
   }
   a.projects {
     border-bottom: solid #E06B65;
+  }
+  a.contact {
+    border-bottom: solid #FFFF99;
   }
   #about {
     padding-top: 10vh;
