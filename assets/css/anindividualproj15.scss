@@ -37,7 +37,7 @@
     margin-top: 5vw;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 95%;
     object-fit: contain;
     display: flex;
     align-items: center;
@@ -361,6 +361,10 @@ ul {
     .topbar-img {
         margin-top: 4.5rem;
         margin-bottom: 4.5rem;
+    }
+
+    .deliverable-img {
+        width: 70%;
     }
 
     #proj-title {
