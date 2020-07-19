@@ -2,17 +2,9 @@
   color: white;
 }
 
-.col1 {
-  width: 50%;
-}
-
-.col2 {
-  width: 50%;
-}
-
-.col-sm-5th {
-  width: 20%;
-  float: left;
+.col-4 {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .hmw {
@@ -210,13 +202,7 @@ p {
   font-weight: bold;
 }
 
-.p1,
-.p2,
-.p3,
-.p4,
-.p5,
-.p6,
-.p7 {
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
   padding-left: 10px;
   margin-bottom: 35px;
 }
@@ -229,10 +215,6 @@ p {
 .right {
   border-left: solid grey;
   border-left-width: medium;
-}
-
-.bubbles {
-  width: 5.5em;
 }
 
 #underline1 {
@@ -279,27 +261,6 @@ p {
           transform: translate(-3px, -28px);
 }
 
-.p1,
-.p2,
-.p3,
-.p4,
-.p5,
-.p6,
-.p7 {
-  padding-left: 10px;
-  margin-bottom: 35px;
-}
-
-.left {
-  border-left: solid grey;
-  border-left-width: medium;
-}
-
-.right {
-  border-left: solid grey;
-  border-left-width: medium;
-}
-
 .bubbles {
   width: 25%;
   padding-left: 1.5rem;
@@ -313,9 +274,7 @@ p {
   }
   .user-txt {
     margin: 0 auto;
-    text-align: center;
     width: 50vw;
-    max-width: 95%;
   }
   #underline1 {
     width: 8.76rem;
@@ -328,10 +287,6 @@ p {
   }
   #underline4 {
     width: 12.6rem;
-  }
-  .left {
-    border-left: solid grey;
-    border-left-width: medium;
   }
   .right {
     border-right: solid grey;
@@ -346,8 +301,6 @@ p {
     height: 40vw;
   }
   #proj-details {
-    font-family: 'Chivo', sans-serif;
-    text-align: right;
     padding-bottom: 30px;
   }
   #proj-answers {
@@ -360,45 +313,14 @@ p {
   .holder {
     margin-left: 4.5rem;
   }
-  h2 {
-    font-size: 1.5em;
-  }
-  #users {
-    margin: 0 auto;
-    width: 30%;
-    padding-bottom: 2%;
-  }
-  .user-txt {
-    margin: 0 auto;
-    text-align: center;
-    width: 50vw;
-  }
   #underline1 {
     width: 8.8rem;
-  }
-  #underline2 {
-    width: 9.7rem;
-  }
-  #underline3 {
-    width: 12.2rem;
-  }
-  #underline4 {
-    width: 12.5rem;
   }
 }
 
 @media (min-width: 992px) {
   .bubbles {
     width: 5.5em;
-  }
-  .left {
-    border-left: solid grey;
-    border-left-width: medium;
-  }
-  .right {
-    border-right: solid grey;
-    border-right-width: medium;
-    border-left-width: 0;
   }
   #users {
     margin-left: 15%;
@@ -419,30 +341,9 @@ p {
   .topbar-img {
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
-    height: 40vw;
   }
   #proj-title {
     padding-top: 5rem;
-  }
-  #users {
-    margin-left: 15%;
-    width: 12vw;
-    height: auto;
-    padding-top: 3%;
-  }
-  .user-txt {
-    margin-left: 0;
-    margin-right: auto;
-    width: 20vw;
-    text-align: center;
-  }
-  .topbar-img {
-    margin-top: 4.5rem;
-    margin-bottom: 4.5rem;
-    height: 40vw;
-  }
-  h2 {
-    font-size: 1.5em;
   }
   .cool {
     display: -webkit-box;

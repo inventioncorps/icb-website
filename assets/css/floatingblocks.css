@@ -1,6 +1,5 @@
 .topbar {
   background-color: #E95633;
-  color: white;
   opacity: 0.8;
 }
 
@@ -18,26 +17,6 @@
 
 #underline4 {
   background: #E95633;
-}
-
-#underline5 {
-  background: #E95633;
-  width: 14rem;
-}
-
-#underline6 {
-  background: #E95633;
-  width: 15rem;
-}
-
-#underline7 {
-  background: #E95633;
-  width: 16rem;
-}
-
-.col-4 {
-  margin-right: 0;
-  margin-left: 0;
 }
 
 .p1 {
@@ -58,62 +37,5 @@
 
 .p5 {
   border-color: #C4C4C4;
-}
-
-@media (min-width: 576px) {
-  #underline1 {
-    background: #E95633;
-  }
-  #underline2 {
-    background: #E95633;
-  }
-  #underline3 {
-    background: #E95633;
-  }
-  #underline4 {
-    background: #E95633;
-  }
-  #underline5 {
-    background: #E95633;
-    width: 14rem;
-  }
-  #underline6 {
-    background: #E95633;
-    width: 15rem;
-  }
-  #underline7 {
-    background: #E95633;
-    width: 16rem;
-  }
-}
-
-@media (min-width: 768px) {
-  #underline5 {
-    background: #E95633;
-    width: 12rem;
-  }
-  #underline6 {
-    background: #E95633;
-    width: 12.5rem;
-  }
-  #underline7 {
-    background: #E95633;
-    width: 12rem;
-  }
-}
-
-@media (min-width: 992px) {
-  #underline5 {
-    background: #E95633;
-    width: 12rem;
-  }
-  #underline6 {
-    background: #E95633;
-    width: 12.5rem;
-  }
-  #underline7 {
-    background: #E95633;
-    width: 13.5rem;
-  }
 }
 /*# sourceMappingURL=floatingblocks.css.map */
