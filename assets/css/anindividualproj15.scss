@@ -152,7 +152,9 @@ h5 {
 }
 
 .question {
+    padding-top: 15px;
     margin-bottom: 10px;
+    min-height: 40px;
 }
 
 .topbar-img {
@@ -295,12 +297,6 @@ ul {
     #underline4 {
         width: 12.6rem;
     }
-    
-    .right {
-        border-right: solid grey;
-        border-right-width: medium;
-        border-left-width: 0;
-    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -352,7 +348,11 @@ ul {
         text-align: center;
         max-width: 95%;
     }
-
+    .right {
+        border-right: solid grey;
+        border-right-width: medium;
+        border-left-width: 0;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)

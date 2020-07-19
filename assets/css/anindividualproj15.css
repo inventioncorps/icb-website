@@ -156,7 +156,9 @@ h5 {
 }
 
 .question {
+  padding-top: 15px;
   margin-bottom: 10px;
+  min-height: 40px;
 }
 
 .topbar-img {
@@ -294,11 +296,6 @@ ul {
   #underline4 {
     width: 12.6rem;
   }
-  .right {
-    border-right: solid grey;
-    border-right-width: medium;
-    border-left-width: 0;
-  }
 }
 
 @media (min-width: 768px) {
@@ -340,6 +337,11 @@ ul {
     width: 20vw;
     text-align: center;
     max-width: 95%;
+  }
+  .right {
+    border-right: solid grey;
+    border-right-width: medium;
+    border-left-width: 0;
   }
 }
 
