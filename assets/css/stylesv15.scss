@@ -1,8 +1,7 @@
 // COLOR SET
 
 $red: #E06B65;
-$yellow: #FFFF99;
-$yellow2: #FFEE52;
+$yellow: #FEEB96;
 $green: #99CC99;
 $blue: #99CCFF;
 $gray: #787878;
@@ -211,7 +210,7 @@ nav {
 }
 
 .footer-icon-2:hover {
-    color: $yellow2;
+    color: $yellow;
 }
 
 .footer-icon-3:hover {
@@ -220,6 +219,22 @@ nav {
 
 .footer-icon-4:hover {
     color: $blue;
+}
+
+a.about {
+    border-bottom: solid $red;
+}
+
+a.members {
+    border-bottom: solid $yellow;
+}
+
+a.projects {
+    border-bottom: solid $green;
+}
+
+a.contact {
+    border-bottom: solid $blue;
 }
 
 // MEDIA QUERIES
@@ -351,22 +366,6 @@ nav {
         height: 15vh;
         min-height: 30vw;
         max-height: 100vh;
-    }
-
-    a.about {
-        border-bottom: solid $green;
-    }
-    
-    a.members {
-        border-bottom: solid $blue;
-    }
-    
-    a.projects {
-        border-bottom: solid $red;
-    }
-
-    a.contact {
-        border-bottom: solid $yellow2;
     }
 
     #about {

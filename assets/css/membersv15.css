@@ -172,7 +172,7 @@ div.col-4.col-sm-3, div.col-6.col-sm-3, div.col-4.col-sm-4, div.col-6.col-sm-3, 
 }
 
 .yellow {
-  border: 4px solid #FFEE52;
+  border: 4px solid #FEEB96;
 }
 
 a {
@@ -272,8 +272,8 @@ p {
             transition-timing-function: ease-in-out;
   }
   .dot.yellow:hover {
-    background-color: #FFEE52;
-    border-color: #FFEE52;
+    background-color: #FEEB96;
+    border-color: #FEEB96;
     -webkit-transition-timing-function: ease-in-out;
             transition-timing-function: ease-in-out;
   }

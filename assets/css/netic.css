@@ -33,7 +33,7 @@
 }
 
 .p2 {
-  border-color: #FFEE52;
+  border-color: #FEEB96;
 }
 
 .p3 {
@@ -53,9 +53,9 @@
 }
 
 .pspecial {
-  -o-border-image: linear-gradient(to bottom, #99CCFF 16.3%, #E06B65 16.3%, #E06B65 32.5%, #FFEE52 32.5%, #FFEE52 48.7%, #99CC99 48.7%, #99CC99 64.9%, #C4C4C4 64.9%, #C4C4C4 81.1%, #343434 81.1%);
-     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(16.3%, #99CCFF), color-stop(16.3%, #E06B65), color-stop(32.5%, #E06B65), color-stop(32.5%, #FFEE52), color-stop(48.7%, #FFEE52), color-stop(48.7%, #99CC99), color-stop(64.9%, #99CC99), color-stop(64.9%, #C4C4C4), color-stop(81.1%, #C4C4C4), color-stop(81.1%, #343434));
-     border-image: linear-gradient(to bottom, #99CCFF 16.3%, #E06B65 16.3%, #E06B65 32.5%, #FFEE52 32.5%, #FFEE52 48.7%, #99CC99 48.7%, #99CC99 64.9%, #C4C4C4 64.9%, #C4C4C4 81.1%, #343434 81.1%);
+  -o-border-image: linear-gradient(to bottom, #99CCFF 16.3%, #E06B65 16.3%, #E06B65 32.5%, #FEEB96 32.5%, #FEEB96 48.7%, #99CC99 48.7%, #99CC99 64.9%, #C4C4C4 64.9%, #C4C4C4 81.1%, #343434 81.1%);
+     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(16.3%, #99CCFF), color-stop(16.3%, #E06B65), color-stop(32.5%, #E06B65), color-stop(32.5%, #FEEB96), color-stop(48.7%, #FEEB96), color-stop(48.7%, #99CC99), color-stop(64.9%, #99CC99), color-stop(64.9%, #C4C4C4), color-stop(81.1%, #C4C4C4), color-stop(81.1%, #343434));
+     border-image: linear-gradient(to bottom, #99CCFF 16.3%, #E06B65 16.3%, #E06B65 32.5%, #FEEB96 32.5%, #FEEB96 48.7%, #99CC99 48.7%, #99CC99 64.9%, #C4C4C4 64.9%, #C4C4C4 81.1%, #343434 81.1%);
   border-image-slice: 0% 0% 0% 100%;
   border-top: 0;
   border-bottom: 0;

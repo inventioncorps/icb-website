@@ -176,18 +176,6 @@ h7 {
   border-color: #787878;
 }
 
-a.about {
-  border-bottom: solid #99CC99;
-}
-
-a.members {
-  border-bottom: solid #99CCFF;
-}
-
-a.projects {
-  border-bottom: solid #E06B65;
-}
-
 a {
   color: #202020;
 }
