@@ -7,6 +7,14 @@
   margin-bottom: 1.5rem;
 }
 
+.bottom {
+  padding-bottom: 0;
+}
+
+.no-top {
+  margin-top: 2vw;
+}
+
 #underline1 {
   background: #E06B65;
 }
