@@ -1,92 +1,53 @@
+//COLOR SET
+$background: #F09B67; // topbar color
+$red: #E06B65;
+$yellow: #FFFF99;
+$green: #99CC99;
+$blue: #99CCFF;
+$gray: #C4C4C4;
+$black: #202020;
+
 .topbar {
-    background-color: #F09B67;
-    color: white;
+    background-color: $background;
+    opacity: 0.8;
 }
 
 #underline1 {
-    background: #F09B67;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
+    background: $background;
 }
 
 #underline2 {
-    background: #F09B67;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
+    background: $background;
 }
 
 #underline3 {
-    background: #F09B67;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
+    background: $background;
 }
 
 #underline4 {
-    background: #F09B67;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-32px);
-    transform: translateY(-32px);
+    background: $background;
 }
 
-#underline5 {
-    background: #F09B67;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p1 {
+    border-color: $red; //to color of first team member
 }
 
-#underline6 {
-    background: #E95633;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p2 {
+    border-color: $yellow; //color of second team member
 }
 
-#underline7 {
-    background: #E95633;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p3 {
+    border-color: $green; //color of third team member
 }
 
-#underline8 {
-    background: #E95633;
-    border-radius: 50px;
-    width: 308px;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    -webkit-transform: translateY(-42px);
-    transform: translateY(-42px);
+.p4 {
+    border-color: $blue; //color of fourth team member
+}
+
+.p5 {
+    border-color: $gray; //color of fifth team member
+}
+
+.p6 {
+    border-color: $black; //color of sixth teammember
 }
