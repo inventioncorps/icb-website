@@ -9,7 +9,7 @@ $grad-1: #436394;
 $grad-2: #08102E;
 
 body {
-    background-color: hotpink;
+    background-color: $grad-2;
     position: relative;
 }
 
@@ -19,6 +19,14 @@ body {
 
 .web {
     overflow: auto;
+}
+
+.hearts {
+    height: 2rem;
+}
+
+.heart-container {
+    height: 2rem;
 }
 
 .navbar.scrolled {
@@ -198,10 +206,13 @@ p {
 }
 
 @media (min-width: 768px) {
-    .helmet-img-2 {
-        transform: translate(87vw, -100vh) rotate(20deg);
+    .hearts {
+        height: 2rem;
     }
-
+    
+    .heart-container {
+        height: 2rem;
+    }
     .quote {
         font-weight: bold;
         font-size: x-small;
@@ -281,6 +292,8 @@ p {
     .col-md-5th {
         width: 20%;
         float: left;
+        flex: 0 0 20%;
+        max-width: 20%;
     }
 }
 

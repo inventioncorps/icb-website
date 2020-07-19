@@ -1,5 +1,5 @@
 body {
-  background-color: hotpink;
+  background-color: #08102E;
   position: relative;
 }
 
@@ -9,6 +9,14 @@ body {
 
 .web {
   overflow: auto;
+}
+
+.hearts {
+  height: 2rem;
+}
+
+.heart-container {
+  height: 2rem;
 }
 
 .navbar.scrolled {
@@ -186,9 +194,11 @@ p {
 }
 
 @media (min-width: 768px) {
-  .helmet-img-2 {
-    -webkit-transform: translate(87vw, -100vh) rotate(20deg);
-            transform: translate(87vw, -100vh) rotate(20deg);
+  .hearts {
+    height: 2rem;
+  }
+  .heart-container {
+    height: 2rem;
   }
   .quote {
     font-weight: bold;
@@ -260,6 +270,10 @@ p {
   .col-md-5th {
     width: 20%;
     float: left;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%;
   }
 }
 
