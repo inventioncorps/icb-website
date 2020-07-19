@@ -9,18 +9,12 @@ $grad-1: #436394;
 $grad-2: #08102E;
 
 body {
-    background-color: #202020;
-    background-image: url(../img/icbwebteam.svg);
+    background-color: hotpink;
     position: relative;
 }
 
 .role {
     font-size: xx-small;
-}
-
-.col-sm-5th {
-    width: 20%;
-    float: left;
 }
 
 .web {
@@ -86,9 +80,20 @@ h2 {
     min-width: 100px;
 }
 
-.dot.blank {
+.dot.blank,
+.dark {
     background-color: #202020;
+    visibility: hidden;
+    position: absolute;
+    font-size: 0;
 }
+
+.col-0 {
+    width: 0%;
+    float: left;
+
+}
+
 
 .dark {
     color: #202020;
@@ -184,6 +189,12 @@ p {
     .role {
         font-size: x-small;
     }
+
+    .dot.blank,
+    .dark {
+        visibility: hidden;
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -194,6 +205,11 @@ p {
     .quote {
         font-weight: bold;
         font-size: x-small;
+    }
+
+    .col-sm-5th {
+        width: 20%;
+        float: left;
     }
 }
 
@@ -253,6 +269,18 @@ p {
 
     p {
         font-size: larger;
+    }
+
+    .dot.blank,
+    .dark {
+        visibility: visible;
+        font-size: auto;
+        position: relative;
+    }
+
+    .col-md-5th {
+        width: 20%;
+        float: left;
     }
 }
 
