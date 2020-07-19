@@ -58,5 +58,21 @@ $black: #202020;
 
 .pspecial {
     border-image: linear-gradient(to bottom, $blue 16.3%, $yellow 16.3%, $yellow 32.5%, $red 32.5%, $red 48.7%, $green 48.7%, $green 64.9%, $gray 64.9%, $gray 81.1%, $black 81.1%); 
-    border-image-slice: 1;
+    border-image-slice: 0% 0% 0% 100%;
+    border-top: 0;
+    border-bottom: 0;
+    z-index: -1;
+}
+
+.special {
+    border-top: solid white;
+    border-bottom: solid white;
+    border-width: medium;
+    z-index: 1;
+}
+
+@media (min-width: 992px) {
+    .pspecial {
+        border-image-slice: 0% 100% 0% 0%;
+    }
 }
