@@ -1,5 +1,6 @@
 body {
   background-color: #202020;
+  background-image: url(../img/icbwebteam.svg);
   position: relative;
 }
 
@@ -198,7 +199,8 @@ p {
   h2 {
     margin-bottom: 5vh;
   }
-  .team > .container, .exec > .container {
+  .team > .container,
+  .exec > .container {
     margin-bottom: 5vh;
   }
   .dot.red:hover {

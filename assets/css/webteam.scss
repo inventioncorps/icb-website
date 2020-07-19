@@ -10,15 +10,17 @@ $grad-2: #08102E;
 
 body {
     background-color: #202020;
+    background-image: url(../img/icbwebteam.svg);
     position: relative;
 }
 
 .role {
     font-size: xx-small;
 }
+
 .col-sm-5th {
     width: 20%;
-    float:left;
+    float: left;
 }
 
 .web {
@@ -46,7 +48,7 @@ h6 {
 p.header {
     font-weight: normal;
 }
-  
+
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -71,7 +73,7 @@ h2 {
     font-weight: bold;
     margin-bottom: 1vh;
 }
-  
+
 .dot {
     height: 8vw;
     width: 8vw;
@@ -89,7 +91,7 @@ h2 {
 }
 
 .dark {
-    color:  #202020;
+    color: #202020;
 }
 
 .quote {
@@ -104,7 +106,7 @@ h2 {
     opacity: 0;
 }
 
-.web> .cont{
+.web>.cont {
     text-align: center;
     overflow: auto;
     margin-bottom: 1vh;
@@ -116,7 +118,7 @@ h2 {
     font-weight: bold;
     font-style: normal;
 }
-  
+
 .member {
     position: absolute;
     top: 50%;
@@ -170,12 +172,15 @@ p {
         height: 12vw;
         width: 12vw;
     }
+
     .galaxy {
         bottom: 50px;
     }
+
     .helmet-img-2 {
         transform: translate(87vw, -140vh) rotate(20deg);
     }
+
     .role {
         font-size: x-small;
     }
@@ -185,6 +190,7 @@ p {
     .helmet-img-2 {
         transform: translate(87vw, -100vh) rotate(20deg);
     }
+
     .quote {
         font-weight: bold;
         font-size: x-small;
@@ -195,44 +201,56 @@ p {
     .helmet-img-2 {
         transform: translate(87vw, -200vh) rotate(20deg);
     }
+
     .header {
         margin-bottom: 5vh;
     }
+
     h2 {
         margin-bottom: 5vh;
     }
-    .team > .container, .exec> .container{
+
+    .team>.container,
+    .exec>.container {
         margin-bottom: 5vh;
     }
+
     .dot.red:hover {
         background-color: $red;
         border-color: $red;
         transition-timing-function: ease-in-out;
     }
+
     .dot.green:hover {
         background-color: $green;
         border-color: $green;
         transition-timing-function: ease-in-out;
     }
+
     .dot.blue:hover {
         background-color: $blue;
         border-color: $blue;
         transition-timing-function: ease-in-out;
     }
+
     .dot.yellow:hover {
         background-color: $yellow;
         border-color: $yellow;
         transition-timing-function: ease-in-out;
     }
+
     .img-container:hover {
         opacity: 0.2;
     }
+
     .quote {
         opacity: 1;
     }
+
     .quote:hover {
         z-index: 1;
     }
+
     p {
         font-size: larger;
     }
