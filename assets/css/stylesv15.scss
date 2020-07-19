@@ -2,6 +2,7 @@
 
 $red: #E06B65;
 $yellow: #FFFF99;
+$yellow2: #FFEE52;
 $green: #99CC99;
 $blue: #99CCFF;
 $gray: #787878;
@@ -210,7 +211,7 @@ nav {
 }
 
 .footer-icon-2:hover {
-    color: $yellow;
+    color: $yellow2;
 }
 
 .footer-icon-3:hover {
@@ -365,7 +366,7 @@ nav {
     }
 
     a.contact {
-        border-bottom: solid $yellow;
+        border-bottom: solid $yellow2;
     }
 
     #about {
