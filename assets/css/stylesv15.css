@@ -152,19 +152,19 @@ nav {
   z-index: 1;
 }
 
-.footer-icons > a:nth-child(1):hover {
+.footer-icon-1:hover {
   color: #E06B65;
 }
 
-.footer-icons > a:nth-child(2):hover {
+.footer-icon-2:hover {
   color: #FFFF99;
 }
 
-.footer-icons > a:nth-child(3):hover {
+.footer-icon-3:hover {
   color: #99CC99;
 }
 
-.footer-icons > a:nth-child(4):hover {
+.footer-icon-4:hover {
   color: #99CCFF;
 }
 
@@ -180,9 +180,6 @@ nav {
   .navbar-light .navbar-nav .nav-link:hover {
     color: #787878;
     border-color: #787878;
-  }
-  footer > a:hover {
-    opacity: 0.7;
   }
   img.d-inline-block.align-top:hover {
     opacity: 0.5;
