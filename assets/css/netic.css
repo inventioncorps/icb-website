@@ -1,93 +1,54 @@
 .topbar {
   background-color: #6D6D6D;
-  color: white;
+  opacity: 0.8;
+}
+
+.fourth {
+  margin-bottom: 0;
+}
+
+.youtube {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #underline1 {
-  background: rgba(246, 208, 224, 0.6);
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-32px);
-  transform: translateY(-32px);
+  background: #F6D0E0;
 }
 
 #underline2 {
-  background: rgba(246, 208, 224, 0.6);
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-32px);
-  transform: translateY(-32px);
+  background: #F6D0E0;
 }
 
 #underline3 {
-  background: rgba(246, 208, 224, 0.6);
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-32px);
-  transform: translateY(-32px);
+  background: #F6D0E0;
 }
 
 #underline4 {
-  background: rgba(246, 208, 224, 0.6);
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-32px);
-  transform: translateY(-32px);
+  background: #F6D0E0;
 }
 
-#underline5 {
-  background: #F6D0E0;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
+.p1 {
+  border-color: #E06B65;
 }
 
-#underline6 {
-  background: #F6D0E0;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
+.p2 {
+  border-color: #FFFF99;
 }
 
-#underline7 {
-  background: #F6D0E0;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
+.p3 {
+  border-color: #99CC99;
 }
 
-#underline8 {
-  background: #F6D0E0;
-  border-radius: 50px;
-  width: 308px;
-  height: 20px;
-  position: absolute;
-  z-index: -1;
-  -webkit-transform: translateY(-42px);
-  transform: translateY(-42px);
+.p4 {
+  border-color: #99CCFF;
+}
+
+.p5 {
+  border-color: #C4C4C4;
+}
+
+.p6 {
+  border-color: #343434;
 }
 /*# sourceMappingURL=netic.css.map */
