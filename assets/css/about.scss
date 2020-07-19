@@ -28,6 +28,10 @@ body {
   background-size: cover;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: $black;
+}
+
 .navbar.scrolled {
   background-color: #ffffff !important;
   -webkit-transition: background-color 200ms linear;
@@ -165,6 +169,10 @@ figcaption {
   display: block;
 }
 
+a {
+  color: $black;
+}
+
 @media (min-width: 576px) {
 
   #container {
@@ -277,7 +285,7 @@ figcaption {
 
   h2 {
     text-align: left;
-    font-size: 35px;
+    font-size: 1.8rem;
 
   }
 
@@ -285,7 +293,7 @@ figcaption {
     font-weight: 600;
     font-style: italic;
     padding-bottom: 2rem;
-    font-size: 25px;
+    font-size: 1.2rem;
 
   }
 
@@ -490,6 +498,7 @@ figcaption {
   #end {
     display: block;
     visibility: visible;
+    margin-top: -1.5rem;
   }
 
 
@@ -532,14 +541,14 @@ figcaption {
 
   h2 {
     text-align: left;
-    font-size: 35px;
+    font-size: 2rem;
   }
 
   h4 {
     font-weight: 600;
     font-style: italic;
     padding-bottom: 2rem;
-    font-size: 25px;
+    font-size: 1.3rem;
 
   }
 

@@ -197,6 +197,10 @@ a.projects {
   border-bottom: solid $red;
 }
 
+a {
+  color: $black;
+}
+
   @media (min-width: 576px) {
     #teaminfo {
       visibility: hidden;

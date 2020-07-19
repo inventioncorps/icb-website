@@ -188,6 +188,10 @@ a.projects {
   border-bottom: solid #E06B65;
 }
 
+a {
+  color: #202020;
+}
+
 @media (min-width: 576px) {
   #teaminfo {
     visibility: hidden;

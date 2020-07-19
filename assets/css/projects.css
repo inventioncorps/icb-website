@@ -77,7 +77,7 @@ iframe {
 }
 
 footer {
-  background-color: #ffffff;
+  color: #202020;
   height: 6vh;
 }
 
@@ -143,6 +143,10 @@ ol > ul {
 h7 {
   font-size: 0.85rem;
   text-align: center;
+}
+
+a {
+  color: #202020;
 }
 
 @media (min-width: 576px) {

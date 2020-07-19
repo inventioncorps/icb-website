@@ -42,25 +42,30 @@ $black: #343434;
 }
 
 .p1 {
-    border-color: $red; // color of first teammember
+    border-color: $red; // color of first team member
 }
 
 .p2 {
-    border-color: $yellow; // color of second teammember
+    border-color: $yellow; // color of second team member
 }
 
 .p3 {
-    border-color: $green; // color of third teammember
+    border-color: $green; // color of third team member
 }
 
 .p4 {
-    border-color: $blue; // color of fourth teammember
+    border-color: $blue; // color of fourth team member
 }
 
 .p5 {
-    border-color: $gray; // color of fifth teammember
+    border-color: $gray; // color of fifth team member
 }
 
 .p6 {
-    border-color: $black; // color of fifth teammember
+    border-color: $black; // color of fifth team member
+}
+
+.pspecial {
+    border-image: linear-gradient(to bottom, $blue 16.3%, $red 16.3%, $red 32.5%, $yellow 32.5%, $yellow 48.7%, $green 48.7%, $green 64.9%, $gray 64.9%, $gray 81.1%, $black 81.1%); 
+    border-image-slice: 1;
 }
