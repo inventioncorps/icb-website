@@ -79,7 +79,7 @@ h7 {
 .user-txt {
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
+    width: 20vw;
     text-align: center;
     max-width: 95%;
 }
@@ -153,6 +153,7 @@ h5 {
     font-weight: 600;
     color: #5B5B5B;
     margin-bottom: 30px;
+    
 }
 
 .question {
@@ -267,45 +268,6 @@ p {
     transform: translate(-3px, -28px);
 }
 
-#underline5 {
-    opacity: 0.6;
-    border-radius: 50px;
-    width: 15rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    transform: translate(10px, 23px);
-}
-
-#underline6 {
-    opacity: 0.6;
-    border-radius: 50px;
-    width: 13rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    transform: translate(10px, 23px);
-}
-
-#underline7 {
-    opacity: 0.6;
-    border-radius: 50px;
-    width: 15rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    transform: translate(10px, 23px);
-}
-
-#underline8 {
-    opacity: 0.6;
-    border-radius: 50px;
-    width: 15rem;
-    height: 20px;
-    position: absolute;
-    z-index: -1;
-    transform: translate(10px, 23px);
-}
 
 .p1,
 .p2,
@@ -329,7 +291,8 @@ p {
 }
 
 .bubbles {
-    height: 3em;
+    width: 25%;
+    padding-left: 1.5rem;
 }
 
 // MEDIA QUERIES
@@ -366,25 +329,20 @@ p {
         width: 12.6rem;
     }
 
-    #underline5 {
-        transform: translate(10px, 20px);
+    .left {
+        border-left: solid grey;
+        border-left-width: medium;
     }
-
-    #underline6 {
-        transform: translate(10px, 20px);
+    
+    .right {
+        border-right: solid grey;
+        border-right-width: medium;
+        border-left-width: 0;
     }
-
-    #underline7 {
-        transform: translate(10px, 20px);
-    }
-
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .bubbles {
-        width: 5.5em;
-    }
 
     .topbar-img {
         margin-top: 4.5rem;
@@ -441,18 +399,6 @@ p {
     #underline4 {
         width: 12.5rem;
     }
-
-    #underline5 {
-        transform: translate(10px, 20px);
-    }
-
-    #underline6 {
-        transform: translate(10px, 20px);
-    }
-
-    #underline7 {
-        transform: translate(10px, 20px);
-    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -491,8 +437,30 @@ p {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    .bubbles {
-        width: 5.5em;
+
+    .topbar-img {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+        height: 40vw;
+    }
+
+    #proj-title {
+        padding-top: 5rem;
+    }
+
+
+    #users {
+        margin-left: 15%;
+        width: 12vw;
+        height: auto;
+        padding-top: 3%;
+    }
+
+    .user-txt {
+        margin-left: 0;
+        margin-right: auto;
+        width: 20vw;
+        text-align: center;
     }
 
     .topbar-img {
@@ -516,74 +484,20 @@ p {
 
 
     #underline1 {
-        border-radius: 50px;
-        width: 9rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
         transform: translate(-3px, -28px);
     }
 
     #underline2 {
-        border-radius: 50px;
-        width: 9.6rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
         transform: translate(-3px, -28px);
     }
 
     #underline3 {
-        border-radius: 50px;
-        width: 12rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
         transform: translate(-3px, -28px);
     }
 
     #underline4 {
-        border-radius: 50px;
-        width: 12rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
         transform: translate(-3px, -28px);
     }
 
-    #underline5 {
-        border-radius: 50px;
-        width: 10rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
-        transform: translate(10px, 30px);
-    }
-
-    #underline6 {
-        border-radius: 50px;
-        width: 10rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
-        transform: translate(10px, 30px);
-    }
-
-    #underline7 {
-        border-radius: 50px;
-        width: 10rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
-        transform: translate(10px, 30px);
-    }
-
-    #underline8 {
-        border-radius: 50px;
-        width: 10rem;
-        height: 20px;
-        position: absolute;
-        z-index: -1;
-        transform: translate(10px, 30px);
-    }
+    
 }
