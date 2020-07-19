@@ -27,9 +27,10 @@ body {
 footer {
     background-color: #202020;
     color: white;
-    padding: 20px;
+    padding: 20px 10vw;
     text-align: center;
     margin-top: auto;
+    z-index: 1;
 }
 
 // #projects, #members {
@@ -193,6 +194,33 @@ nav {
     padding-bottom: 2em;
 }
 
+// FOOTER
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    left: 80%;
+    font-size: 2.5rem;
+    justify-content: center;
+    z-index: 1;
+}
+
+.footer-icons>a:nth-child(1):hover {
+    color: $red;
+}
+
+.footer-icons>a:nth-child(2):hover {
+    color: $yellow;
+}
+
+.footer-icons>a:nth-child(3):hover {
+    color: $green;
+}
+
+.footer-icons>a:nth-child(4):hover {
+    color: $blue;
+}
+
 // MEDIA QUERIES
 
 // Small devices (landscape phones, 576px and up)
@@ -334,6 +362,10 @@ nav {
     
     a.projects {
         border-bottom: solid $red;
+    }
+
+    a.contact {
+        border-bottom: solid $yellow;
     }
 
     #about {

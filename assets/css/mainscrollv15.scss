@@ -84,6 +84,7 @@ p {
     color: $blue;
 }
 
+
 // LANDING TITLE
 
 .landing{
@@ -99,6 +100,7 @@ p {
     height: auto;
     position: absolute;
     bottom: 100px;
+    z-index: -1;
 }
 .planets-img {
     width: 100%;
@@ -206,11 +208,6 @@ p {
 #projects-button {
     border: solid $red;
     background: $red;
-    font-size: 1.15vw;
-    padding: 0.5em 1.5em;
-    border-radius: 0.85em;
-    margin-top: 1.5em;
-    top: 65%;
 }
 
 #members-button:hover {

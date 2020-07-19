@@ -78,6 +78,7 @@ p {
   height: auto;
   position: absolute;
   bottom: 100px;
+  z-index: -1;
 }
 
 .planets-img {
@@ -182,11 +183,6 @@ p {
 #projects-button {
   border: solid #E06B65;
   background: #E06B65;
-  font-size: 1.15vw;
-  padding: 0.5em 1.5em;
-  border-radius: 0.85em;
-  margin-top: 1.5em;
-  top: 65%;
 }
 
 #members-button:hover {
