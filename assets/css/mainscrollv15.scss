@@ -14,6 +14,7 @@ $grad-5: #202020;
 $blue-click: #74B0ED;
 $green-click: #7ABB7A;
 $red-click: #D8524B;
+$yellow-click: #FEEB96;
 $title-light: #FFF3D6;
 $title-dark: #CB6724;
 
@@ -196,33 +197,33 @@ p {
 }
 
 #members-button {
-    border: solid $blue;
-    background: $blue;
+    border: solid $yellow;
+    background: $yellow;
 }
 
 #about-button {
-    border: solid $green;
-    background: $green;
-}
-
-#projects-button {
     border: solid $red;
     background: $red;
 }
 
+#projects-button {
+    border: solid $green;
+    background: $green;
+}
+
 #members-button:hover {
-    border: solid $blue-click;
-    background: $blue-click;
+    border: solid $yellow-click;
+    background: $yellow-click;
 }
 
 #about-button:hover {
-    border: solid $green-click;
-    background: $green-click;
+    border: solid $red-click;
+    background: $red-click;
 }
 
 #projects-button:hover {
-    border: solid $red-click;
-    background: $red-click;
+    border: solid $green-click;
+    background: $green-click;
 }
 
 

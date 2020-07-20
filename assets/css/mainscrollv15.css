@@ -171,33 +171,33 @@ p {
 }
 
 #members-button {
-  border: solid #99CCFF;
-  background: #99CCFF;
+  border: solid #FEEB96;
+  background: #FEEB96;
 }
 
 #about-button {
-  border: solid #99CC99;
-  background: #99CC99;
-}
-
-#projects-button {
   border: solid #E06B65;
   background: #E06B65;
 }
 
+#projects-button {
+  border: solid #99CC99;
+  background: #99CC99;
+}
+
 #members-button:hover {
-  border: solid #74B0ED;
-  background: #74B0ED;
+  border: solid #FEEB96;
+  background: #FEEB96;
 }
 
 #about-button:hover {
-  border: solid #7ABB7A;
-  background: #7ABB7A;
+  border: solid #D8524B;
+  background: #D8524B;
 }
 
 #projects-button:hover {
-  border: solid #D8524B;
-  background: #D8524B;
+  border: solid #7ABB7A;
+  background: #7ABB7A;
 }
 
 .projects-div {
