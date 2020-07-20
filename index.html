@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Invention Corps</title>
-  <meta name="description" content="We are the Invention Corps."/>
+  <meta name="description" content="We are Invention Corps."/>
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
   <!-- Custom Fonts -->
@@ -26,15 +26,16 @@
   <!-- Bootstrap Styling -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/stylesv15.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/mainscrollv15.css" type="text/css" />
 </head>
 
-<body>
+<body> 
     <!-- Navigation Bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
         <div class="container">
             <div class="d-flex flex-grow-1">
-                <a class="navbar-brand" href="#top">
+                <a class="navbar-brand" href="indexv15.html">
                     <img src="assets/img/logo.svg" width="55" height="55" class="d-inline-block align-top" alt="Invention Corps Logo">
                 </a>
                 <div class="w-100 text-right">
@@ -46,292 +47,154 @@
             <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
                 <ul class="navbar-nav ml-auto flex-nowrap">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-header">About</a>
+                        <a class="nav-link about" href="v1.5/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects-header">Projects</a>
+                        <a class="nav-link members" href="v1.5/members.html">Members</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#members-header">Members</a>
+                        <a class="nav-link projects" href="v1.5/projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-text">Contact</a>
+                        <a class="nav-link contact" href="https://forms.gle/dSAgFm9jpetY4B4T6" target="_blank">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Landing Section -->
-    <section id="landing" style="background-image: url('assets/img/landingimg.svg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        <div class="container d-flex align-items-center justify-content-center" id="landing-container">
-            <div class="landing-text">
-                <h3><span class="landing-text-bkd">We are</span></h3>
-                <h1><span class="landing-text-bkd">Invention Corps</span></h1>
-            </div>
-        </div>
-    </section>
+    <div class="main">
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2 id ="about-header" class="jumptarget">Inventing ways to make a better world.</h2>
-            <p>
-                We are <strong>Invention Corps of Berkeley</strong>. We are an interdisciplinary group of students driven to create meaningful global change through human-centered design. We partner with people and organizations who are interested in creating solutions in the realms of society, health, poverty, and the environment.
-            </p>
-            <p>
-                Our club hosts a semesterly showcase to share the work we have done on our projects typically with presentations and live demos. This semester, we present our <strong>Virtual Showcase</strong>. Our theme this semester is <i>String Theory</i>. As the pandemic has forced many of us apart, we were inspired by the natural forces keeping us together, which you'll see our interpretations of throughout the website.           </p>
-            <p>
-                To adapt our tradition of creating a large-scale physical art piece, we were challenged to reimagine something virtually collaborative and engaging. Deriving inspiration from the idea of the necessary and inevitable reaction of particles, we created a structure of interacting, free-form 'blobs'. Each blob was designed individually by each of our amazingly unique members, visually created as a representation of themselves and the color that represents them. In its truest form, this art piece represents how multi-faceted each member is, and how we all can embrace our differences and come together to create a beautiful tapestry of color. We hope you enjoy exploring <i>String Theory</i> and browsing through our project gallery.
-            </p>
-            <img src="assets/img/four-pillars2.svg" alt="Four Pillars">
+        <!-- Background Images-->
+        <div class = "clouds">
+            <img class="scene" data-modifier="85" src="assets/img/mainscrollv15/scroll-level-2b.png">
+        </div>
+        <div class = "planets">
+            <img class="scene" data-modifier="110" src="assets/img/mainscrollv15/bottom-planets.png">
         </div>
 
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2 id ="projects-header" class="jumptarget">Our Projects</h2>
-            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat nunc, enim libero varius purus, consectetur vel sem. </p> -->
+        <!-- Landing Section -->
+        <div class="landing">
             <div class="container">
+                <div class="social-icons">
+                    <a href="mailto:inventioncorps@icb.berkeley.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/company/berkeley-invention-corps/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/InventionCorps" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/inventioncorps/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class = "img-container">
+                <img class="scene" data-modifier="150" src="assets/img/mainscrollv15/scroll-level-2a.png">
+            </div>
+            <script src="https://s.electerious.com/basicScroll/dist/basicScroll.min.js"></script>
+            <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+        </div>
+
+        <!-- About Section -->
+        <div class="about-section">
+            <div class="about-content container">
+                <h2 id ="about-header">Inventing ways to make a better world.</h2>
+                <p class="about-txt">
+                    We are Invention Corps of Berkeley. As a collective,
+                    we are an interdisciplinary group of students driven to create meaningful global impact
+                    through human-centered design. We partner with people and organizations with the objective
+                    of creating tangible solutions in the realms of society, health, poverty, and the environment.
+                </p>
+            </div>
+            <div class="about-img img-container">
+                <img class="scene" data-modifier="0" src="assets/img/mainscrollv15/scroll-level-1.png">
+            </div>
+        </div>
+
+        <!-- Mission and Members -->
+        <div class="members-section">
+            <div class="container members">
+                <div class="container">
+                    <h2 id="about-title" class="d-flex justify-content-center">Our Story</h2>
+                    <p class="container"> Learn more about our mission, values, and founding principles. </p>
+                </div>
+                <div class="button" id="about-button" onclick="window.location.href='v1.5/about.html';">About</div>
+
+                <img src="assets/img/mainscrollv15/pencil.svg" class="pencil d-flex justify-content-center" alt="Drawing a better future.">
+
+                <div class="container">
+                    <h2 id="members-title" class="d-flex justify-content-center">Who We Are</h2>
+                    <p class="container"> Introducing the hearts and creative minds behind our work. </p>
+                </div>
+                <div class="button" id="members-button" onclick="window.location.href='v1.5/members.html';">Members</div>
+                
+                <img src="assets/img/mainscrollv15/pencil.svg" class="pencil d-flex justify-content-center" alt="Drawing a better future.">
+
+                <div class="container">
+                    <h2 id="projects-title" class="d-flex justify-content-center">Work With Us</h2>
+                    <p class="container"> Gain insight into our design process and project capabilities. </p>
+                </div>
+                <div class="button" id="projects-button" onclick="window.location.href='v1.5/projects.html';">Projects</div>
+            </div>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="projects-section">
+            <div class="container projects-div">
                 <div class="row">
-                  <div class="col-6 col-sm-4">
-                    <div style="padding-bottom: 10%;">
-                    <a href="projects/alemany-farms.html">
-                        <img src="assets/img/projthumbnails/alemany farm 3x2.png" class="project-tile" style="box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14); width: 100%; height:100%" alt="Alemany Farm">
-                        <div class="proj-title">alemany farm</div>
-                    </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div style="padding-bottom: 10%;">
-                    <a href="projects/communitycafe.html">
-                        <img src="assets/img/projthumbnails/community cafe 3x2.png" class="project-tile" alt="Pizza with a Purpose" style="box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14); width: 100%; height:100%;">
-                        <div class="proj-title">community cafe</div>
-                    </a>
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div style="padding-bottom: 10%;">
-                    <a href="projects/netic.html">
-                        <img src="assets/img/projthumbnails/neomotion 3x2.png" class="project-tile" alt="NeoMotion AI" style="box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14); width: 100%; height:100%;">
-                        <div class="proj-title">netic health</div>
-                    </a>
-                    </div>
-                  </div>
-                    <div class="col-6 col-sm-4">
-                        <div style="padding-bottom: 10%;">
-                        <a href="projects/berkeley-student-food-collective.html">
-                            <img src="assets/img/projthumbnails/bfc 3x2.png" class="project-tile" style="box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14); width: 100%; height:100%;"
-                            alt="Berkeley Student Food Collective">
-                            <div class="proj-title">berkeley student food collective</div>
+                    <div class="project-icon col-4 d-flex justify-content-center">
+                        <a href="v1.5/alemany15.html">
+                            <img src="assets/img/mainscrollv15/alemany.svg" class="project-link" alt="Alemany Farms">
                         </a>
+                    </div>
+                    <div class="col-4 space">
+                    </div>  
+                    <div class="project-icon col-4 d-flex justify-content-center">
+                        <a href="v1.5/groupsource15.html">
+                            <img src="assets/img/mainscrollv15/groupsource.svg" class="project-link" alt="Groupsource">
+                        </a>
+                    </div>  
+                    <div class="project-icon col-4 d-flex justify-content-center">
+                        <a href="v1.5/makerspace15.html">
+                            <img src="assets/img/mainscrollv15/makerspace.svg" class="project-link" alt="Moffitt Makerspace">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <div class="container">
+                            <img src="assets/img/mainscrollv15/project-planet.svg" class="project-planet" alt="Exploring our recent projects.">
                         </div>
                     </div>
-                    <div class="col-6 col-sm-4">
-                        <div style="padding-bottom: 10%;">
-                        <a href="projects/makerspace.html">
-                            <img src="assets/img/projthumbnails/makerspace 3x2.png" class="project-tile" alt="Moffitt Makerspace" style=  "box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14); width: 100%; height:100%;">
-                            <div class="proj-title">moffitt makerspace</div>
+                    <div class="project-icon col-4 d-flex justify-content-center">
+                        <a href="v1.5/netic15.html">
+                            <img src="assets/img/mainscrollv15/netic.svg" class="project-link" alt="Netic Health">
                         </a>
-                        </div>
+                    </div>  
+                    <div class="project-icon col-4 d-flex justify-content-center">
+                        <a href="v1.5/bsfc15.html">
+                            <img src="assets/img/mainscrollv15/bsfc.svg" class="project-link" alt="Student Food Collective">
+                        </a>
                     </div>
-                    <div class="col-6 col-sm-4">
-                        <div style="padding-bottom: 10%;">
-                        <a href="projects/groupsource.html">
-                            <img src="assets/img/projthumbnails/groupsource 3x2.png" class="project-tile" alt="groupsource" style=  "box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14); width: 100%; height:100%;">
-                            <div class="proj-title">groupsource</div>
+                    <div class="col-4 space">
+                    </div>
+                    <div class="project-icon col-4 d-flex justify-content-center">
+                        <a href="v1.5/commcafe15.html">
+                            <img src="assets/img/mainscrollv15/commcafe.svg" class="project-link" alt="Community Cafe">
                         </a>
-                        </div>
                     </div>
                 </div>
-              </div>
-              </div>
+            </div>
         </div>
-    </section>
+        
+    </div>
 
-    <!-- Art Piece Section -->
-    <section id="members">
-        <div class="container">
-            <h2 id ="members-header" class="jumptarget">Colors of ICB</h2>
-            <!-- <div class="labels left d-none d-lg-flex">
-                <div class="label-col">
-                    <p class="label" id="abhi"><span>1. Abhi</span><br/>Ultraviolet Light</p>
-                    <p class="label" id="allan"><span>2. Allan</span><br/>Stand-Out Silver</p>
-                    <p class="label" id="anderson"><span>3. Anderson</span><br/>Scent of Autumn</p>
-                    <p class="label" id="anika"><span>4. Anika</span><br/>Periwinkle Co.</p>
-                    <p class="label" id="anjali"><span>5. Anjali</span><br/>New Leaf</p>
-                    <p class="label" id="aryan"><span>6. Aryan</span><br/>Magenta</p>
-                    <p class="label" id="batu"><span>7. Batu</span><br/>Purplange</p>
-                    <p class="label" id="bongi"><span>8. Bongi</span><br/>Sky Green</p>
-                    <p class="label" id=brendan><span>9. Brendan</span><br/>Chameleon</p>
-                    <p class="label" id="cait"><span>10. Cait</span><br/>Omni-Shade</p>
-                </div>
-                <div class="label-col">
-                    <p class="label" id="carlos"><span>11. Carlos</span><br/>Color of Emotion</p>
-                    <p class="label" id="courtnie"><span>12. Courtnie</span><br/>Gleaming White</p>
-                    <p class="label" id="dan"><span>13. Dan</span><br/>Beach Sunset Purple</p>
-                    <p class="label" id="grace"><span>14. Grace</span><br/>Warm White</p>
-                    <p class="label" id="hannah"><span>15. Hannah</span><br/>Blue-Black Swirl</p>
-                    <p class="label" id="iris"><span>16. Iris</span><br/>Blue Dimension</p>
-                    <p class="label" id="isabella"><span>17. Isabella</span><br/>Seafoam Green</p>
-                    <p class="label" id="jake"><span>18. Jake</span><br/>Austere Gray</p>
-                    <p class="label" id="jasmine"><span>19. Jasmine</span><br/>Joyful Elegance</p>
-                </div>
-                <div class="label-col">
-                    <p class="label" id="jeffrey"><span>20. Jeffrey</span><br/>Petunia</p>
-                    <p class="label" id="joe"><span>21. Joe</span><br/>Utilitarian Grey</p>
-                    <p class="label" id="joey"><span>22. Joey</span><br/>Mantis Shrimp</p>
-                    <p class="label" id="katrina"><span>23. Katrina</span><br/>Arizona Sky</p>
-                    <p class="label" id="kaylan"><span>24. Kaylan</span><br/>Complementary</p>
-                    <p class="label" id="laurel"><span>25. Laurel</span><br/>Color Scratch</p>
-                    <p class="label" id="leilani"><span>26. Leilani</span><br/>Funfetti</p>
-                </div>
-            </div>
-            <div class="labels right d-none d-lg-flex">
-                <div class="label-col">
-                    <p class="label" id="leo"><span>27. Leo</span><br/>Neutron Star Blue</p>
-                    <p class="label" id="malena"><span>28. Malena</span><br/>Sparkling Blush</p>
-                    <p class="label" id="manooshree"><span>29. Manooshree</span><br/>Paint Water</p>
-                    <p class="label" id="maya"><span>30. Maya</span><br/>Blank Fill</p>
-                    <p class="label" id="michael"><span>31. Michael</span><br/>Fire of Music</p>
-                </div>
-                <div class="label-col">
-                    <p class="label" id="natalie_c"><span>32. Natalie C</span><br/>Color of Equity</p>
-                    <p class="label" id="natalie_d"><span>33. Natalie D</span><br/>Skin Tone Shades</p>
-                    <p class="label" id="neema"><span>34. Neema</span><br/>Acid Rap</p>
-                    <p class="label" id="neha"><span>35. Neha</span><br/>Beyond</p>
-                    <p class="label" id="nicole"><span>36. Nicole</span><br/>Clearescent</p>
-                    <p class="label" id="nik"><span>37. Nik</span><br/>S'mores</p>
-                    <p class="label" id="philippa"><span>38. Philippa</span><br/>Transparency</p>
-                    <p class="label" id="qianning"><span>39. Qianning</span><br/>Monstera Plant</p>
-                </div>
-                <div class="label-col">
-                    <p class="label" id="regan"><span>40. Regan</span><br/>Sunset Hues</p>
-                    <p class="label" id="reid"><span>41. Reid</span><br/>PurpALL</p>
-                    <p class="label" id="ryan"><span>42. Ryan</span><br/>Hawaiian Shirt</p>
-                    <p class="label" id="shaantam"><span>43. Shaantam</span><br/>Wood</p>
-                    <p class="label" id="sunny"><span>44. Sunny</span><br/>Sunshine</p>
-                    <p class="label" id="tanthai"><span>45. Tanthai</span><br/>Between Red & Green</p>
-                    <p class="label" id="tori"><span>46. Tori</span><br/>Cerulean Slumber</p>
-                    <p class="label" id="vince"><span>47. Vince</span><br/>Connective Bronze</p>
-                    <p class="label" id="zeyad"><span>48. Zeyad</span><br/>Sky to Navy Blue</p>
-                    <p class="label" id="zulaika"><span>49. Zulaika</span><br/>Hero</p>
-                </div>
-            </div> -->
-            <div id="art-container">
-                <!-- <svg width="0" height="0" viewbox="0 0 500 500">
-                    <defs>
-                        <clipPath id="myClip" clipPathUnits="objectBoundingBox" transform="scale(0.002 0.002)">
-                            <path class="cls-5" d="M533.78,549c-13.44,5.86-30.61,13.64-36.4,30.8-4.14,12.29-1.95,27.9,6.3,39.2,16.28,22.28,41.83,8.31,78.4,31.5,22.86,14.5,26.25,28.44,40.6,27.3,18.52-1.47,30.89-26.09,34.3-32.9,10.15-20.2,3.2-26.91,11.2-51.8,9.84-30.6,27.14-34,27.3-59.5.11-16.8-9.92-37.43-23.8-40.6-18.26-4.17-24.75,26.14-61.6,41.3C580.48,546.51,569.67,533.39,533.78,549Z"/>
-                        </clipPath>
-                    </defs>
-                </svg> -->
-                <img class="artpiece colored" src="assets/img/BLOB-FINAL.png" />
-                <img class="artpiece grayscale" src="assets/img/BLOB-FINAL.png" />
-                <svg id="overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3085 2145">
-                    <defs><style>.cls-1{fill:none;}.cls-2{fill:#fff;stroke:#000;stroke-miterlimit:10;stroke-width:3px;}.cls-3{clip-path:url(#clip-path);}.cls-4{clip-path:url(#clip-path-2);}.cls-5{fill:#355c7d;}</style><clipPath id="clip-path"><path class="cls-1" d="M2446.1-425.13c-14.41,14.63-18.2,37.24-19.72,46.25-2,11.93-1.14,19.14,5.31,68.23,6.15,46.79,6.89,51.94,3,60.65-8.11,18.26-23,21.63-23.5,37.91-.35,11,6.07,21.52,13.64,27.29,19.54,14.82,55,4.14,74.3-15.17,15.74-15.76,8.82-25.42,24.26-47,20.47-28.61,41.47-24.06,62.17-46.25,22.81-24.45,33.18-68.46,18.2-100.83C2577.83-450.1,2480.77-460.39,2446.1-425.13Z"/></clipPath><clipPath id="clip-path-2"><ellipse class="cls-1" cx="2495.26" cy="-311.2" rx="149.26" ry="151.24" transform="translate(1517.11 2005.35) rotate(-60)"/></clipPath></defs>
-                    <g id="Layer_3" data-name="Layer 3">
-                        <path id="Brendan_1" data-name="Brendan 1"  data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Brendan</strong><br/>Chamelon</em>" class="cls-2" d="M341.73,201.59c24.63,5.56,48.71,24.9,55.74,51.42,7.41,27.95-7,53.21-9.27,57.15-11.23,19.08-22.28,18-25,32.45,0,0-1.85,9.74,19.57,52.26h0c9.83,13.73,24.57,34.33,22.43,56.24-2.94,30.19-37.81,61.31-62.3,56-32.44-7-29.3-74.23-62.53-79.89-18-3.06-40.41,12.45-41.3,26.75-1.52,24.14,59.28,30,63.93,62.24,3.85,26.57-31.43,65.16-69.3,63.7-27.75-1.07-45.5-23.2-47.6-25.9-12.48-16.06-13.92-39.17-16.8-85.4a235.94,235.94,0,0,1,0-27.3c.95-16.87,1.43-25.3,4.9-32.2,5.7-11.32,14.94-14,36.4-25.9,24-13.24,36-19.87,41.1-25.83,26.38-30.57-19.63-77,2.18-116.57C269,213.38,306.87,193.72,341.73,201.59Z"/>
-                        <path id="Ryan_2" data-name="Ryan 2" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Ryan</strong><br/>Hawaiian Shirt</em>" class="cls-2" d="M501.09,389.06c22.44,3.46,34.37-31.27,66.69-27.86,2.63.27,16.14,1.93,27.1,12.14C616,393,598.5,417.22,615.26,448.66c16.24,30.45,43.15,27.43,50.17,56.23,4.16,17.05-1.9,31.94-5.86,41.67-7.6,18.65-28,50.36-54.43,51.29-30.29,1.06-36.77-39.24-75.33-44.83-7.63-1.1-13.78-.45-62.78,18.81-68.85,27.07-83.7,36.39-97.6,28.25-14.86-8.69-22.62-33.8-17.08-52.48,9.76-33,55.59-28,74.62-68.87,8.43-18.1,7.12-35.56,6.5-43.76-3.72-49.67-43.29-69-34.54-92.47,5.35-14.36,26.56-24.16,42.8-20.64C473.78,328.8,473.32,384.78,501.09,389.06Z"/>
-                        <g id="Sunny_4" data-name="Sunny 4" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Sunny</strong><br/>Sunshine</em>"><path class="cls-2" d="M615.25,377.13C595.05,365.78,602,337,586.84,329.44c-18.31-9.07-36.79,28.75-73,24.82A50.5,50.5,0,0,1,486,342.06c-13.39-11.81-23.11-33.12-19.63-51.88,6.05-32.72,49.51-43.16,67.46-47.47C553.4,238,586.63,230,614,252.39c22.73,18.57,27.63,46.77,32.86,76.79,3,17.19,6.62,38.05-3.55,47.26C636.13,383,623.83,382,615.25,377.13Z"/></g>
-                        <g id="Shaantam_5" data-name="Shaantam 5" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Shaantam</strong><br/>Wood</em>"><path class="cls-2" d="M324.9,430.37c-11.77,4.7-24.63-26.76-52.49-28C252,401.44,237,418,234.55,420.79c-9.91,11.29-18.08,30.15-12.48,46.63,7.75,22.74,36,24.11,36.22,40.68.11,9.67-9.42,18.45-17.78,21.61-17.65,6.68-37-9-49.44-19.12-7.39-6-24.91-21.68-36.92-49.75-8.18-19.11-20.86-48.72-8.37-79.39,12.82-31.48,43.93-43.88,49.73-46.05C249.9,315,321.58,351.1,332.15,394.14,335.76,408.8,333,427.15,324.9,430.37Z"/></g>
-                        <g id="Natalie_D._3" data-name="Natalie D. 3" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Natalie D</strong><br/>Skin Tone Shades</em>"><path class="cls-2" d="M219.75,260.19c27.92,26.87,23.94,28.26,42.43,42.71,24,18.72,38.75,22.74,45.8,41C312.27,355,314,372,305.34,381c-10.32,10.76-27.44,11.48-39,7.78-18.65-6-27.69-24-32.64-32.4-38.46-65.17-129.83-54.88-136.08-96.77-3.46-23.2,20.86-51.27,43.1-54.43C159.8,202.51,179.78,221.74,219.75,260.19Z"/><path class="cls-2" d="M226.7,298.54c-22.75-11.79-28.53-54.31-40.09-139.36-1.32-9.74-3.24-25.32,5.55-33.88,11-10.66,31.77-3.86,35.77-2.55,3.24,1,22.15,7.24,31.45,25.57,10.7,21.09-5.38,30.59,0,69,1.57,11.23,5.88,31.4,11.1,50.5,4.43,16.24,7.06,22.66,3.7,28.13C267.86,306.26,243.88,307.44,226.7,298.54Z"/></g>
-                        <g id="Natalie_C._6" data-name="Natalie C. 6" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Natalie C</strong><br/>Color of Equity</em>"><path id="Natalie_C._6-2" data-name="Natalie C. 6" class="cls-2" d="M173,678.57c-8.29,29.51-12.44,44.26-11.18,59.55,4.91,59.51,59.84,103.7,72.18,113.63,30.06,24.17,36.17,17.15,54,36.74,27.58,30.35,32.61,68.88,37.58,107,5,37.94.92,53.92,17,66.91,13.38,10.86,35.55,15.41,50.45,9.54,25.77-10.14,20.8-58.36,18.71-85.27-2.56-32.93-14.19-62.51-37.46-121.65a304.25,304.25,0,0,0-16.8-36.4,284.11,284.11,0,0,0-30.1-44.8c-28.13-33.78-38.93-27.11-50.53-46.06C252.44,698,296.68,654,268.65,626.31c-14.3-14.13-39.4-21.33-56.73-16.61C191.1,615.37,184.51,637.42,173,678.57Z"/></g>
-                        <g id="Anika_8" data-name="Anika 8" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Anika</strong><br/>Periwinkle Co.</em>"><path id="Anika_8-2" data-name="Anika 8" class="cls-2" d="M389.78,775.51c6,16.65,12.23,24.22,13.94,26.22,6.46,7.55,13,11.73,23,18,11.83,7.43,15.51,7.79,27.15,14.16,19.56,10.71,30.06,16.46,32.72,24.65C491.29,872.88,472,894.78,442,913.7c0,0-37.22,21.77-78.63,24.11a63.85,63.85,0,0,1-9.95-.22c-9.54-1.36-14-5.78-33-5.3C293.9,933,285,942.1,276.34,935c-10.44-8.6-10.69-32.71-4.12-49.27C280,866,293.5,866.93,299.43,847c4-13.35-1.18-16.73.72-35.5.08-.8.2-2,.41-3.63,1-7.83,5.8-29.33,19.37-46.64,15.57-19.86,46.2-38.61,58.55-30.13C386.14,736.32,379.62,747.11,389.78,775.51Z"/></g>
-                        <g id="Isabella_9" data-name="Isabella 9" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Isabella</strong><br/>Seafoam Green</em>"><path id="Isabella_9-2" data-name="Isabella 9" class="cls-2" d="M2044.57,1622.91c3.42-21-84-79.92-161-51.1-54.42,20.37-75.1,73.94-77,79.1-5.32,14.45-17.3,47-2.1,77.7,14.67,29.62,45.64,39.34,74.2,48.3,42.85,13.44,99.69,16.18,106.4-1.4,5.72-15-30.35-30.54-31.5-70-.13-4.48-.1-19.26,7.7-33.6C1983.14,1631.71,2041.89,1639.38,2044.57,1622.91Z"/></g>
-                        <g id="Kaylan_10" data-name="Kaylan 10" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Kaylan</strong><br/>Complementary</em>"><path class="cls-2" d="M1192.49,1310.62c-4.38-16.32,8.52-35.32,22.6-44.48,20.24-13.15,46.13-8.05,61.34,2.39,20.94,14.36,12.91,32.84,31.48,44.47,21.21,13.3,38.89-6.3,75.87,2.39,5.58,1.31,33.86,7.95,51.66,31.77,19.56,26.19,25.19,71.46,0,97.69-28.1,29.26-80.81,20.52-109,0-33.75-24.61-17.42-55.4-54.07-87.37C1237.19,1326.78,1199.05,1335.07,1192.49,1310.62Z"/></g>
-                        <g id="Grace_11" data-name="Grace 11" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Grace</strong><br/>Warm White</em>"><path class="cls-2" d="M606.09,579.12c-10.14-.46-18.92,2.89-22,4.08-9.59,3.76-16.37,9.33-22.33,15.24-16,15.89-19.56,27.75-28.53,40.17s-12.73,10.83-52.42,37.68c-33.67,22.79-50.65,34.45-57.4,47.66-8.38,16.39-12.38,41-2.43,60.86,20.48,40.89,93.66,48.75,128.31,21.65,15.25-11.94,21.86-32.38,35.08-73.25,13.43-41.54,8.16-48.52,21-69.05,20.41-32.54,46.27-35.14,44.86-52.8C649,595.12,625.77,580,606.09,579.12Z"/></g>
-                        <g id="Joe_12" data-name="Joe 12" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Joe</strong><br/>Utilitarian Grey</em>"><path class="cls-2" d="M442.39,594.67c-22.65,9.55-25.17,22.5-54.22,33.6-11.44,4.37-11.29,2.46-37,9.4C319,646.38,302.93,650.73,296.26,659c-14,17.21-12.69,51.4,7.06,71.46,22.58,22.93,56.48,14.4,62.9,12.79,22.21-5.59,20.71-20.26,52.64-44.76,29.32-22.5,37.94-17.17,59.88-37.51,16.14-15,42.52-46.63,33.51-62.74C504,583.51,467.68,584,442.39,594.67Z"/></g>
-                        <g id="Joseph_14" data-name="Joseph 14" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Joey</strong><br/>Mantis Shrimp</em>"><path id="Joseph_14-2" data-name="Joseph 14" class="cls-2" d="M542.45,771.73c-.47-1.45-7-22,0-28.53,4.13-3.87,11.44-1.51,51,19.56,29.3,15.62,32.57,18.2,40.93,17.94,17.19-.55,21-11.74,36.62-9,16.72,3,26.68,19.34,27.29,20.38,5.2,8.81,1.74,14.86,7.9,22,5.65,6.55,13.61,8.26,17.49,9.09,14.72,3.16,19.25-4.21,40.6-5.6a90.48,90.48,0,0,1,28.7,2.8c9.16,2.41,16.32,4.3,21,10.5,7.46,9.88,3.53,24,2.8,26.41-7,23.38-40.17,39-68.94,38.32-30.51-.73-55-19.47-68.94-30.17C657.34,849,654.05,838.24,632.22,828c-17.76-8.35-19.92-3.3-40.94-12.23C577.17,809.75,551.12,798.13,542.45,771.73Z"/></g>
-                        <g id="Abhinav_15" data-name="Abhinav 15" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Abhi</strong><br/>Ultraviolet Light</em>"><path class="cls-2" d="M545.17,557.51c-13.44,5.86-30.61,13.64-36.4,30.8-4.15,12.29-1.95,27.89,6.3,39.2,16.27,22.28,41.83,8.31,78.4,31.5,22.86,14.5,26.25,28.44,40.6,27.3,18.52-1.47,30.88-26.09,34.3-32.9,10.14-20.2,3.2-26.91,11.2-51.8,9.84-30.6,27.14-34,27.3-59.5.11-16.8-9.92-37.44-23.8-40.6-18.26-4.17-24.75,26.14-61.6,41.3C591.87,555,581.06,541.87,545.17,557.51Z"/></g>
-                        <g id="Batu_16" data-name="Batu 16" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Batu</strong><br/>Purplange</em>"><path class="cls-2" d="M729.27,387.41c-19.54,5.33-34.08-17.77-45.5-11.2-8.57,4.93-7.46,22-6.3,39.9.63,9.62,1.84,25.93,10.5,46.2,12.34,28.86,22.7,25.76,31.5,49,4.67,12.31,16.18,38.73,5.6,61.6-6.1,13.18-16.54,19-16.8,34.3-.14,8.5,2.93,14.89,4.9,18.9,9.84,19.94,34.26,36.52,46.2,30.1,5.57-3,7.29-11.55,10.5-28.7,4.27-22.85.82-25.54,4.2-31.5,9.84-17.34,43.95-3.06,86.1-14,25.86-6.71,67.08-26.12,68.6-51.8,1.48-25-34.84-53.59-68.6-58.8-28.52-4.4-49.12,8.82-60.2-3.5-7.87-8.76-4.76-23.58-2.8-32.9,6.83-32.48,29.63-36.15,34.3-64.4.59-3.56,4.85-31.81-13.3-44.8-13.61-9.75-34.43-7-45.5,2.8-7,6.26-4.88,10.73-13.3,25.9C752.26,367.32,743.23,383.6,729.27,387.41Z"/></g>
-                        <g id="Katrina_17" data-name="Katrina 17" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Katrina</strong><br/>Arizona Sky</em>"><path class="cls-2" d="M902.87,414c-5.53-25.42-2.43-39-14.7-62.3-9-17.09-15.82-19.55-18.9-32.9-4.89-21.23,5.36-45.44,17.5-57.4,35.77-35.22,144.57-20,182,50.4,20,37.55,16.16,84.27-4.2,119-27.25,46.49-88,78-121.8,60.2C916.62,477.22,907.27,434.21,902.87,414Z"/></g>
-                        <g id="Victoria_18" data-name="Victoria 18" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Tori</strong><br/>Cerulean Slumber</em>"><path class="cls-2" d="M817.47,421c3-13.15-4.24-25.36-7.82-31.37-1.51-2.52-12.73-20.73-32.78-25.33-26.24-6-37.93,18.1-60.2,11.9-18.78-5.24-34.24-29-28.7-43.4,6.25-16.2,37.82-16.79,39.2-16.8,49.9-.41,80.77,53,98.7,42.7,10.83-6.25,4.6-28.65,21.7-37.8,6.2-3.32,13.88-4,16.81-4.32,6.19-.58,14-1.32,21.69,2.92a29.37,29.37,0,0,1,11.9,12.6c6.45,13.54-3.55,22.48-2.1,39.9,1.23,14.72,9.76,25.07,16.8,33.6,11.47,13.89,24.28,20.51,41.3,28.7,63.17,30.4,79.42,31.56,83.3,46.2,4,15.07-4.36,36-17.5,40.6-21.51,7.5-35.83-38-91.7-56-17.05-5.49-29-8.56-33.28-9-11.56-1.14-22.1-.15-29.72.57-11.1,1-13.6,2.16-28,3.5-19.53,1.82-24.94.69-27.3-2.8-1-1.54-1.44-3.47-.7-9.1C810.91,434.3,815.68,428.71,817.47,421Z"/></g>
-                        <g id="Maya_19" data-name="Maya 19" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Maya</strong><br/>Blank Fill</em>"><path class="cls-2" d="M785.27,797.61c12,5.11,15.63,1.5,26.6,6.3,11.79,5.16,26.52,17.61,28.7,32.9,3,21.3-20.72,31.06-16.1,46.2,4.48,14.68,31.31,20.18,49,18.9,4.68-.34,28.83-2.09,42.7-20.3,21.66-28.43,1-74.25-6.3-90.3-7.83-17.33-10.82-15.09-16.1-30.1-11.4-32.45,1.09-47.24-10.5-65.8-13.82-22.13-45.69-23.69-49-23.8-35.36-1.23-57,26.94-61.6,32.9-2.42,3.16-30.11,40.18-14.7,69.3C766.12,789.21,783.37,796.8,785.27,797.61Z"/><path class="cls-2" d="M915.4,698.22c-12.43,2.8-23.63,5.33-34.3,14.72-14.23,12.53-26.64,36.51-18.9,59.6,9.1,27.13,40.76,37.35,63.7,35.76C955.55,806.24,977,784,985.4,762c1.24-3.23,14.07-38.16-4.2-57.49C964.72,687.1,934,694,915.4,698.22Z"/></g>
-                        <g id="Jeffrey_20" data-name="Jeffrey 20" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Jeffrey</strong><br/>Petunia</em>"><path class="cls-2" d="M958,908.84c-32-5.39-40.59,1.28-51.66-5.67-15.2-9.53-21.77-36.37-13.23-45.36,12.47-13.12,52.51,16.72,66.78,1.89,2.39-2.49,2.56-4.68,5.67-42.21,1.4-16.9,2.17-25.42,5.67-28.35,9.2-7.7,32.77-2.81,46,11.34,8.4,9,8.14,17,22.68,76.23,2.28,9.31,3.5,14.06,7.56,18.9,12.93,15.45,32.55,6.91,46,18.9,12.75,11.39,14.58,36.88,3.78,55.44-13.71,23.55-41.2,24.53-43.47,24.57-28.79.53-47.13-24.5-48.51-26.46-15.53-21.9-7.23-42.26-24.57-53.55C976.48,911.76,970.3,910.92,958,908.84Z"/><path class="cls-2" d="M1039.3,737.48c2,5.43.63,7.14,0,29.61-.45,15.8-.67,23.7,0,30.87,1.71,18.43,6.74,20.58,16.38,54.18,6.52,22.77,4.57,23,8.19,27.72,15,19.43,40.81,4.93,57.33,21.42,16.92,16.9-1.36,41,17.64,66.78.9,1.24,17.61,23.28,39.69,21.42,25.74-2.16,38.66-35.12,41-41,10.49-26.76,8.62-65.83-13.23-83.16-20.33-16.11-40.69.27-65.52-18.27-14.81-11.05-20.47-26.49-26.46-42.84-14.2-38.72-1.17-51.09-11.34-80-11.34-32.21-43.17-61.36-78.75-65.52-24-2.79-56,5-66.78,25.83-.83,1.6-7.14,14.19-1.89,21.42,6.09,8.41,20.76-.12,44.1,5C1003.44,711.87,1032,718.19,1039.3,737.48Z"/></g>
-                        <g id="Michael_21" data-name="Michael 21" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Michael</strong><br/>Fire of Music</em>"><path class="cls-2" d="M1082.77,619.81c8,7.2,25.58,23.44,37.8,48.3,9.25,18.81,11.7,35,15.4,59.5,6,40,.14,45.29,8.4,61.6,14.55,28.71,46.09,38.43,51.1,39.9,25.18,7.36,64.9,6.48,79.1-15.4,19-29.28-14.93-85-44.1-112.7-12.84-12.18-19.32-13.75-35-30.8-12.85-14-29.77-32.37-37.8-59.5-7.48-25.3,1.13-29.92-6.3-59.5-5.12-20.41-10.77-42.88-28.7-52.5-26.56-14.26-73.2,3.42-86.1,37.1-.53,1.39-8.87,24.21,2.1,46.2C1047.28,599.25,1058.87,598.16,1082.77,619.81Z"/><path class="cls-2" d="M1162.57,900.51c-3.18,38.67,5.64,49.52,10.5,53.9.58.52,11.89,10.42,22.4,7,12.9-4.2,16-25.62,17.5-36.4,4.56-31.87-8.42-37.32-2.8-61.6,1.86-8,8.59-20.22,22-44.59,9.36-16.94,13.16-21.87,13.66-31.71.89-17.28-9.35-30.5-13.3-35-3.68-4.2-17.9-20.43-35-17.5-16.8,2.88-25.09,22.35-26.6,25.9-11,26,7.12,38.14,4.9,77C1174.36,864,1165.6,863.73,1162.57,900.51Z"/><path class="cls-2" d="M1287.17,835.41c-2.44-6.66,7.64-10.53,11.9-26.6,1.67-6.29,1.11-14.22,0-30.1-1.18-16.91-1.77-25.36-3.5-30.1-7-19.36-21.15-22.06-20.3-33.6.89-12,16.91-19.38,18.9-20.3,23-10.58,47.94,5.81,49.7,7,13.46,9.12,10.7,15.62,27.3,32.9a135.84,135.84,0,0,0,39.9,28.7c4.6,2.14,26.3,11.88,56.7,11.9,32.53,0,36.08-11.1,60.9-7,25.67,4.24,41.6,21.52,46.9,27.3,13.78,15,28.32,41.16,20.3,51.1-4.89,6.06-13.16-.1-32.9,3.5-16.56,3-28.56,10.61-48.3,23.1-22.46,14.21-26.32,20.92-35.7,19.6-10.19-1.44-16.57-10.91-25.9-25.2-18.25-27.94-12.68-36.56-25.2-49-14.56-14.48-39.56-17.13-56.7-11.9-15.19,4.63-30,17.22-33.6,20.3-9.5,8.09-12,12.82-20.3,15.4C1305.43,846.1,1289.9,842.85,1287.17,835.41Z"/></g>
-                        <g id="Bongi_23" data-name="Bongi 23" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Bongi</strong><br/>Sky Green</em>"><path class="cls-2" d="M841.27,1116.81c.16,6,.09,16.4-2.8,35-6,38.41-13.07,41.58-13.3,59.5-.2,16.13,5.49,18.4,24.5,61.6,18.15,41.23,27.1,62.1,21,74.9-9,18.82-40.5,28.34-64.4,21.7-43.08-12-63.62-77.17-61.6-123.9,1.64-38,16.91-33.57,26.6-96.6,3.82-24.84,4.64-46.27,21.7-64.4,8.32-8.84,24.18-20.81,35-16.1C840.15,1073.81,840.78,1098,841.27,1116.81Z"/><path class="cls-2" d="M889.57,1052.41c-13.24,15.21-6.82,39.2-5.6,43.4,1.42,4.87,4.42,12.61,21.7,32.2,17,19.27,24.54,23.63,32.2,32.2,28.75,32.18,22.14,82.39,21.7,85.4-5.48,37.75-27.62,40-35,83.3-2.74,16.08-7.37,43.28,7.7,61.6,17.94,21.8,59.52,25.81,86.1,11.2,64.46-35.44,68.8-195.8,8.4-244.3-14.55-11.69-34.54-18.23-48.3-43.4-15.23-27.88-5.29-46.56-21.7-61.6C939.74,1036.79,904.9,1034.79,889.57,1052.41Z"/><path class="cls-2" d="M857.37,1197.31c1.39-6.78,4.82-23.49,17.5-28.7,14.94-6.13,31.83,8.17,32.9,9.1,16,13.93,16.46,36.1,16.8,53.9.09,4.55,1.23,63.07-16.8,67.2C888.35,1303.26,847.72,1244.37,857.37,1197.31Z"/></g>
-                        <g id="Allan_24" data-name="Allan 24" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Allan</strong><br/>Stand-Out Silver</em>"><path class="cls-2" d="M723,1334.51c15.19,23.47,18.08,33.53,33.6,44.8,26.77,19.43,59.62,19.63,64.4,19.6,25.4-.16,28.42-9,47.6-5.6,16.76,3,19.58,10.61,47.6,28,28.57,17.72,43.56,27,64.4,28,29.46,1.38,53-14.68,56-16.8,20.44-14.35,20.11-27.45,34.3-30.8,18.92-4.47,45.13,12.75,53.2,33.6,14,36.08-25.42,85.53-61.6,109.2-59,38.63-148.8,34.33-185.5-8.4-19.73-23-10.46-41.15-30.8-56-35.35-25.81-76.3,19.67-131.6,5.6-61.83-15.74-105.5-96.76-100.8-162.4,1.81-25.2,11.85-63.69,30.8-67.2C669.28,1251.54,705.26,1307.14,723,1334.51Z"/><path class="cls-2" d="M583,1278.51c11.44-7.34.12-26.74,14-47.6,2.57-3.86,14.27-21.45,30.8-22.4,23.79-1.37,33.54,33.09,53.2,30.8,14.85-1.73,27.43-23.5,28-42,1-33.21-36.58-58.59-64.4-67.2-7.34-2.27-51.49-15.93-81.2,11.2-16.49,15.06-.78,26.12-14,92.4-2.69,13.48-5.85,26,1.4,35.7S574.13,1284.19,583,1278.51Z"/></g>
-                        <g id="Zulaika_25" data-name="Zulaika 25" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Zulaika</strong><br/>Hero</em>"><path class="cls-2" d="M1028.68,1248.16c-4.36-21.87,1.64-43.13,3.37-49.05,3.21-11,10-34,32-50.59,15-11.31,37.73-20,43.79-14,5.34,5.24-7.15,17-11.79,40.48-1,5.21-7.26,36.83,8.42,59.16,19.58,27.89,55.94,16.49,69.88,40.48,11.35,19.52,2.05,52.5-17.68,62.28C1121.82,1354.16,1040.25,1306.09,1028.68,1248.16Z"/><path class="cls-2" d="M1041.47,1130.11c6.32-.13,6.23-2,33.6-13.3,25-10.33,30.66-11.1,36.4-9.1,8.88,3.09,15,11.83,17.5,19.6,5.41,16.58-8.25,25.59-7.7,46.2.39,14.28,7.55,32.17,19.6,38.5,23.23,12.2,70.53-15.4,84.7-53.2,10.18-27.16-13.07-58.87-56-121.1-20.71-30-31.57-39.87-43.4-39.2-19.4,1.1-21.05,29.4-48.22,36.58-21.69,5.74-33.1-9-56.78.52-4.57,1.84-15.4,6.37-22.4,17.5-13,20.7-1,45.52,0,47.6C1006.82,1116.75,1024.07,1130.46,1041.47,1130.11Z"/><path class="cls-2" d="M1262,1165.81c-11-8.26-24.59-7.59-36.4-7s-20.89,1-28,7.7c-11.41,10.69-11.77,32.1-2.8,46.2,9.78,15.38,27.88,17.71,37.1,18.9,9.05,1.16,29.65,3.82,40.6-9.1C1285.36,1207.31,1278.44,1178.12,1262,1165.81Z"/></g>
-                        <g id="Nicole_26" data-name="Nicole 26" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Nicole</strong><br/>Clearescent</em>"><path class="cls-2" d="M717.37,1431.11c9.93,12.85,24.67,20,35.7,22.4,17.34,3.75,20.67-5.35,47.6-7.7,13.17-1.15,33.66-2.94,52.5,7.7,14.75,8.32,22.75,21,32.9,37.1,14.76,23.4,10.93,29.27,21,36.4,14.89,10.53,25.08-1,53.2,8.4,16.78,5.61,27.35,14.47,34.3,20.3,11.87,10,20.36,17.9,20.3,27.3-.1,17.47-30.51,33.22-55.3,37.1-26.69,4.17-60.94-3.23-84-25.9-24.2-23.78-20.59-49.14-44.8-57.4-5.5-1.88-15.56-2-35.7-2.1-27.68-.2-29.17,2.57-40.6,0-12.68-2.85-21.43-8.81-38.92-20.72-14.49-9.86-21.73-14.79-27.58-22-13.84-17-16-35.32-18.2-54.6-1.95-16.83-3-27.08,3.5-32.2,7.12-5.6,20-2.59,28,2.8C710.27,1414.09,709.33,1420.7,717.37,1431.11Z"/><path class="cls-2" d="M804.17,1557.81c-1.08-.76-5.69-3.65-18.2,1.4-3.26,1.32-40.15,16.21-37.8,42,.85,9.25,6.78,20.28,17.5,24.5,14.47,5.7,28.13-4.74,30.1-6.3,14-11.09,13.64-29.31,13.3-45.5C808.85,1563.08,806.67,1559.57,804.17,1557.81Z"/><path class="cls-2" d="M826.81,1568.46c5-1.92,11.81,4.41,15.26,7.59,7.28,6.71,7.71,12.11,14.45,25.12,9.49,18.35,15.29,20.38,13.57,26.43-2.35,8.27-15.3,14.2-25.46,11.58-11-2.84-15.33-14.8-18.79-24.27C819.05,1596.31,818.56,1571.65,826.81,1568.46Z"/><path class="cls-2" d="M898,1555c6.23-5.24,14.72-3.64,26.6-1.4,14.93,2.81,25,8.26,32.9,12.6,11.45,6.3,18.69,10.29,18.2,14.7-.65,5.86-14.62,9-21.7,9.8-11.52,1.37-20.44-1.64-37.8-7.7-21.12-7.38-23.19-11.49-23.8-14C891.13,1563.87,894.26,1558.13,898,1555Z"/></g>
-                        <g id="Aryan_27" data-name="Aryan 27" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Aryan</strong><br/>Magenta</em>"><path class="cls-2" d="M778.92,1185.29c11.82,11.68,10,19.9,19.92,27.28,6.87,5.13,19.28,9.77,27.38,4.65,9.63-6.08,4.78-21,12.45-45.24,7.55-23.85,15.64-24.21,21.16-41.26,8.5-26.26,3.66-69.39-24.27-87.83-31.2-20.6-67.56.88-72.82,4-21.76,12.86-40.15,37.52-42.32,65.88-.62,8.07-1.89,24.66,7.47,37.26,3,4.08,4.49,4.13,32.36,22.62C775.67,1182.87,776.72,1183.1,778.92,1185.29Z"/><path class="cls-2" d="M718.56,1033.22c4.89,2.22,9.35.76,26.78-5.67,26.48-9.78,27.95-10.75,33.78-11.42,12.5-1.46,17.41,1.73,20.9-2.14,5.17-5.74,1.36-18.89-5.72-26.68-9.32-10.26-23.68-10.54-32.52-10.71-7.43-.14-24.24-.47-38,11.31-1.3,1.11-18.59,16.28-14.64,32.86C709.42,1022.07,711.61,1030.06,718.56,1033.22Z"/></g>
-                        <g id="Daniel_28" data-name="Daniel 28" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Dan</strong><br/>Beach Sunset Purple</em>"><path class="cls-2" d="M1594.47,1151.11c-3,1.1-17.75,6.88-26.6,22.4-13,22.77-6.28,55.4,10.5,72.1,17.76,17.67,35.05,8.67,51.8,28a38.25,38.25,0,0,1,5.42,7.92,124.94,124.94,0,0,1,12.08,38.28c4.14,25.79,25.06,55.24,49,62.3,11.9,3.51,11.2-2.45,35.7-1.4,33.07,1.42,46.16,12.78,57.4,4.2,8.94-6.82,9.07-20.42,9.1-23.8.14-14.23-8-23.25-14.7-33.6-22.05-34.11-4.78-50-25.2-72.1-14.91-16.14-33-22.81-54.6-30.8-32.68-12.07-50.8-9.82-56.7-23.1-6-13.45,9.11-23.71,2.8-37.1C1643.4,1149.38,1615.5,1143.35,1594.47,1151.11Z"/><path class="cls-2" d="M1676.37,1167.91c15.91,13.32,22.81,13.6,46.2,28.7,25.24,16.29,41.63,26.87,53.9,43.4,28.86,38.88,6.78,72.74,33.6,95.2,16.17,13.54,41.4,15.65,58.8,7.7,36.44-16.65,43-79.44,25.9-121.1-20.09-49-71.54-65.48-74.9-66.5-27.38-8.31-33.17,2.21-56-7.7-38.12-16.55-35.95-52-67.2-59.5-22.84-5.51-51.67,6.75-56.7,23.8C1633.94,1132.36,1663,1156.74,1676.37,1167.91Z"/><path class="cls-2" d="M1578.37,1286.21c96.87-102.14,217.27-98.33,256.9-184.8,7.6-16.57,14-40.31,31.5-44.1,19.19-4.15,48.06,16.44,51.1,38.5,5.38,39-74.27,50.76-167.3,138.6-74.08,69.95-93.59,128.59-144.9,126.7-18.56-.69-45-9.43-50.4-26.6C1550.15,1318.13,1565.91,1299.35,1578.37,1286.21Z"/></g>
-                        <g id="Reid_29" data-name="Reid 29" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Reid</strong><br/>PurpALL</em>"><path class="cls-2" d="M1662.85,1414.71c-3.14-11.42-30.75-11.91-34.4-11.94-11.34-.09-32.36-.27-44.87,15.68-10.17,13-13.27,34.69-4.1,42.66,8.48,7.36,24.6.49,44.77-8.11,13-5.52,21.48-11.56,28.28-19C1658.32,1427.71,1664.55,1420.91,1662.85,1414.71Z"/><path class="cls-2" d="M1637.29,1399a46.63,46.63,0,0,1,19.16-10.67c17.31-4.47,23.15,7.14,47.11,9.91,23.75,2.73,29.49-7.35,50.3-1.53,3.89,1.09,6.29,2.17,25.55,13.72,29.22,17.51,43.94,26.39,49.5,32,9.31,9.39,27.33,27.58,22.36,45.71-5.29,19.25-35.19,33.64-55.89,27.43-32.68-9.82-45.86-55.83-54.3-52.57-4.86,1.87-4,19.17,0,33.52,8.93,31.81,31.41,38.82,28.39,54.25-3.23,16.49-28.51,30.15-49.94,27.27-31.07-4.18-50.55-42.63-45.51-67,3-14.66,16.49-23.47,12-31.23-3.29-5.66-14.13-7.77-21.55-4.57-9.6,4.13-9.58,15.48-15.17,29-8.5,20.44-30,46.48-49.51,44.19-19.29-2.27-32.41-25.23-35.13-42.67-3.89-24.93,11.31-52.43,31.14-65.52,10.44-6.89,19.87-8.28,28-19.81C1629.3,1412.4,1629.44,1406.44,1637.29,1399Z"/><path class="cls-2" d="M1648.25,1466.19a44.83,44.83,0,0,0-8.87,16.83c-1.79,6-5.22,17.45.15,22.61,5.84,5.62,18.62.44,21.31-.65s10.81-4.7,27.13-27c9.32-12.72,14-19.08,12.47-22.18C1696.29,1447.41,1663.73,1448.59,1648.25,1466.19Z"/></g>
-                        <g id="Malena_7" data-name="Malena 7" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Malena</strong><br/>Sparkling Blush</em>"><path class="cls-2" d="M1458.1,1518.41c1.59-18.48,3.74-19.79,3.76-31.59,0-10.46.08-33.32-11.3-44.24-22.92-22-93.32,3.31-97.55,31.28-1.75,11.57,9,15.67,36.28,58.69,13.37,21.08,20.08,31.81,21.36,40.64,5,34.47-27,54-19,72.45,6.92,16.16,34.7,26.24,57,17.94,23.88-8.9,33-35.72,31.36-53.84-1.88-20.34-16.61-21-21.79-48.57C1455.61,1547.36,1456.76,1534,1458.1,1518.41Z"/><path class="cls-2" d="M1276.69,1523.87c-4.69-2.76-18.13-11.49-22.81-27.72-7.11-24.65,9.32-55.06,27.07-56.71,13.3-1.24,25.87,14.24,32.6,25,9.87,15.85,5.54,23.64,13.37,42.46a59.23,59.23,0,0,0,7.23,13.08c12.06,16.13,19,20.72,26.91,30.83,12,15.29,20.62,41.66,10.34,52.92-6.32,6.92-19,7.28-27.72,4.19-3.66-1.31-8.88-4-16.37-13.82-12.9-16.87-12-28-19.9-41.83C1302.71,1544,1294.06,1533.19,1276.69,1523.87Z"/><path class="cls-2" d="M1367.27,1400.41c-2-.63-5.73-1.82-9.1,0-4.54,2.45-5.65,8.9-4.9,13.3a15.77,15.77,0,0,0,13.3,12.6c6.33.82,13.68-2.37,15.4-7.7C1384.36,1411.23,1375,1402.85,1367.27,1400.41Z"/></g>
-                        <g id="Anderson_30" data-name="Anderson 30" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Anderson</strong><br/>Scent of Autumn</em>"><path class="cls-2" d="M1649.3,1175.22c7.94-13.29-14.71-27.91-6.42-48.15,5.72-14,22-20.55,34.83-25.73,25.63-10.38,50.15-8.41,60.5-7.47,34.71,3.15,45.11,15.71,56.82,9.13,17.85-10,9.24-48,8.25-52.3-1.31-5.75-12.26-51.06-46.74-60.6-23.62-6.53-38.41,9.21-62.33-1.66-5.67-2.58-11.5-8.12-22.91-19.09-30.21-29-29.75-37.68-44-43.16-23.33-9-49.35,4.64-53.16,6.64-3.4,1.78-28.21,15.27-33.91,42.33-1.25,5.93-4.51,21.39,5.5,36.53.61.92,11.12,16.31,30.71,21.26,2.17.55,3.85.81,6,1.15,17.92,2.85,23.48-1.58,33,1.66,5.46,1.86,12.85,6.45,13.75,12.45,1.1,7.39-8.12,13.93-13.75,18.26-21.93,16.88-38.6,38.25-44.91,51.47-6.9,14.43-11.93,41.07,4.58,57.28C1595.54,1195.32,1640.15,1190.54,1649.3,1175.22Z"/><path class="cls-2" d="M1555,1046.05c-15.51-13.79-34.46-28.62-39.56-45-7.38-23.73-1.91-51.44,16.18-69.66,12.93-13,28.44-17.31,39.57-20.39,11.8-3.26,30.87-8.5,51.25-1.69,17.8,5.94,20,15.56,42,21.32,10,2.62,21.18,5.55,27.3,0,9.5-8.62,1.77-33.09-7.25-47.66-12.5-20.18-32.14-28.83-43.37-33.8-14.3-6.32-26.35-8.23-34.86-9.52a162.5,162.5,0,0,0-61.14,2.55,177.78,177.78,0,0,0-33.06,11.66,212,212,0,0,0-26.85,14.48c-13.67,8.69-22.73,14.45-30.9,24-13.45,15.66-16.73,32.46-20.68,52.66-2.48,12.66-4.38,22.41-2.7,35.68,2.13,16.81,8.69,28.47,15.29,39.92,6.18,10.74,16.78,28.72,37.62,44.45,15.4,11.62,33.71,26,55.89,22.66,14.17-2.13,30.42-11.52,30.91-22C1571,1059,1564.61,1054.55,1555,1046.05Z"/><path class="cls-2" d="M1571.37,950.21c-4,.35-6.71,5.33-9.1,9.8-1.67,3.12-9.71,18.2-1.4,28,7.53,8.87,24,8.19,29.4,1.4C1598.83,978.61,1581.68,949.33,1571.37,950.21Z"/></g>
-                        <g id="Philippa_32" data-name="Philippa 32" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Philippa</strong><br/>Transparency</em>"><path class="cls-2" d="M1407,1210.77c-7.2-22.92-9-37.36,1.13-46.89,16.82-15.78,55-17.16,71.74,1.49,15.86,17.61-1.83,37.36,13.13,73.54,2.8,6.77,14.85,35.92,42,48.3,32.79,15,56.1-8.91,80.5,7.7,15.29,10.4,25.8,33.15,19.6,47.6-11.71,27.31-87.2,34.5-141.57,6.45C1435.19,1318.87,1421.47,1256.86,1407,1210.77Z"/><path class="cls-2" d="M1951.38,275.72c-7.48-5.55-10.71-.85-46.51-1.86-26.36-.75-34.67-3.59-45.41,2.82-8,4.79-18,15.13-15.63,23.58,4.43,15.64,50,20.54,50.86,20.63h0c20.75,2.4,28.45-3.41,31.63-.19,3.84,3.89-6.11,13.82-8.85,32.09-1.92,12.7-.74,31.5,6,34.13,8.74,3.41,27.91-19.79,35.59-45.05C1964.87,322.88,1968.47,288.41,1951.38,275.72Z"/><path class="cls-2" d="M1535,1287.21c3.45-2.16-7.65-16.41-14-44.1-15.47-67.56,22.72-104.53-.23-136.36-12-16.71-22.75-6.75-49.47-30.24-32.36-28.45-38.7-62.43-47.6-60.2-4.93,1.23-5.85,14.59-7.7,41.3-1.41,20.51-.78,37.49,4.2,55.3,2.93,10.47,5.67,15.17,9.1,18.9,7.91,8.58,14.59,6.65,25.2,13.3,15.75,9.86,21.74,27.07,24.5,35,4.86,14,3.28,22.45,4.2,32.9C1486.94,1255.87,1529.11,1290.88,1535,1287.21Z"/></g>
-                        <g id="Nikhil_31" data-name="Nikhil 31" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Nik</strong><br/>S'mores</em>"><path class="cls-2" d="M1830.85,1294.23c1.6-3,3.53-6.55,7.68-9.12,21.64-13.4,50.61,33.4,87.57,29.21,37.72-4.29,48.86-57.75,81.07-53.39,9.75,1.32,19.3,7.65,23.84,16,20.59,38.12-49.62,142-113.79,135.36-13.83-1.44-23.42-7.61-34.34-14.63C1844.92,1373.31,1815.44,1322.8,1830.85,1294.23Z"/><path class="cls-2" d="M1987.1,1389.28c-5.66-16-13.51-20.4-21-33-17.36-29.28-9.78-63.53-9.25-65.78,9-38,50.47-77.09,81.75-66.69,23.08,7.68,37.83,41.36,33,67.13-4.35,23.49-22,24.35-31.38,53.27-1.09,3.36-11.81,37.88,4.35,67.19,15,27.11,37.18,21.24,56.81,46.77,21.15,27.5,27,75.53,6,94.74-24.8,22.61-86.14,4.55-106-29.42-16.17-27.62-12.2-78.2-10.9-94.87C1991.21,1419.14,1992.86,1405.51,1987.1,1389.28Z"/><path class="cls-2" d="M1887.9,1448.1c-7.69,3.48-14.81,12.85-12.55,21.73,2.58,10.19,16.11,14.33,25.92,12.54,10.31-1.88,20.35-11,19.56-19.64C1919.81,1451.66,1901,1442.16,1887.9,1448.1Z"/></g>
-                        <g id="Hannah_33" data-name="Hannah 33" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Hannah</strong><br/>Blue-Black Swirl</em>"><path class="cls-2" d="M2181.76,1581c-11.15-15.72-19.54-27.78-25.19-46.75-3.05-10.22-16.62-55.73,4.9-88.46,12.18-18.54,22.71-13.32,78.36-53.94,21.07-15.38,25-20.06,28-25.9,11.34-21.78-2.53-54.34,7-70.48,9.4-15.91,43.38-18.11,66.55-7.83,40.65,18,54.77,77.5,37,101.33-12.21,16.38-34,8.63-75.56,36.68-11.94,8.06-19.57,15.15-20.94,25.09-1.71,12.41,6.94,25,16,31.73,11,8.1,17,3.26,30.86,11,2.65,1.48,24.86,14.21,23.8,30.8-.88,13.78-17.51,25.45-32.27,28-20.09,3.47-29.35-11.22-44.73-4.89-9.55,3.93-18.44,14.73-17.5,24.5,1.53,15.76,27.42,16,34.94,35,6.61,16.74-3,42.91-18.19,48.91C2243.53,1668.12,2191.21,1594.31,2181.76,1581Z"/></g>
-                        <g id="Caitlin_34" data-name="Caitlin 34" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Cait</strong><br/>Omni-Shade</em>"><path class="cls-2" d="M2097.07,1416.41c27.95,23.24,59.35,27.44,75.6,29.4,21.35,2.58,43.86,5.63,67.9-6.3,8.88-4.4,28.88-14.32,35.7-34.3,6.43-18.83-5.4-27.35.7-50.4,5.36-20.25,15.54-21.2,18.9-35.7,6.58-28.36-33.71-73.31-58.8-66.5-19.68,5.34-26.8,49.33-27.3,52.5-2.89,18.25.43,29.27-8.4,39.2-8.13,9.14-20.47,10.53-27.3,11.2-33.73,3.32-45.14-22.94-70.7-17.5-16.49,3.51-32.95,17.53-35,33.6C2066,1390.54,2084.36,1405.84,2097.07,1416.41Z"/><path class="cls-2" d="M2233.73,1111.4c4.37,33.71,37.23,49,48,54.09,30.16,14.07,62.76,8.09,85-7.31.08,0,.44-.29.91-.63,6.43-4.54,18.37-13,19.73-18.34,2.34-9.18-23.64-19.32-45.82-36.38-40.39-31-37.92-60.95-58-63.14C2261.14,1037.25,2228.93,1074.46,2233.73,1111.4Z"/><path class="cls-2" d="M2355.78,1084.54c-56.6,16.2-85.35,24.63-88.42,43.2-4.2,25.4,40.85,63,83.81,63.27,25.5.15,30.68-13,79.09-33.89,63.06-27.26,97.1-23.9,100.06-39.53,3.12-16.41-31.46-37.2-60.76-45.2C2433.82,1062.62,2402.93,1071.05,2355.78,1084.54Z"/></g>
-                        <g id="Jake_35" data-name="Jake 35" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Jake</strong><br/>Austere Gray</em>"><path class="cls-2" d="M2326.32,1564.39c10.54-2.53,12.27-.71,19.95-3.08,8.39-2.59,23.08-7.13,30.8-20.3,8.74-14.89,5.29-35.21-3.5-47.6-7.09-10-13.25-8.62-18.9-18.9s-7.6-26.14,0-35c10.49-12.22,35.22-6.11,48.3,0,25.84,12.06,36.26,38.13,44.8,59.5,9,22.42,15.71,39.28,9.8,59.5-7.75,26.53-31.85,39.38-42,44.8-29.51,15.76-67.15,16.94-93.8.7-9.83-6-24.19-18-21.7-26.6C2302.17,1570.2,2315.72,1566.94,2326.32,1564.39Z"/><path class="cls-2" d="M2318.27,1632c14.39-7.65,23.48,2.29,53.9,4.2,19.61,1.23,44.89,2.81,63-11.9,13.6-11,11.41-21.74,28.7-32.2,5.78-3.5,17.72-10.72,30.8-7,17.65,5,23.46,26,23.8,27.3,6.23,23.87-12.29,46-18.9,53.9-28.76,34.37-73,38.79-91,40.6-15.86,1.59-51.68,2.91-84.7-16.8-21.48-12.82-23.42-23.6-23.8-26.6C2298.52,1651,2307.35,1637.82,2318.27,1632Z"/><path class="cls-2" d="M2522.69,1494.75c3.87,15.64,9.29,24.31,12.19,47.35,1.19,9.48,2.92,24.25-.72,42.53-2.18,10.92-5.43,27.2-17.92,38.51-4.17,3.78-11.76,10.66-21.5,8.83a23,23,0,0,1-17.2-16c-3-11.24,5.61-18.89,10.75-35.31,4.24-13.52,3.31-24.26,1.44-45.74-2-23.1-6.11-68.2-35.12-107.52-7.45-10.1-18.83-25.16-38-32.9-10.05-4.07-18.88-4.75-30.1-5.62-26.7-2.07-33,4.13-49.45-1.61-7.62-2.66-19.6-6.84-24.36-19.25-4.44-11.58-1.1-27,7.88-35.31,5.76-5.36,14.13-5.12,35.83-.8,52,10.33,60.71,23,81,16.85,13.05-4,27.9-14.76,33-18.46,12-8.77,11.86-11.29,18.29-14.34,19.33-9.17,50.86-.64,59.1,16.75,5.58,11.76-3,20.14-12.89,48.95C2527.23,1403.9,2511.54,1449.67,2522.69,1494.75Z"/></g>
-                        <g id="Leo_36" data-name="Leo 36" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Leo</strong><br/>Neutron Star Blue</em>"><path class="cls-2" d="M2238.47,1278.51c-24.51-2.36-38.6-21-63.65-54-28-37-43.33-65.57-55.1-127.3-6-31.23-4.91-46-.39-56.1,2-4.55,3.37-6.4,4.51-7.56,16.19-16.42,68-4.28,81,23.1,8.54,18-7.12,27-.7,60.2a100,100,0,0,0,21,44.8c4,4.75,15.63,18.1,35,25.9s28.18,2.74,37.8,11.9c9.12,8.68,11.32,22.87,9.8,32.9C2303.64,1259.69,2268.05,1281.36,2238.47,1278.51Z"/><path class="cls-2" d="M2123.31,1209c7.1-8.09,17.23-8.38,19.12-8.39,2.3,0,10.9-.09,17.2,6.31,7.23,7.35,6,17.73,5.57,21.62-.41,3.53-1.82,15.61-11.34,20.94-10.45,5.85-26.28,1.08-33.15-10.44A26.14,26.14,0,0,1,2123.31,1209Z"/><path class="cls-2" d="M2090.2,1241.58c7.48,1,5.18,15.26,16.93,24.9,12.27,10.08,33,9.55,47.06,3.5,12.51-5.39,14-12.7,23.22-12.77,10.85-.09,23.26,10.06,24.37,20.49,1.89,17.71-28.55,38.94-57.12,41.14-24.8,1.91-42.75-10.94-47.38-14.36-6.08-4.49-27.93-20.62-25.28-40.67C2073.54,1252.17,2083.16,1240.6,2090.2,1241.58Z"/></g>
-                        <g id="Jasmine_37" data-name="Jasmine 37" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Jasmine</strong><br/>Joyful Elegance</em>"><path class="cls-2" d="M2461.07,1055.91c16,0,17.94-.19,23.1,0a126.27,126.27,0,0,1,28.73,4.32c17.31,5,43.3,21.49,45.79,42.29,2.66,22.31-27.06,30.62-27,57.78.05,18.48,13.87,35.67,28,43.39,32.15,17.6,77.54-7.49,100.58-32.87,45.33-49.91,23.08-121.68,22-124.86-15.57-47.55-53.58-70.68-67.59-79.2-44.09-26.83-117.48-44-165-7.73-31.31,23.92-50.42,70.35-37.4,87.44,6.05,7.94,27.62,8.94,31.24,9.22C2445.76,1055.86,2450.87,1055.87,2461.07,1055.91Z"/><path class="cls-2" d="M2625.57,920.81c-18.17-11.81-36.05,15.56-102.9,37.8-20.62,6.86-40.3,11.37-46.2,27.3-.28.75-4.37,12.27,1.4,20.3,10.87,15.13,46.77,4,50.4,2.8,24.6-7.91,23.69-18.52,51.1-32.9,32-16.81,52.69-12.51,57.4-26.6C2639.86,940.28,2634.86,926.85,2625.57,920.81Z"/><path class="cls-2" d="M2541.1,1251.24c-5.1,8.67-7.15,14.15-6,20.63,1.84,10.67,12.23,15.85,13.39,16.41,10.32,5,23.85,3,32.38-3.13,10.63-7.64,11.88-20.57,13.7-43.07,2.69-33.2-4.89-36.09,1.79-49.12,6.3-12.3,13.56-10.7,37-36,15.44-16.66,16.9-22.31,17.38-24.89,2.93-15.69-8.1-35.29-24.2-37.45-19-2.54-37.4,20.15-43.3,36.16-2.57,7-6.46,22.78-3.72,38.25a65.64,65.64,0,0,1,.37,21.57,39.66,39.66,0,0,1-3.72,11.47C2568.58,1217.89,2558.57,1221.52,2541.1,1251.24Z"/></g>
-                        <g id="Neha_38" data-name="Neha 38" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Neha</strong><br/>Beyond</em>"><path class="cls-2" d="M2408.57,943.21c19.39-18.29,41.06-24.59,50.4-27.3,27.54-8,35.51,1.05,78.4,0,23.82-.58,69.3-1.69,73.5-16.8,4-14.33-29.74-39.25-60.9-50.4-63.78-22.82-122.64,9.93-130.9,14.7-7.52,4.34-67.05,38.7-63,79.8,1.45,14.63,11,30.88,21,31.5S2390.86,959.92,2408.57,943.21Z"/><path class="cls-2" d="M2356.07,867.61c29.91-7.87,30-26.77,60.9-42.7,7.27-3.75,40.78-20,78.4-12.6,22.65,4.44,33.74,14.89,44.1,8.4,10-6.26,13.56-24.69,8.4-37.8-14.56-37-98.68-32-105.7-31.5-16.31,1.12-79.77,5.49-113.4,52.5-11.44,16-25.87,45.94-14.7,59.5C2324.4,875.94,2351.84,868.72,2356.07,867.61Z"/><path class="cls-2" d="M2347.67,747.21c27.92.18,34.86-14.19,60.9-18.9,33.1-6,51.63,11.84,59.5,2.1,7.43-9.19-3.81-31.59-15.4-44.1-22.28-24-54.84-21.19-56.7-21-22.57,2.35-36.29,15.69-50.4,29.4-6.82,6.63-31.94,31-25.2,44.1C2324.63,747.06,2339.72,747.16,2347.67,747.21Z"/></g>
-                        <g id="Courtnie_39" data-name="Courtnie 39" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Courtnie</strong><br/>Gleaming White</em>"><path class="cls-2" d="M1754.77,1608.21c-32.28,12.56-63.28-20.26-74.2-9.1-9.74,10,5.31,45.87,29.4,66.5,6.35,5.43,18.52,15.58,37.1,18.2,24.7,3.48,53.23-7.41,67.2-30.1,22.1-35.86-.65-87.45-16.8-88.9C1784.1,1563.61,1782.54,1597.41,1754.77,1608.21Z"/><path class="cls-2" d="M1800.69,1665.23c-13.88-8-24.71-14.09-41.52-17.15-38.29-7-96.65,3.84-118.08,41.21-22.82,39.8,9.74,86.2,29.35,114.13,27.64,39.39,60.12,24.51,98.6,67.68,25.48,28.58,29.94,52.3,44.53,51.41,9.28-.56,15.81-10.67,39.9-63,21.47-46.64,32.21-70,32.33-77.33C1885.8,1782.18,1890,1716.66,1800.69,1665.23Z"/><path class="cls-2" d="M2024.27,1807.71c-12.35-49.45-81.62-54.84-88.9-55.3-25.83-1.64-71.41,4.51-81.2,30.1-15.41,40.31,57.41,130.48,116.2,114.8C2003.17,1888.56,2033.9,1846.26,2024.27,1807.71Z"/><path class="cls-2" d="M1743.57,1699.91c1-.68,15.11-9.44,30.1-2.1a30.06,30.06,0,0,1,16.8,25.2c.75,17.79-16.74,34.88-35,32.9a30.4,30.4,0,0,1-25.2-21C1726,1721.19,1732.73,1706.94,1743.57,1699.91Z"/></g>
-                        <g id="Laurel_40" data-name="Laurel 40" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Laurel</strong><br/>Color Scratch</em>"><path class="cls-2" d="M1920,1842.71c-12-11.38-19.37-15.59-20.43-21.23-2-10.82,7.27-25.8,20.43-28.47,14.69-3,26.62,10.88,28.7,13.3a36.1,36.1,0,0,1,3.12,4.21c6.73,10.34,22.72,29.27,36.08,35.69,18.09,8.68,26.77-7.75,57.4-6.3,7.16.34,35.12,2.58,54.6,22.4,22.37,22.75,32.47,67.53,11.9,86.1-19,17.19-60,8-74.2-9.1-16.43-19.84-18.06-22.26-18.06-22.26-4.71-7-7.14-11.83-12.74-13.44s-12,.57-16.1,4.2c-7.8,6.85-4.59,16.52-7.7,29.4-3.86,16-17.44,36.9-33.6,37.1-15.18.19-30.88-18-30.8-33.6.06-11.86,9-13.89,18.9-37.1,5.91-13.91,9.73-22.88,7-32.9C1943.51,1867.18,1941.66,1863.2,1920,1842.71Z"/><path class="cls-2" d="M1907.94,1917c3.92,11.27-8.71,17.92-9.41,35.66-.63,16,9,30.91,19.44,39.62,18,15,39,9.29,43.42,8.07,7.46-2,21.3-5.82,27.21-18.34,3.43-7.26,2.55-14,7.78-17.61,4.42-3.07,10.48-2,14.26,0,12.46,6.74,14.17,32.12,13,46.22-2.13,24.83-16.19,48.35-35,61.63-31.13,22-73.27,14.5-100.44-10.27-27.92-25.47-31.93-62.93-33-74.1a125.51,125.51,0,0,1,2.06-37.67c3.19-14.55,8.14-23.58,10-26.82,5.94-10.19,10.29-17.66,18.36-19.15C1894.29,1902.62,1905,1908.42,1907.94,1917Z"/></g>
-                        <g id="Iris_41" data-name="Iris 41" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Iris</strong><br/>Blue Dimension</em>"><path class="cls-2" d="M1475.47,474.31c-15.65-15.51-5.39-36.84-20.3-45.5-14.47-8.4-42,1.3-51.8,20.3-6.55,12.76-3,25.76,0,37.1,1.31,4.87,13.05,46,49,60.2,17.92,7.06,21.56-.59,57.4,5.6,24.11,4.16,36.22,6.25,48.3,14.7,26.85,18.77,18,44,40.6,60.2,21.73,15.51,56.47,11.22,79.8-3.5,32.65-20.61,43.18-61.8,35-94.5-10.54-42.13-51.2-66.47-83.3-68.6-25.79-1.71-28.51,12.08-77.7,20.3C1522.47,485.62,1492,490.71,1475.47,474.31Z"/><path class="cls-2" d="M1649.77,342.71c-7.78,14.72-10.87,30.09-16.8,60.2-7.81,39.64-11.63,59.85-7.7,78.4,1.85,8.7,7.37,34.75,28.7,53.9,29.51,26.49,69.83,22.35,96.6,19.6,24.76-2.54,92.87-9.54,117.6-60.2,11.63-23.81,14.68-59.33,0-69.3-16.89-11.48-61.11,8.25-114.8,32.2-8.17,3.64-23.37,10.63-35.7,4.2-12.73-6.64-15.57-24-16.1-27.3-.29-1.77-3.16-21.18,8.4-36.4,19.06-25.09,53.67-7.7,72.1-29.4,14-16.48,12.12-47.73-2.8-65.8-21.87-26.5-65.36-18.95-88.9-6.3C1667.76,308.66,1657,329.06,1649.77,342.71Z"/><path class="cls-2" d="M1836.67,334.31c2.45-1.42,29.3-16.45,48.3,0,13.72,11.88,15.6,33.46,6.3,48.3-11.53,18.41-35.33,18.64-49,14.7-3.39-1-25.47-7.79-28.7-25.9C1809.82,350.38,1835.23,335.15,1836.67,334.31Z"/></g>
-                        <g id="Anjali_43" data-name="Anjali 43" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Anjali</strong><br/>New Leaf</em>"><path class="cls-2" d="M1799.57,929.91c-10.56-1.1-32.72-4.19-56.72,6-6.55,2.78-25.61,11.18-38.48,31.82-4,6.45-21.12,33.9-9.1,58.8,11.86,24.56,46.77,35.69,69.3,26.6,24.36-9.83,18.23-36.82,50.6-61.35,21.13-16,49.15-23.77,56.22-15.64,7.49,8.62-14.41,28.44-6,45.49,5.93,12,20.09,8.74,50.87,23.22,28.84,13.56,32.11,23.85,40.13,21.58,25.34-7.17,39-122.94-6.15-151.93C1917.08,893.2,1883.47,938.67,1799.57,929.91Z"/><path class="cls-2" d="M1813.26,939.59c8.62,6.93,21-5.15,51.67-11,18.79-3.57,50.09-9.52,71.72,5.49,25.35,17.6,16.8,49.67,37.79,57.25,16.25,5.88,39-7,48.58-23.52,17.68-30.49-6.94-77.54-35.47-101.18-31.93-26.44-69.57-24.24-81.75-23.52-9,.53-67.45,4.91-89.45,47C1807.59,907,1803.54,931.77,1813.26,939.59Z"/></g>
-                        <g id="Zeyad_42" data-name="Zeyad 42" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Zeyad</strong><br/>Sky to Navy Blue</em>"><path class="cls-2" d="M2212.7,923.42c-3.34-.27-35.71-2.44-52.73,22.46-13.79,20.19-10,47.21,3.77,64.88,20.17,25.86,53.91,21.59,56.49,21.22,24.17-3.48,50.41-22.17,52.73-48.67C2275.75,951.44,2242.38,925.9,2212.7,923.42Z"/><path class="cls-2" d="M1976,898.41c-24.38-18.57-49.17-18.38-51.1-32.2-1.23-8.88,9.79-17.29,11.9-18.9,5.77-4.4,14.43-5.79,31.5-8.4,9.79-1.5,14.68-2.24,20.3-2.1a86.59,86.59,0,0,1,25.9,4.9,89.09,89.09,0,0,1,18.9,8.4,98.19,98.19,0,0,1,18.9,15.4c21.58,23.15,18.89,56.77,44.8,85.4,7.17,7.92,20,21.23,39.21,24.73,25.48,4.64,36.16-16.12,56.19-10.07,17.13,5.17,32.67,27.08,31.54,47.08-1.57,27.85-33.66,29.49-55.74,66.82-26.68,45.13-3.28,82.81-25,95.44-21.29,12.38-65.14-11.43-83.64-41.64-11.42-18.64-15.24-43.07-17.86-59.86-2.38-15.27-1.42-19.18-4.12-36a308.32,308.32,0,0,0-14.09-53.48C2008.13,941,1999.21,916.11,1976,898.41Z"/></g>
-                        <g id="Neema_45" data-name="Neema 45" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Neema</strong><br/>Acid Rap</em>"><path class="cls-2" d="M2318.49,1851c-15.92-16.09-25.74-34.71-49-42.29-9.22-3-20.91-4.39-22.28-4.55-18.75-2.16-31.73.4-36.47.8-33.91,2.81-91.85-68.09-77.52-107.13,10.49-28.58,59.42-39.31,93-24.43,14.87,6.58,29.5,24.43,58.76,60.14,31.21,38.09,35.35,50.65,55.49,60.14,22.13,10.43,32.13,2.31,45.69,15,20.11,18.86,25.13,62,12.24,74.24C2384.06,1896.6,2343,1875.74,2318.49,1851Z"/><path class="cls-2" d="M2309.51,1873.42c-36.3-23.38-36-34.79-60.54-43.31-20.83-7.23-59.69-12.42-74.9,9.1-11.79,16.68-5.6,44.07,7.7,60.2,22.17,26.88,66.74,25.71,79.89,25.36,9.42-.25,66-2.54,80.54,4.28,13.19,6.18,9.68,9.91,43.06,36.37,18.78,14.87,28.38,22.36,39.08,24.95,20.71,5,51.79.5,62.2-17.82,11.57-20.37-7-49.7-29.51-61.33-24-12.4-38,2.9-78.15-5.71C2350.28,1899.39,2329.2,1886.11,2309.51,1873.42Z"/></g>
-                        <g id="Carlos_44" data-name="Carlos 44" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Carlos</strong><br/>Color of Emotion</em>"><path class="cls-2" d="M2456.17,1735.61c-13.27,13.5-16.79,34.39-18.2,42.7-1.86,11-1,17.68,4.9,63,5.68,43.21,6.37,48,2.8,56-7.49,16.86-21.22,20-21.7,35-.32,10.14,5.59,19.88,12.6,25.2,18,13.69,50.81,3.82,68.6-14,14.53-14.56,8.15-23.47,22.4-43.4,18.89-26.41,38.29-22.21,57.4-42.7,21.06-22.58,30.64-63.22,16.8-93.1C2577.8,1712.55,2488.2,1703,2456.17,1735.61Z"/><path class="cls-2" d="M2492.57,1772c9.79-10.08,30.9-5.09,42,0,1.54.7,30.53,14.45,28.7,35.7-1.68,19.53-28.5,34.9-48.3,29.4C2488.51,1829.76,2478.72,1786.27,2492.57,1772Z"/></g>
-                        <g id="Qianning_46" data-name="Qianning 46" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Qianning</strong><br/>Monstera Plant</em>"><path class="cls-2" d="M2141.77,1831.63c8.4-14.07,22.89-20,30-22.93,32.75-13.3,56.29,7,78.84-6,17-9.71,26.44-33.46,17.84-46.72-7-10.82-24.73-12.53-27.22-12.74-10.2-.86-16.91,2.06-26.29,5.1-23.16,7.49-46.41,15-61.91,7.52-8.28-4-12.53-13.44-20.69-32.16-18.93-43.43-12.16-60.64-28.16-73-19.37-15-47.55-10.11-51.62-9.35-39.7,7.49-67.06,49.84-61,80.7,5.1,26,30.08,24.06,51.63,67.11,2,4,9.71,39,7.51,59.46a35.84,35.84,0,0,0,1.55,15.79,37.26,37.26,0,0,0,9.8,14.7c13.64,12.25,27.9,4.14,34.3,11.9,10.12,12.26-20.14,39-10.5,62.3,5.52,13.3,22.9,22.54,35,18.9,14.08-4.24,18.48-25.15,21-37.1C2152.42,1885,2125.22,1859.36,2141.77,1831.63Z"/><path class="cls-2" d="M2083.07,1688.71c-7.07,4.66-8.09,12.91-8.4,15.4-.82,6.6.41,19,9.8,23.1,8.19,3.59,17.6-1.3,22.4-7,6.57-7.8,8.32-21.61,0-29.4A19.89,19.89,0,0,0,2083.07,1688.71Z"/><path class="cls-2" d="M2037.57,1611c-1.92,2-7.49,8.14-7.7,17.5,0,.54-.09,13.82,10.5,21,10.35,7,24.14,3.64,32.2-3.5,1.34-1.18,10.28-9.38,9.1-21.7-1-10.82-9.45-20.44-20.3-22.4C2048.36,1599.55,2039,1609.49,2037.57,1611Z"/></g>
-                        <g id="Mystery_50" data-name="Mystery 50" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Mystery</strong></em>"><path class="cls-2" d="M2649.37,1797.91c-9.77,26.15,3.84,35.66-3.5,63.7-7,26.67-21.36,26-35.7,56.7-9.05,19.37-23.38,62.56-7,78.4,8.9,8.6,42.69-.22,109.9-18.2,66.49-17.79,73.68-19.8,88.2-17.5,41.11,6.5,56.16,34.08,78.4,25.2,17.28-6.9,27-31.06,24.5-49.7-4.58-33.74-50.2-55-84.7-56.7-28.57-1.44-36.27,11.14-49.7,3.5-24.88-14.16-3.79-60.39-35.7-99.4-3.7-4.52-23.17-28.34-46.2-25.2C2663.24,1762.06,2650.82,1794,2649.37,1797.91Z"/><path class="cls-2" d="M2976.27,1948.41c-5.25-.4-21.43-.79-35,10.5-17.31,14.4-24.16,42.63-11.2,63.7,15.63,25.39,53.15,29.17,74.9,11.2,15.46-12.77,22.83-36.42,14-56.7C3007.74,1951.3,2978,1948.54,2976.27,1948.41Z"/></g>
-                        <g id="Reagan_48" data-name="Reagan 48" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Regan</strong><br/>Sunset Hues</em>"><path class="cls-2" d="M1422.47,1784.73c-26.17-5.54-46.77-22.23-52.47-27-10.58-8.74-32.81-27.1-40.62-59.24-5.34-22-4.14-51,5.29-54.91,8.31-3.41,15.3,15.9,39,32.17,5.26,3.6,37.17,25.46,69.22,18.75,40-8.38,44.68-53.86,77.74-57.87,26.89-3.26,58.85,22.61,60.28,49C1583.47,1732.28,1491.83,1799.43,1422.47,1784.73Z"/></g>
-                        <g id="Manooshree_49" data-name="Manooshree 49" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Manooshree</strong><br/>Paint Water</em>"><path class="cls-2" d="M1368.69,617.28c-2.78-17.94,72.37-67.76,138-42.59,46.4,17.79,63.71,63.73,65.3,68.15,4.45,12.39,14.47,40.3,1.26,66.44-12.74,25.23-39.28,33.32-63.76,40.79-36.73,11.21-85.34,13.16-91-1.92-4.79-12.84,26.15-25.9,27.41-59.63.14-3.83.21-16.46-6.36-28.78C1421.15,625.22,1370.87,631.38,1368.69,617.28Z"/></g>
-                        <g id="Leilani_13" data-name="Leilani 13" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Leilani</strong><br/>Funfetti</em>"><path class="cls-2" d="M537.8,745c-13.34,1.79-20.67,15.6-26.39,26.39-9.57,18-11.69,35-12.66,49.6-2.56,38.38-3.85,57.57,4.22,79.15,11.55,30.9,44.86,76.12,86.54,71.76,24-2.5,49.48-21.3,53.82-44.32,4.55-24.11-15.14-47.32-35.88-71.77-24.91-29.35-40.14-32.38-43.27-52.76-3-19.71,9-31.61,0-45.38C558.68,749.21,547.66,743.67,537.8,745Z"/></g>
-                        <g id="Vincent_47" data-name="Vincent 47" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Vince</strong><br/>Connective Bronze</em>"><path class="cls-2" d="M1322,1036.46c1.46.79,4.23,2.29,7.15,1.36,3.94-1.24,5.78-6.14,5.85-9.71a12.62,12.62,0,0,0-8.56-11.9c-4.85-1.6-11.1-.19-13.26,3.74C1310.23,1025.39,1316.37,1033.39,1322,1036.46Z"/><path class="cls-2" d="M1306.22,907.14c-12,10.4-14.1,9.92-21.15,17.15-6.26,6.41-19.92,20.42-19.45,33.92,1,27.17,59.29,53.61,78.57,38.95,8-6,3.81-15,12.71-57.67,4.36-20.92,6.64-31.51,11.12-37.7,17.5-24.14,48.72-17,54.89-33.14,5.39-14-5.66-36.81-24.31-45-20-8.77-41.59,2.24-51.37,14.36-11,13.61-2.34,22.83-15.58,42.82C1325,890.85,1316.32,898.38,1306.22,907.14Z"/><path class="cls-2" d="M1408.91,1008.28c1,4.24,3.44,16.82-3.32,28.52-10.27,17.78-36.91,25.18-47.71,15.86-8.09-7-6.15-22.81-3.66-32.67,3.65-14.48,10.55-16.31,17-31.26a47.31,47.31,0,0,0,3.53-11.43c2.61-15.89,1.42-22.43,2.85-32.61,2.15-15.39,12.57-35,24.76-35.31,7.5-.2,14.76,6.92,17.79,13.65,1.28,2.83,2.61,7.36,1.12,17.1-2.57,16.79-9.43,22.46-13.07,34.68C1406.06,982.12,1404.64,993.1,1408.91,1008.28Z"/></g>
-                        <g id="Tanthai_22" data-name="Tanthai 22" data-toggle="tooltip" data-placement="left" data-html="true" title="<em><strong>Tanthai</strong><br/>Between Red & Green</em>"><path class="cls-2" d="M1042.94,379.42c12.15,18.12,26.65,10.56,40.6,28.7,17.64,22.93,17.25,64.62,2.8,93.1-5.49,10.82-11.36,16.51-11.9,28.7-.75,17.1,9.44,37.05,21,37.8s21.2-18.08,26.6-28.7c13.61-26.75,10.84-44,16.8-76.3,7.87-42.73,17.43-38.34,21-69.3,2.09-18.11,8.33-72.16-25.9-95.2-23-15.44-63.91-16.82-86.1,9.8C1030.3,329.06,1030.32,360.6,1042.94,379.42Z"/><path class="cls-2" d="M1169.64,489.32c-3-5-8.08-16.64,4.9-55.3,13.86-41.26,23.31-69.39,49.7-90.3,40.9-32.39,118.35-44.19,152.6-2.1,25.51,31.35,23,87.61-2.1,107.1-23.45,18.22-50.65-8.07-88.2,11.9-29.61,15.76-27,39.75-55.3,47.6C1209.48,514.27,1180.58,507.64,1169.64,489.32Z"/><path class="cls-2" d="M1284.44,384.32c.78-13.49,15.23-26.63,31.5-28s33.65,9,37.1,25.9c3,14.54-5.27,29.56-16.8,35C1315.27,427.12,1283.22,405.39,1284.44,384.32Z"/></g>
-                    </g>
-                </svg>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-icons">
+            <div class="row" style="padding: 0;">
+                <a class="col-3 footer-icon-1" href="mailto:inventioncorps@icb.berkeley.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a class="col-3 footer-icon-2" href="https://www.linkedin.com/company/berkeley-invention-corps/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="col-3 footer-icon-3" href="https://www.facebook.com/InventionCorps" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a class="col-3 footer-icon-4" href="https://www.instagram.com/inventioncorps/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="contact-txt">
-            <h2 id="contact-text" class="jumptarget">Collaborate with us.</h2>
-            </div>
-            <div class="line"></div>
-            <div class="social-icons">
-                <a href="mailto:inventioncorps@icb.berkeley.edu" target="_blank"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/company/berkeley-invention-corps/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/InventionCorps" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/inventioncorps/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-        <picture id="red-string">
-            <source media='(min-width: 992px)'
-                    srcset='assets/img/red-string.svg'/>
-            <source media='(max-width: 991px)'
-                    srcset='assets/img/red-string-mobile.svg'/>
-            <img src='assets/img/red-string-mobile.svg'/>
-        </picture>
-        <picture id="blue-string">
-            <source media='(min-width: 992px)'
-                    srcset='assets/img/blue-string.svg'/>
-            <source media='(max-width: 991px)'
-                    srcset='assets/img/blue-string-mobile.svg'/>
-            <img src='assets/img/blue-string-mobile.svg'/>
-        </picture>
-        <picture id="green-string">
-            <source media='(min-width: 992px)'
-                    srcset='assets/img/green-string.svg'/>
-            <source media='(max-width: 991px)'
-                    srcset='assets/img/green-string-mobile.svg'/>
-            <img src='assets/img/green-string-mobile.svg'/>
-        </picture>
-        <picture id="yellow-string">
-            <source media='(min-width: 992px)'
-                    srcset='assets/img/yellow-string.svg'/>
-            <source media='(max-width: 991px)'
-                    srcset='assets/img/yellow-string-mobile.svg'/>
-            <img src='assets/img/yellow-string-mobile.svg'/>
-        </picture>
-    </section>
+        Made with ♥ by the
+        <span> <a href="v1.5/webdevteam.html"> Invention Corps Web Team</a> </span>
+    </footer>
 
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -342,6 +205,7 @@
     <script src="assets/js/app.js"></script> -->
     <!-- Custom Scripts -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/basicScroll.min.js"></script>
     <!-- <script src="assets/js/members.js"></script> -->
 </body>
 
