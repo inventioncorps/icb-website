@@ -85,7 +85,7 @@ p.header {
 }
 
 h1 {
-  font-size: 3.3vw;
+  font-size: 7vw;
   font-weight: bold;
   font-style: normal;
 }
@@ -134,7 +134,8 @@ h2 {
   opacity: 0;
 }
 
-.team > .container, .exec > .container {
+.team > .container,
+.exec > .container {
   text-align: center;
   margin-bottom: 1vh;
 }
@@ -144,7 +145,11 @@ h2 {
   font-style: normal;
 }
 
-div.col-4.col-sm-3, div.col-6.col-sm-3, div.col-4.col-sm-4, div.col-6.col-sm-3, div.col-6.col-sm-4 {
+div.col-4.col-sm-3,
+div.col-6.col-sm-3,
+div.col-4.col-sm-4,
+div.col-6.col-sm-3,
+div.col-6.col-sm-4 {
   padding: 5vh 0 0 0;
 }
 
@@ -234,6 +239,9 @@ p {
     width: 18vw;
     margin-left: 82vw;
   }
+  h1 {
+    font-size: 7vh;
+  }
   h2 {
     font-size: 2rem;
   }
@@ -250,7 +258,8 @@ p {
   h2 {
     margin-bottom: 5vh;
   }
-  .team > .container, .exec > .container {
+  .team > .container,
+  .exec > .container {
     margin-bottom: 5vh;
   }
   .dot.red:hover {
