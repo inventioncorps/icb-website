@@ -203,24 +203,23 @@ a {
   font-style: italic;
 }
 
-.interested {
-  text-align: right;
+.margins {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.really-interested {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 40px;
+.padding-away {
+  padding: 0;
 }
 
 #contact-button {
   text-align: center !important;
   display: inline-block;
   color: white;
-  font-size: 1.25vw;
+  font-size: 1rem;
   border-radius: 1em;
   padding: 0.75em 2em;
-  margin-top: 2.5em;
+  position: absolute;
   border: solid #99CCFF;
   background: #99CCFF;
 }
