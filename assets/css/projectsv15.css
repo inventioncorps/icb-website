@@ -184,6 +184,12 @@ a {
   background-color: white;
 }
 
+.project-tag {
+  visibility: hidden;
+  display: none;
+  position: relative;
+}
+
 .proj-subheader {
   text-align: left;
   font-weight: bold;
@@ -272,6 +278,11 @@ hr {
   }
   h1 {
     font-size: 7vh;
+  }
+  .project-tag {
+    visibility: visible;
+    display: inline;
+    position: relative;
   }
 }
 

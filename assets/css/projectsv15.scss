@@ -195,6 +195,12 @@ a {
   background-color: white;
 }
 
+.project-tag {
+  visibility: hidden;
+  display: none;
+  position: relative;
+}
+
 // PROJECT INFO SECTION
 
 .proj-subheader {
@@ -221,7 +227,7 @@ a {
 }
 
 #contact-button {
-  text-align: center!important;
+  text-align: center !important;
   display: inline-block;
   color: white;
   font-size: 1.25vw;
@@ -299,6 +305,12 @@ hr {
 
   h1 {
     font-size: 7vh;
+  }
+
+  .project-tag {
+    visibility: visible;
+    display: inline;
+    position: relative;
   }
 }
 
