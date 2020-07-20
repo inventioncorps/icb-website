@@ -157,6 +157,7 @@ p {
   display: inline-block;
   color: white;
   font-size: 1.25vw;
+  text-shadow: 2px 2px 6px #202020;
   border-radius: 1em;
   padding: 0.75em 2em;
   margin-top: 2.5em;
@@ -170,14 +171,14 @@ p {
   cursor: pointer;
 }
 
-#members-button {
-  border: solid #FEEB96;
-  background: #FEEB96;
-}
-
 #about-button {
   border: solid #E06B65;
   background: #E06B65;
+}
+
+#members-button {
+  border: solid #FEEB96;
+  background: #FEEB96;
 }
 
 #projects-button {
@@ -185,14 +186,14 @@ p {
   background: #99CC99;
 }
 
-#members-button:hover {
-  border: solid #FEEB96;
-  background: #FEEB96;
-}
-
 #about-button:hover {
   border: solid #D8524B;
   background: #D8524B;
+}
+
+#members-button:hover {
+  border: solid #FDE26A;
+  background: #FDE26A;
 }
 
 #projects-button:hover {

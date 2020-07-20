@@ -14,7 +14,7 @@ $grad-5: #202020;
 $blue-click: #74B0ED;
 $green-click: #7ABB7A;
 $red-click: #D8524B;
-$yellow-click: #FEEB96;
+$yellow-click: #FDE26A;
 $title-light: #FFF3D6;
 $title-dark: #CB6724;
 
@@ -181,6 +181,7 @@ p {
     display: inline-block;
     color: white;
     font-size: 1.25vw;
+    text-shadow: 2px 2px 6px $black;
     border-radius: 1em;
     padding: 0.75em 2em;
     margin-top: 2.5em;
@@ -196,14 +197,14 @@ p {
     cursor: pointer;
 }
 
-#members-button {
-    border: solid $yellow;
-    background: $yellow;
-}
-
 #about-button {
     border: solid $red;
     background: $red;
+}
+
+#members-button {
+    border: solid $yellow;
+    background: $yellow;
 }
 
 #projects-button {
@@ -211,14 +212,14 @@ p {
     background: $green;
 }
 
-#members-button:hover {
-    border: solid $yellow-click;
-    background: $yellow-click;
-}
-
 #about-button:hover {
     border: solid $red-click;
     background: $red-click;
+}
+
+#members-button:hover {
+    border: solid $yellow-click;
+    background: $yellow-click;
 }
 
 #projects-button:hover {

@@ -189,6 +189,18 @@ a {
   color: $black;
 }
 
+// PROJECT INFO SECTION
+
+.proj-subheader {
+  text-align: left;
+}
+
+.proj-caption {}
+
+.proj-text {}
+
+#contact-button {}
+
   @media (min-width: 576px) {
     #teaminfo {
       visibility: hidden;
