@@ -4,7 +4,7 @@
 
 h1 {
   text-align: center;
-  font-size: 3.3vw;
+  font-size: 7vw;
   font-weight: bold;
   font-style: normal;
 }
@@ -221,6 +221,9 @@ a {
     visibility: visible;
     display: inline;
     font-size: .85rem;
+  }
+  h1 {
+    font-size: 7vh;
   }
 }
 

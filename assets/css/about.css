@@ -32,9 +32,9 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 3.3vw;
   font-weight: bold;
   font-style: normal;
+  font-size: 7vw;
 }
 
 h2 {
@@ -161,6 +161,11 @@ a {
   color: #202020;
 }
 
+.invent {
+  visibility: hidden;
+  display: none;
+}
+
 @media (min-width: 576px) {
   #container {
     visibility: none;
@@ -244,7 +249,7 @@ a {
     text-align: center;
     font-weight: bold;
     padding-bottom: 0.4rem;
-    font-size: 50px;
+    font-size: 7vh;
   }
   h2 {
     text-align: left;
@@ -326,6 +331,10 @@ a {
   #inventmobile {
     visibility: hidden;
     display: none;
+  }
+  .invent {
+    visibility: visible;
+    display: block;
   }
 }
 
@@ -450,7 +459,6 @@ a {
     text-align: center;
     font-weight: bold;
     padding-bottom: 0.4rem;
-    font-size: 50px;
   }
   h2 {
     text-align: left;
