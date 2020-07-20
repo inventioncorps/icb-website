@@ -186,6 +186,50 @@ a {
 
 .proj-subheader {
   text-align: left;
+  font-weight: bold;
+  font-size: 5vh;
+  padding-bottom: 0;
+}
+
+.proj-caption {
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+  font-style: italic;
+}
+
+.interested {
+  text-align: right;
+}
+
+.really-interested {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+#contact-button {
+  text-align: center !important;
+  display: inline-block;
+  color: white;
+  font-size: 1.25vw;
+  border-radius: 1em;
+  padding: 0.75em 2em;
+  margin-top: 2.5em;
+  border: solid #99CCFF;
+  background: #99CCFF;
+}
+
+#contact-button:hover {
+  border: solid #74B0ED;
+  background: #74B0ED;
+  cursor: pointer;
+}
+
+hr {
+  display: block;
+  margin: auto;
+  width: 60vw;
+  height: 5px;
 }
 
 @media (min-width: 576px) {

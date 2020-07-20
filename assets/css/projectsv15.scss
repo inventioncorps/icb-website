@@ -6,6 +6,7 @@ $green: #99CC99;
 $blue: #99CCFF;
 $gray: #787878;
 $black: #202020;
+$blue-click: #74B0ED;
 
 .project-tag {
   line-height: 25px;
@@ -198,13 +199,56 @@ a {
 
 .proj-subheader {
   text-align: left;
+  font-weight: bold;
+  font-size: 5vh;
+  padding-bottom: 0;
 }
 
-.proj-caption {}
+.proj-caption {
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+  font-style: italic;
+}
 
-.proj-text {}
+.interested {
+  text-align: right;
+}
 
-#contact-button {}
+.really-interested {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+#contact-button {
+  text-align: center!important;
+  display: inline-block;
+  color: white;
+  font-size: 1.25vw;
+  // text-shadow: 2px 2px 6px $black;
+  border-radius: 1em;
+  padding: 0.75em 2em;
+  margin-top: 2.5em;
+  // position: absolute;
+  // left: 50%;
+  // -ms-transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
+  border: solid $blue;
+  background: $blue;
+}
+
+#contact-button:hover {
+  border: solid $blue-click;
+  background: $blue-click;
+  cursor: pointer;
+}
+
+hr {
+  display: block;
+  margin: auto;
+  width: 60vw;
+  height: 5px;
+}
 
 @media (min-width: 576px) {
   #teaminfo {
