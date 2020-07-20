@@ -201,6 +201,12 @@ a {
   position: relative;
 }
 
+.categories-hide {
+  visibility: hidden;
+  display: none;
+  position: relative;
+}
+
 // PROJECT INFO SECTION
 
 .proj-subheader {
@@ -310,6 +316,12 @@ hr {
   }
 
   .project-tag {
+    visibility: visible;
+    display: inline;
+    position: relative;
+  }
+
+  .categories-hide {
     visibility: visible;
     display: inline;
     position: relative;

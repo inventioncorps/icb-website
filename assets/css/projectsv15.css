@@ -190,6 +190,12 @@ a {
   position: relative;
 }
 
+.categories-hide {
+  visibility: hidden;
+  display: none;
+  position: relative;
+}
+
 .proj-subheader {
   text-align: left;
   font-weight: bold;
@@ -279,6 +285,11 @@ hr {
     font-size: 7vh;
   }
   .project-tag {
+    visibility: visible;
+    display: inline;
+    position: relative;
+  }
+  .categories-hide {
     visibility: visible;
     display: inline;
     position: relative;
