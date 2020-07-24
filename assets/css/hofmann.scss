@@ -7,6 +7,41 @@ $blue: #99CCFF;
 $gray: #C4C4C4;
 $black: #202020;
 
+.square{
+    background-color: white;
+    opacity: 0.2;
+    height: 76vw;
+    width: 76vw;
+    z-index: 0;
+}
+
+.topbar-content {
+    margin-top: 15vw;
+}
+
+figcaption {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 1rem;
+}
+.topbar-fig {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+}
+
+.topbar-img-2 {
+    opacity: 1;
+    height: 76vw;
+    width: 76vw;
+    object-fit: contain;
+    z-index: 1;
+    display: block;
+    margin: auto;
+}
+
 .topbar {
     background-color: $background;
 }
@@ -77,9 +112,31 @@ $black: #202020;
     border-width: medium;
     z-index: 1;
 }
-
+@media (min-width: 768px) {
+    .topbar-img-2 {
+        height: 36vw;
+        width: 36vw;
+    }
+    .square{
+        background-color: white;
+        opacity: 0.2;
+        height: 36vw;
+        width: 36vw;
+    }
+    .topbar-content {
+        margin-top: 10vw;
+    }
+}
 @media (min-width: 992px) {
     .pspecial {
         border-image-slice: 0% 100% 0% 0%;
+    }
+    figcaption {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .topbar-content {
+        margin-top: 0;
     }
 }
